@@ -3,8 +3,7 @@ export const blogPosts = [
     slug: 'trucking-insurance-market-trends-2026',
     title: 'Trucking Insurance Market Trends: What Carriers Need to Know',
     metaTitle: 'Trucking Insurance Market Trends 2026',
-    metaDescription:
-      'Explore the latest trucking insurance market trends for 2026 including rate changes, capacity shifts, and coverage developments affecting motor carriers nationwide.',
+    metaDescription: 'Explore the latest trucking insurance market trends for 2026 including rate changes, capacity shifts, and coverage developments affecting motor carriers nati...',
     category: 'Industry Insights',
     publishDate: '2026-03-15',
     heroHeading: 'Trucking Insurance Market Trends',
@@ -183,7 +182,7 @@ export const blogPosts = [
     slug: 'nuclear-verdicts-trucking-industry',
     title:
       'Nuclear Verdicts and the Trucking Industry: How to Protect Your Operation',
-    metaTitle: 'Nuclear Verdicts in Trucking',
+    metaTitle: 'Nuclear Verdicts in Trucking Insurance',
     metaDescription:
       'Learn how nuclear verdicts are impacting the trucking industry and what motor carriers can do to protect their operations from catastrophic jury awards.',
     category: 'Industry Insights',
@@ -304,8 +303,7 @@ export const blogPosts = [
     slug: 'choosing-right-trucking-insurance-agent',
     title: 'How to Choose the Right Trucking Insurance Agent',
     metaTitle: 'Choosing a Trucking Insurance Agent',
-    metaDescription:
-      'Learn what to look for in a trucking insurance agent, the right questions to ask, and why specialized expertise matters for your motor carrier insurance program.',
+    metaDescription: 'Learn what to look for in a trucking insurance agent, the right questions to ask, and why specialized expertise matters for your motor carrier insurance prog...',
     category: 'Tips & Advice',
     publishDate: '2026-06-22',
     heroHeading: 'How to Choose the Right Trucking Insurance Agent',
@@ -364,8 +362,7 @@ export const blogPosts = [
     slug: 'fleet-safety-programs-lower-premiums',
     title: 'How Fleet Safety Programs Can Lower Your Insurance Premiums',
     metaTitle: 'Fleet Safety Programs & Premiums',
-    metaDescription:
-      'Discover how implementing fleet safety programs can reduce your trucking insurance premiums through better loss ratios, improved CSA scores, and data-driven risk management.',
+    metaDescription: 'Discover how implementing fleet safety programs can reduce your trucking insurance premiums through better loss ratios, improved CSA scores, and data-driven ...',
     category: 'Tips & Advice',
     publishDate: '2026-07-14',
     heroHeading: 'How Fleet Safety Programs Can Lower Your Insurance Premiums',

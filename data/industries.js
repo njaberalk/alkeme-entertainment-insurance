@@ -132,8 +132,7 @@ export const industries = [
     slug: 'large-fleets',
     title: 'Large Fleets',
     metaTitle: 'Enterprise Fleet Insurance | Large Carrier Programs',
-    metaDescription:
-      'Enterprise trucking insurance for large fleets and carriers. Custom risk management, loss-sensitive programs, and dedicated claims advocacy for 50+ unit operations.',
+    metaDescription: 'Enterprise trucking insurance for large fleets and carriers. Custom risk management, loss-sensitive programs, and dedicated claims advocacy for 50+ unit oper...',
     heroHeading: 'Enterprise Insurance for Large Fleets',
     heroSubheading:
       'Sophisticated risk management and insurance programs engineered for carriers operating at scale.',
@@ -192,8 +191,7 @@ export const industries = [
     slug: 'hot-shot-trucking',
     title: 'Hot Shot Trucking',
     metaTitle: 'Hot Shot Trucking Insurance | Expedited Freight Coverage',
-    metaDescription:
-      'Hot shot trucking insurance for expedited freight haulers. Coverage for Class 3-5 trucks, gooseneck trailers, and time-critical cargo with flexible premium options.',
+    metaDescription: 'Hot shot trucking insurance for expedited freight haulers. Coverage for Class 3-5 trucks, gooseneck trailers, and time-critical cargo with flexible premium o...',
     heroHeading: 'Insurance for Hot Shot Trucking',
     heroSubheading:
       'Specialized coverage for expedited freight operators running lighter equipment on time-sensitive loads.',
@@ -504,8 +502,7 @@ export const industries = [
     slug: 'hazmat',
     title: 'Hazmat',
     metaTitle: 'Hazmat Trucking Insurance | Hazardous Materials Coverage',
-    metaDescription:
-      'Hazmat carrier insurance with pollution liability, MCS-90 compliance, and specialized coverage for transporting hazardous materials. Expert hazmat risk management.',
+    metaDescription: 'Hazmat carrier insurance with pollution liability, MCS-90 compliance, and specialized coverage for transporting hazardous materials.',
     heroHeading: 'Insurance for Hazmat Carriers',
     heroSubheading:
       'Expert coverage for carriers transporting hazardous materials, where regulatory complexity and environmental liability demand specialized protection.',

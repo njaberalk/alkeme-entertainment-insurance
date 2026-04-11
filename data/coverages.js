@@ -3,8 +3,7 @@ export const coverages = [
     slug: 'auto-liability',
     title: 'Primary Auto Liability',
     metaTitle: 'Trucking Auto Liability Insurance',
-    metaDescription:
-      'Primary auto liability insurance for trucking companies and owner-operators. Federally required coverage for bodily injury and property damage claims on the road.',
+    metaDescription: 'Primary auto liability insurance for trucking companies and owner-operators. Federally required coverage for bodily injury and property damage claims on the ...',
     heroHeading: 'Primary Auto Liability Insurance',
     heroSubheading:
       'Federally mandated protection that covers bodily injury and property damage caused by your commercial vehicles.',
@@ -64,8 +63,7 @@ export const coverages = [
     slug: 'physical-damage',
     title: 'Physical Damage',
     metaTitle: 'Truck Physical Damage Insurance',
-    metaDescription:
-      'Physical damage insurance for commercial trucks and trailers. Collision and comprehensive coverage to protect your fleet investment against accidents, theft, and weather.',
+    metaDescription: 'Physical damage insurance for commercial trucks and trailers. Collision and comprehensive coverage to protect your fleet investment against accidents, theft,...',
     heroHeading: 'Physical Damage Insurance',
     heroSubheading:
       'Collision and comprehensive protection that safeguards the trucks, tractors, and trailers your business depends on.',
@@ -361,8 +359,7 @@ export const coverages = [
     slug: 'workers-compensation',
     title: "Workers' Compensation",
     metaTitle: "Trucking Workers' Compensation Insurance",
-    metaDescription:
-      "Workers' compensation insurance for trucking companies covering medical bills, lost wages, and disability benefits for injured employees. State-mandated coverage.",
+    metaDescription: "Workers' compensation insurance for trucking companies covering medical bills, lost wages, and disability benefits for injured employees.",
     heroHeading: "Workers' Compensation Insurance",
     heroSubheading:
       'State-required coverage providing medical benefits and wage replacement to employees injured on the job.',
@@ -422,8 +419,7 @@ export const coverages = [
     slug: 'umbrella-excess-liability',
     title: 'Umbrella / Excess Liability',
     metaTitle: 'Trucking Umbrella & Excess Liability Insurance',
-    metaDescription:
-      'Umbrella and excess liability insurance for trucking fleets. Additional liability limits above your auto, general, and employers liability to protect against catastrophic claims.',
+    metaDescription: 'Umbrella and excess liability insurance for trucking fleets. Additional liability limits above your auto, general, and employers liability to protect against...',
     heroHeading: 'Umbrella / Excess Liability Insurance',
     heroSubheading:
       'Additional liability limits that sit above your primary policies to protect against catastrophic and high-severity claims.',
@@ -483,8 +479,7 @@ export const coverages = [
     slug: 'occupational-accident',
     title: 'Occupational Accident',
     metaTitle: 'Occupational Accident Insurance for Trucking',
-    metaDescription:
-      'Occupational accident insurance for independent contractor truck drivers. Medical, disability, and death benefits without requiring workers compensation coverage.',
+    metaDescription: 'Occupational accident insurance for independent contractor truck drivers. Medical, disability, and death benefits without requiring workers compensation cove...',
     heroHeading: 'Occupational Accident Insurance',
     heroSubheading:
       'Medical, disability, and accidental death coverage designed specifically for independent contractor drivers.',

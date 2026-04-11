@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1920&q=80"
-          alt="Commercial truck on highway"
+          alt="Commercial semi-truck driving on a highway at sunset for trucking insurance"
           width={1920}
           height={1080}
           loading="eager"

@@ -59,7 +59,7 @@ export default function QuoteForm() {
           <div className="relative overflow-hidden rounded-[2rem]" style={{ minHeight: '400px' }}>
             <img
               src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80"
-              alt="Commercial truck on highway"
+              alt="Trucking insurance specialist helping owner-operators find coverage"
               width={800}
               height={600}
               className="absolute inset-0 w-full h-full object-cover"

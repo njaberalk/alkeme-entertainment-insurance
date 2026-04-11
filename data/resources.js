@@ -3,8 +3,7 @@ export const resources = [
     slug: 'trucking-insurance-cost',
     title: 'How Much Does Trucking Insurance Cost?',
     metaTitle: 'How Much Does Trucking Insurance Cost in 2026?',
-    metaDescription:
-      'Learn what trucking insurance costs for owner-operators and fleets. Breakdown of pricing factors, average premiums by coverage type, and proven ways to reduce your rates.',
+    metaDescription: 'Learn what trucking insurance costs for owner-operators and fleets. Breakdown of pricing factors, average premiums by coverage type, and proven ways to reduc...',
     category: 'Guide',
     heroHeading: 'How Much Does Trucking Insurance Cost?',
     heroSubheading:
@@ -73,8 +72,7 @@ export const resources = [
     slug: 'fmcsa-insurance-requirements',
     title: 'FMCSA Insurance Requirements for Motor Carriers',
     metaTitle: 'FMCSA Insurance Requirements for Motor Carriers',
-    metaDescription:
-      'Complete guide to FMCSA insurance requirements. Minimum liability limits by cargo type, MCS-90 and BMC-91 filings, and how to stay compliant with federal regulations.',
+    metaDescription: 'Complete guide to FMCSA insurance requirements. Minimum liability limits by cargo type, MCS-90 and BMC-91 filings, and how to stay compliant with federal reg...',
     category: 'Guide',
     heroHeading: 'FMCSA Insurance Requirements for Motor Carriers',
     heroSubheading:
@@ -205,8 +203,7 @@ export const resources = [
     slug: 'lower-trucking-insurance-premiums',
     title: 'How to Lower Your Trucking Insurance Premiums',
     metaTitle: 'How to Lower Trucking Insurance Premiums',
-    metaDescription:
-      'Proven strategies to reduce your trucking insurance costs. Safety programs, technology discounts, deductible strategies, and risk management tips for motor carriers.',
+    metaDescription: 'Proven strategies to reduce your trucking insurance costs. Safety programs, technology discounts, deductible strategies, and risk management tips for motor c...',
     category: 'Guide',
     heroHeading: 'How to Lower Your Trucking Insurance Premiums',
     heroSubheading:
@@ -269,8 +266,7 @@ export const resources = [
     slug: 'commercial-auto-vs-trucking-insurance',
     title: 'Commercial Auto Insurance vs Trucking Insurance',
     metaTitle: 'Commercial Auto vs Trucking Insurance Explained',
-    metaDescription:
-      'Understand the critical differences between commercial auto and trucking insurance. Learn which coverage your operation needs and avoid costly gaps in protection.',
+    metaDescription: 'Understand the critical differences between commercial auto and trucking insurance. Learn which coverage your operation needs and avoid costly gaps in protec...',
     category: 'Comparison',
     heroHeading: 'Commercial Auto Insurance vs Trucking Insurance',
     heroSubheading:
@@ -332,8 +328,7 @@ export const resources = [
     slug: 'primary-vs-non-trucking-liability',
     title: 'Primary Liability vs Non-Trucking Liability Explained',
     metaTitle: 'Primary vs Non-Trucking Liability Insurance',
-    metaDescription:
-      'Learn the critical difference between primary liability and non-trucking liability insurance for truckers. When each applies, common mistakes, and how to avoid coverage gaps.',
+    metaDescription: 'Learn the critical difference between primary liability and non-trucking liability insurance for truckers.',
     category: 'Comparison',
     heroHeading: 'Primary Liability vs Non-Trucking Liability Explained',
     heroSubheading:
@@ -394,9 +389,8 @@ export const resources = [
   {
     slug: 'occupational-accident-vs-workers-comp',
     title: "Occupational Accident vs Workers' Comp for Truckers",
-    metaTitle: "Occupational Accident vs Workers' Comp | Trucking",
-    metaDescription:
-      "Compare occupational accident insurance and workers' compensation for truckers. Coverage differences, compliance requirements, and which one your operation needs.",
+    metaTitle: "Occupational Accident vs Workers' Comp | Trucking Insurance",
+    metaDescription: "Compare occupational accident insurance and workers' compensation for truckers. Coverage differences, compliance requirements, and which one your operation n...",
     category: 'Comparison',
     heroHeading: "Occupational Accident vs Workers' Comp for Truckers",
     heroSubheading:
@@ -459,8 +453,7 @@ export const resources = [
     slug: 'trucking-insurance-claims-guide',
     title: 'What to Do After a Trucking Accident: Claims Guide',
     metaTitle: 'Trucking Accident Claims Guide | Step by Step',
-    metaDescription:
-      'Step-by-step guide for handling a trucking insurance claim after an accident. What to document, who to contact, and how to protect your rights throughout the process.',
+    metaDescription: 'Step-by-step guide for handling a trucking insurance claim after an accident. What to document, who to contact, and how to protect your rights throughout the...',
     category: 'Guide',
     heroHeading: 'What to Do After a Trucking Accident: Claims Guide',
     heroSubheading:
@@ -531,8 +524,7 @@ export const resources = [
     slug: 'trucking-insurance-glossary',
     title: 'Trucking Insurance Glossary: Key Terms Explained',
     metaTitle: 'Trucking Insurance Glossary | 30+ Key Terms',
-    metaDescription:
-      'Comprehensive glossary of trucking insurance terms. Clear definitions of MCS-90, BMC-91, bobtail liability, cargo insurance, and 30+ other essential industry terms.',
+    metaDescription: 'Comprehensive glossary of trucking insurance terms. Clear definitions of MCS-90, BMC-91, bobtail liability, cargo insurance, and 30+ other essential industry...',
     category: 'Reference',
     heroHeading: 'Trucking Insurance Glossary: Key Terms Explained',
     heroSubheading:
