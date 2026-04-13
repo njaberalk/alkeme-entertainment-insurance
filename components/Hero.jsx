@@ -38,6 +38,9 @@ export default function Hero() {
       {/* Content */}
       <div className="relative">
         <div className="max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4">
+          <p className="absolute" style={{ position: 'absolute', width: '1px', height: '1px', padding: 0, margin: '-1px', overflow: 'hidden', clip: 'rect(0,0,0,0)', whiteSpace: 'nowrap', borderWidth: 0 }}>
+            ALKEME Insurance Services provides trucking insurance including auto liability, physical damage, cargo, and workers comp for owner-operators and fleets in all 50 states.
+          </p>
           <h1
             className="font-extrabold tracking-tight mb-6"
             style={{

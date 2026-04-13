@@ -34,6 +34,8 @@ export default async function ResourcePage({ params }) {
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: resource.title,
+      datePublished: '2025-06-01',
+      dateModified: '2026-04-01',
       author: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
       publisher: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
       description: resource.metaDescription,

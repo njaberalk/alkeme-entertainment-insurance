@@ -35,6 +35,7 @@ export default async function BlogPage({ params }) {
       '@type': 'Article',
       headline: post.title,
       datePublished: post.publishDate,
+      dateModified: '2026-04-01',
       author: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
       publisher: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
       description: post.metaDescription,
