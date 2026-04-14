@@ -3,12 +3,12 @@ import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const featuredPosts = [
-  { slug: 'trucking-insurance-market-trends-2026', title: 'Trucking Insurance Market Trends: What Carriers Need to Know', category: 'Industry Insights' },
-  { slug: 'mistakes-new-carriers-make-insurance', title: '5 Insurance Mistakes New Trucking Companies Make', category: 'Tips & Advice' },
-  { slug: 'nuclear-verdicts-trucking-industry', title: 'Nuclear Verdicts and the Trucking Industry', category: 'Industry Insights' },
-  { slug: 'fleet-safety-programs-lower-premiums', title: 'How Fleet Safety Programs Can Lower Your Premiums', category: 'Tips & Advice' },
-  { slug: 'what-to-do-after-trucking-accident', title: 'What to Do After a Trucking Accident', category: 'Claims Guide' },
-  { slug: 'choosing-right-trucking-insurance-agent', title: 'How to Choose the Right Trucking Insurance Agent', category: 'Tips & Advice' },
+  { slug: 'entertainment-insurance-trends-2026', title: 'Entertainment Insurance Market Trends for 2026', category: 'Industry Insights' },
+  { slug: 'common-entertainment-insurance-mistakes', title: '5 Common Entertainment Insurance Mistakes to Avoid', category: 'Tips & Advice' },
+  { slug: 'event-liability-management', title: 'Managing Liability at Live Entertainment Events', category: 'Industry Insights' },
+  { slug: 'production-risk-management', title: 'Risk Management Strategies for Entertainment Productions', category: 'Tips & Advice' },
+  { slug: 'venue-safety-best-practices', title: 'Venue Safety Best Practices for Entertainment Operations', category: 'Tips & Advice' },
+  { slug: 'cyber-threats-entertainment-industry', title: 'Cyber Threats Facing the Entertainment Industry', category: 'Industry Insights' },
 ];
 
 export default function BlogSection() {
@@ -23,10 +23,10 @@ export default function BlogSection() {
             Insights
           </p>
           <h2 className="text-stone font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Trucking Insurance Insights & Advice
+            Entertainment Insurance Insights & Advice
           </h2>
           <p className="text-cream font-light" style={{ lineHeight: '22px' }}>
-            Expert perspectives on coverage, compliance, and cost management for trucking operations.
+            Expert perspectives on coverage, risk management, and cost optimization for entertainment operations.
           </p>
         </div>
 

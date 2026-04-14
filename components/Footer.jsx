@@ -10,24 +10,24 @@ const alkemeLinks = [
 ];
 
 const coverageLinks = [
-  { label: 'Auto Liability', href: '/coverage/auto-liability/' },
-  { label: 'Physical Damage', href: '/coverage/physical-damage/' },
-  { label: 'Motor Truck Cargo', href: '/coverage/motor-truck-cargo/' },
   { label: 'General Liability', href: '/coverage/general-liability/' },
+  { label: 'Production Insurance', href: '/coverage/production-insurance/' },
+  { label: 'Event Cancellation', href: '/coverage/event-cancellation/' },
+  { label: 'Equipment Floater', href: '/coverage/equipment-floater/' },
   { label: 'Workers\' Comp', href: '/coverage/workers-compensation/' },
-  { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess-liability/' },
+  { label: 'Errors & Omissions', href: '/coverage/errors-omissions/' },
 ];
 
 const industryLinks = [
-  { label: 'Owner-Operators', href: '/industries/owner-operators/' },
-  { label: 'Small Fleets', href: '/industries/small-fleets/' },
-  { label: 'Large Fleets', href: '/industries/large-fleets/' },
-  { label: 'Flatbed', href: '/industries/flatbed/' },
-  { label: 'Refrigerated', href: '/industries/refrigerated/' },
-  { label: 'Hazmat', href: '/industries/hazmat/' },
+  { label: 'Film & TV Production', href: '/industries/film-production/' },
+  { label: 'Live Events', href: '/industries/live-events/' },
+  { label: 'Music Venues', href: '/industries/music-venues/' },
+  { label: 'Theaters & Performing Arts', href: '/industries/theaters-performing-arts/' },
+  { label: 'Festivals & Fairs', href: '/industries/festivals-fairs/' },
+  { label: 'Streaming & Digital Media', href: '/industries/streaming-media/' },
 ];
 
-const truckingLinks = [
+const entertainmentLinks = [
   { label: 'Why Choose Us', href: '/#why-us' },
   { label: 'Our Process', href: '/#process' },
   { label: 'FAQ', href: '/#faq' },
@@ -50,7 +50,7 @@ export default function Footer() {
               />
             </a>
             <p className="text-brand/60 mb-6" style={{ fontSize: '0.9rem', lineHeight: '1.5' }}>
-              ALKEME Insurance Services is a nationally recognized insurance brokerage providing specialized transportation and trucking insurance solutions across all 50 states.
+              ALKEME Insurance Services is a nationally recognized insurance brokerage providing specialized entertainment insurance solutions for productions, venues, events, and media companies across all 50 states.
             </p>
             <div className="space-y-2">
               <a href="tel:+18559255363" className="block text-brand hover:text-blue-dark no-underline" style={{ fontSize: '0.95rem', lineHeight: '1.5', transition: 'all 0.2s' }}>
@@ -62,7 +62,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* ALKEME Links - cross-link to main site */}
+          {/* ALKEME Links */}
           <div>
             <h4 className="text-brand font-bold mb-5 text-right max-lg:text-left" style={{ fontSize: '1rem' }}>ALKEME</h4>
             <ul className="space-y-3 list-none p-0 m-0">
@@ -74,7 +74,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Trucking Coverage */}
+          {/* Coverage */}
           <div>
             <h4 className="text-brand font-bold mb-5 text-right max-lg:text-left" style={{ fontSize: '1rem' }}>Coverage</h4>
             <ul className="space-y-3 list-none p-0 m-0">
@@ -98,11 +98,11 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Trucking Hub */}
+          {/* Entertainment Hub */}
           <div>
-            <h4 className="text-brand font-bold mb-5 text-right max-lg:text-left" style={{ fontSize: '1rem' }}>Trucking</h4>
+            <h4 className="text-brand font-bold mb-5 text-right max-lg:text-left" style={{ fontSize: '1rem' }}>Entertainment</h4>
             <ul className="space-y-3 list-none p-0 m-0">
-              {truckingLinks.map((link) => (
+              {entertainmentLinks.map((link) => (
                 <li key={link.label} className="text-right max-lg:text-left">
                   <Link href={link.href} className="text-brand hover:text-blue-dark no-underline" style={{ fontSize: '0.9rem', lineHeight: '1.5', transition: 'all 0.2s' }}>{link.label}</Link>
                 </li>

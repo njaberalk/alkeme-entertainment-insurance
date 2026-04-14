@@ -3,12 +3,12 @@ import { useState, useRef, useEffect } from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const faqs = [
-  { q: 'What insurance does a trucking company need?', a: 'At minimum, most trucking operations require primary auto liability, physical damage, and cargo coverage. Depending on your operation, you may also need general liability, workers\' compensation, non-trucking liability, trailer interchange, and umbrella/excess coverage. We help you identify exactly what your operation requires based on your authority type, cargo, and operating radius.' },
-  { q: 'Do you insure both owner-operators and fleets?', a: 'Yes. We work with independent owner-operators running a single unit as well as fleets of all sizes — from small operations with a handful of trucks to large carriers with hundreds of power units. Our coverage programs are scaled and customized to match the size and complexity of each operation.' },
-  { q: 'Can you help with contract and compliance requirements?', a: 'Absolutely. We understand the insurance requirements that shippers, brokers, and regulatory bodies impose on carriers. We can help ensure your certificates of insurance, policy endorsements, and filing requirements align with your contractual obligations and FMCSA standards.' },
-  { q: 'How quickly can I get a quote?', a: 'In most cases, we can provide an initial quote within 24 hours of receiving your completed information. For more complex accounts or large fleets, the process may take slightly longer to ensure we explore the best options across our carrier network.' },
-  { q: 'Do you offer cargo and physical damage coverage?', a: 'Yes. Motor truck cargo coverage protects the goods you haul, while physical damage coverage protects your trucks and trailers. We can tailor both coverages to your specific cargo types, vehicle values, and deductible preferences.' },
-  { q: 'Can coverage be customized for my operation?', a: 'Every policy we place is built around your specific operation. We consider your equipment, routes, cargo types, loss history, and business goals to design a program that provides the right coverage at a competitive price — not a generic package.' },
+  { q: 'What insurance does an entertainment business need?', a: 'At minimum, most entertainment operations require general liability, workers compensation, and coverage specific to their segment. Productions need production packages and E&O. Events need cancellation coverage. Venues need premises and liquor liability. We help you identify exactly what your operation requires based on your business type, scale, and contractual obligations.' },
+  { q: 'Do you insure both small productions and major studios?', a: 'Yes. We work with independent filmmakers on micro-budget projects as well as major production companies with multi-million dollar budgets. Our coverage programs are scaled and customized to match the size and complexity of each operation, from a single-day shoot to a multi-season television series.' },
+  { q: 'Can you help with certificates of insurance for venues and locations?', a: 'Absolutely. We understand the insurance requirements that venues, filming locations, permit offices, and talent agencies impose. We issue certificates of insurance quickly and accurately, with the additional insured endorsements and specific coverage details each party requires.' },
+  { q: 'How quickly can I get a quote?', a: 'In most cases, we can provide an initial quote within 24 to 48 hours of receiving your completed information. For production insurance involving cast medical examinations or complex event programs, the process may take slightly longer to ensure we explore the best options across our carrier network.' },
+  { q: 'Do you offer event cancellation and weather coverage?', a: 'Yes. Event cancellation insurance is one of our core offerings. We provide coverage for weather, non-appearance, force majeure, and other covered perils. Weather triggers can be customized to specific conditions relevant to your event location and timing.' },
+  { q: 'Can coverage be customized for my specific operation?', a: 'Every policy we place is built around your specific operation. We consider your production type, venue characteristics, event scale, equipment values, talent roster, and business goals to design a program that provides the right coverage at a competitive price — not a generic package.' },
 ];
 
 function FaqItem({ faq, isOpen, onClick }) {
@@ -40,7 +40,6 @@ function FaqItem({ faq, isOpen, onClick }) {
           </svg>
         </div>
       </button>
-      {/* Animated content - height 0 to auto matching alkeme faq_content-wrap */}
       <div
         ref={contentRef}
         style={{
@@ -66,7 +65,7 @@ export default function FAQ() {
         <div ref={headerRef} className="text-center mb-14 fade-in-view">
           <p className="text-blue uppercase tracking-[0.15em] font-bold mb-4" style={{ fontSize: '0.85rem' }}>Frequently Asked Questions</p>
           <h2 className="text-brand font-bold leading-[1.3] tracking-tight" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Common Questions About Trucking Insurance
+            Common Questions About Entertainment Insurance
           </h2>
         </div>
 

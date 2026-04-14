@@ -23,6 +23,7 @@ export default function HomeContent() {
     <div className="min-h-screen bg-stone">
       <Header />
       <Hero />
+      {/* Credentials Section */}
       <section className="bg-stone border-b border-ash" style={{ padding: '2rem 0' }}>
         <div className="max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4">
           <div className="flex flex-wrap items-center justify-center gap-6 lg:gap-10">

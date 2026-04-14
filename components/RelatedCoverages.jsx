@@ -4,15 +4,16 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 // Basic coverage metadata for cross-linking
 const allCoverages = {
-  'auto-liability': { title: 'Primary Auto Liability', desc: 'Liability protection for at-fault accidents' },
-  'physical-damage': { title: 'Physical Damage', desc: 'Covers repair or replacement of your vehicles' },
-  'motor-truck-cargo': { title: 'Motor Truck Cargo', desc: 'Protects goods in transit' },
-  'general-liability': { title: 'General Liability', desc: 'Third-party claims outside vehicle operation' },
-  'non-trucking-liability': { title: 'Non-Trucking Liability', desc: 'Coverage for personal use of truck' },
-  'trailer-interchange': { title: 'Trailer Interchange', desc: 'Covers trailers under interchange agreements' },
-  'workers-compensation': { title: 'Workers\' Compensation', desc: 'Employee injury wage and medical benefits' },
-  'umbrella-excess-liability': { title: 'Umbrella / Excess', desc: 'Additional liability protection layer' },
-  'occupational-accident': { title: 'Occupational Accident', desc: 'Coverage for independent contractors' },
+  'general-liability': { title: 'General Liability', desc: 'Third-party bodily injury and property damage protection' },
+  'production-insurance': { title: 'Production Insurance', desc: 'Comprehensive film and TV production coverage packages' },
+  'event-cancellation': { title: 'Event Cancellation', desc: 'Financial protection for cancelled or postponed events' },
+  'equipment-floater': { title: 'Equipment Floater', desc: 'Coverage for cameras, lighting, sound, and production gear' },
+  'workers-compensation': { title: 'Workers\' Compensation', desc: 'Cast and crew injury wage and medical benefits' },
+  'commercial-auto': { title: 'Commercial Auto', desc: 'Production vehicle and equipment transport coverage' },
+  'errors-omissions': { title: 'Errors & Omissions', desc: 'Content clearance and media liability protection' },
+  'cyber-liability': { title: 'Cyber Liability', desc: 'Data breach, content piracy, and digital asset protection' },
+  'umbrella-excess': { title: 'Umbrella / Excess', desc: 'Additional liability limits for catastrophic claims' },
+  'employment-practices': { title: 'Employment Practices', desc: 'Wrongful termination and workplace claims coverage' },
 };
 
 export default function RelatedCoverages({ slugs, title = 'Related Coverage' }) {

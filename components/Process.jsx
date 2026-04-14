@@ -2,10 +2,10 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const steps = [
-  { num: '01', title: 'Tell Us About Your Operation', desc: 'Share details about your fleet, cargo types, operating radius, and current coverage so we can understand your unique needs.' },
-  { num: '02', title: 'Review Your Risks & Requirements', desc: 'Our specialists analyze your exposure areas, compliance requirements, and business objectives to identify optimal coverage strategies.' },
-  { num: '03', title: 'Receive a Tailored Quote', desc: 'We present a comprehensive proposal with coverage options, pricing, and clear recommendations — no surprises, no hidden gaps.' },
-  { num: '04', title: 'Bind Coverage With Ongoing Support', desc: 'Once you approve, we bind your policies and remain your advocate through renewals, claims, and as your operation evolves.' },
+  { num: '01', title: 'Describe Your Production or Event', desc: 'Share details about your production, venue, event, or entertainment business so we can understand your unique needs and risk profile.' },
+  { num: '02', title: 'Assess Your Risks', desc: 'Our entertainment insurance specialists analyze your exposure areas, compliance requirements, and contractual obligations to identify optimal coverage strategies.' },
+  { num: '03', title: 'Receive a Custom Proposal', desc: 'We present a comprehensive proposal with coverage options, pricing, and clear recommendations — no surprises, no hidden gaps.' },
+  { num: '04', title: 'Bind Coverage & Ongoing Support', desc: 'Once you approve, we bind your policies and remain your advocate through renewals, claims, and as your entertainment business evolves.' },
 ];
 
 export default function Process() {

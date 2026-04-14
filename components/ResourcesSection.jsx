@@ -3,12 +3,12 @@ import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const featuredResources = [
-  { slug: 'trucking-insurance-cost', title: 'How Much Does Trucking Insurance Cost?', category: 'Guide', desc: 'Average costs by fleet size, pricing factors, and strategies to reduce your premiums.' },
-  { slug: 'fmcsa-insurance-requirements', title: 'FMCSA Insurance Requirements', category: 'Guide', desc: 'Federal minimum limits, MCS-90 endorsements, BMC filings, and compliance checklist.' },
-  { slug: 'new-authority-insurance', title: 'Insurance for New Trucking Authority', category: 'Guide', desc: 'What new carriers need before their first dispatch and how to get covered.' },
-  { slug: 'commercial-auto-vs-trucking-insurance', title: 'Commercial Auto vs Trucking Insurance', category: 'Comparison', desc: 'Key differences and when you need specialized trucking coverage.' },
-  { slug: 'lower-trucking-insurance-premiums', title: 'How to Lower Your Premiums', category: 'Guide', desc: 'Practical strategies for reducing your trucking insurance costs.' },
-  { slug: 'trucking-insurance-glossary', title: 'Trucking Insurance Glossary', category: 'Reference', desc: '40+ key terms every carrier should know, explained clearly.' },
+  { slug: 'entertainment-insurance-cost', title: 'How Much Does Entertainment Insurance Cost?', category: 'Guide', desc: 'Average costs by operation type, pricing factors, and strategies to manage your premiums.' },
+  { slug: 'production-insurance-guide', title: 'The Complete Guide to Production Insurance', category: 'Guide', desc: 'Everything producers need to know about cast insurance, completion bonds, and coverage packages.' },
+  { slug: 'event-cancellation-guide', title: 'Event Cancellation Insurance Guide', category: 'Guide', desc: 'Weather clauses, force majeure, non-appearance, and communicable disease provisions.' },
+  { slug: 'film-tv-insurance-guide', title: 'Film & TV Insurance: A Producer\'s Guide', category: 'Guide', desc: 'Cast insurance, E&O requirements, negative film coverage, and distribution standards.' },
+  { slug: 'venue-liability-guide', title: 'Venue Liability Insurance Guide', category: 'Guide', desc: 'Crowd management, alcohol service, security obligations, and premises liability.' },
+  { slug: 'entertainment-insurance-glossary', title: 'Entertainment Insurance Glossary', category: 'Reference', desc: '50+ key entertainment insurance terms explained clearly for industry professionals.' },
 ];
 
 export default function ResourcesSection() {
@@ -23,10 +23,10 @@ export default function ResourcesSection() {
             Resources
           </p>
           <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Trucking Insurance Guides & Tools
+            Entertainment Insurance Guides & Tools
           </h2>
           <p className="text-brand" style={{ fontSize: '1rem', lineHeight: '1.6' }}>
-            Expert resources to help you understand your coverage options, reduce costs, and stay compliant.
+            Expert resources to help you understand your coverage options, manage costs, and stay compliant.
           </p>
         </div>
 

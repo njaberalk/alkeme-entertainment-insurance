@@ -5,44 +5,43 @@ import { useNavScrollBehavior } from '../hooks/useScrollAnimation';
 import { usePathname } from 'next/navigation';
 
 const coverageItems = [
-  { label: 'Auto Liability', href: '/coverage/auto-liability/' },
-  { label: 'Physical Damage', href: '/coverage/physical-damage/' },
-  { label: 'Motor Truck Cargo', href: '/coverage/motor-truck-cargo/' },
   { label: 'General Liability', href: '/coverage/general-liability/' },
-  { label: 'Non-Trucking Liability', href: '/coverage/non-trucking-liability/' },
-  { label: 'Trailer Interchange', href: '/coverage/trailer-interchange/' },
+  { label: 'Production Insurance', href: '/coverage/production-insurance/' },
+  { label: 'Event Cancellation', href: '/coverage/event-cancellation/' },
+  { label: 'Equipment Floater', href: '/coverage/equipment-floater/' },
   { label: 'Workers\' Comp', href: '/coverage/workers-compensation/' },
-  { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess-liability/' },
-  { label: 'Occupational Accident', href: '/coverage/occupational-accident/' },
+  { label: 'Commercial Auto', href: '/coverage/commercial-auto/' },
+  { label: 'Errors & Omissions', href: '/coverage/errors-omissions/' },
+  { label: 'Cyber Liability', href: '/coverage/cyber-liability/' },
+  { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess/' },
+  { label: 'Employment Practices', href: '/coverage/employment-practices/' },
 ];
 
 const resourceItems = [
-  { label: '— Tools —', href: null, divider: true },
-  { label: 'FMCSA Requirements Checker', href: '/tools/fmcsa-checker/' },
+  { label: '-- Tools --', href: null, divider: true },
+  { label: 'Coverage Needs Assessment', href: '/tools/coverage-needs-assessment/' },
   { label: 'State Requirements Lookup', href: '/tools/state-requirements/' },
-  { label: '— Guides —', href: null, divider: true },
-  { label: 'Trucking Insurance Cost', href: '/resources/trucking-insurance-cost/' },
-  { label: 'FMCSA Requirements', href: '/resources/fmcsa-insurance-requirements/' },
-  { label: 'New Authority Insurance', href: '/resources/new-authority-insurance/' },
-  { label: 'Lower Your Premiums', href: '/resources/lower-trucking-insurance-premiums/' },
-  { label: 'Insurance Glossary', href: '/resources/trucking-insurance-glossary/' },
-  { label: '— Insights —', href: null, divider: true },
-  { label: 'Market Trends 2026', href: '/blog/trucking-insurance-market-trends-2026/' },
-  { label: 'Nuclear Verdicts Guide', href: '/blog/nuclear-verdicts-trucking-industry/' },
-  { label: 'New Carrier Mistakes', href: '/blog/mistakes-new-carriers-make-insurance/' },
+  { label: '-- Guides --', href: null, divider: true },
+  { label: 'Entertainment Insurance Cost', href: '/resources/entertainment-insurance-cost/' },
+  { label: 'Production Insurance Guide', href: '/resources/production-insurance-guide/' },
+  { label: 'Event Cancellation Guide', href: '/resources/event-cancellation-guide/' },
+  { label: 'Insurance Glossary', href: '/resources/entertainment-insurance-glossary/' },
+  { label: '-- Insights --', href: null, divider: true },
+  { label: 'Market Trends 2026', href: '/blog/entertainment-insurance-trends-2026/' },
+  { label: 'Common Mistakes', href: '/blog/common-entertainment-insurance-mistakes/' },
 ];
 
 const industryItems = [
-  { label: 'Owner-Operators', href: '/industries/owner-operators/' },
-  { label: 'Small Fleets', href: '/industries/small-fleets/' },
-  { label: 'Large Fleets', href: '/industries/large-fleets/' },
-  { label: 'Hot Shot', href: '/industries/hot-shot-trucking/' },
-  { label: 'LTL / Last Mile', href: '/industries/ltl-last-mile/' },
-  { label: 'Intermodal', href: '/industries/intermodal/' },
-  { label: 'Refrigerated', href: '/industries/refrigerated/' },
-  { label: 'Flatbed', href: '/industries/flatbed/' },
-  { label: 'Hazmat', href: '/industries/hazmat/' },
-  { label: 'Car Haulers', href: '/industries/car-haulers/' },
+  { label: 'Film & TV Production', href: '/industries/film-production/' },
+  { label: 'Live Events', href: '/industries/live-events/' },
+  { label: 'Music Venues', href: '/industries/music-venues/' },
+  { label: 'Theaters & Performing Arts', href: '/industries/theaters-performing-arts/' },
+  { label: 'Sports Entertainment', href: '/industries/sports-entertainment/' },
+  { label: 'Amusement Parks', href: '/industries/amusement-parks/' },
+  { label: 'Nightclubs & Bars', href: '/industries/nightclubs-bars/' },
+  { label: 'Streaming & Digital Media', href: '/industries/streaming-media/' },
+  { label: 'Festivals & Fairs', href: '/industries/festivals-fairs/' },
+  { label: 'Talent Agencies', href: '/industries/talent-agencies/' },
 ];
 
 function Dropdown({ label, items, isOpen, onToggle, onClose }) {
@@ -76,7 +75,7 @@ function Dropdown({ label, items, isOpen, onToggle, onClose }) {
           {items.map((item) => (
             item.divider ? (
               <div key={item.label} className="px-5 pt-3 pb-1 text-blue-dark/50 uppercase tracking-[0.12em] font-bold border-t border-ash first:border-0 first:pt-0 mt-1 first:mt-0" style={{ fontSize: '0.6rem' }}>
-                {item.label.replace(/—/g, '').trim()}
+                {item.label.replace(/--/g, '').trim()}
               </div>
             ) : (
               <Link
@@ -101,7 +100,7 @@ export default function Header() {
   const [openDropdown, setOpenDropdown] = useState(null);
   const navRef = useNavScrollBehavior();
   const pathname = usePathname();
-  const isHome = pathname === '/trucking' || pathname === '/trucking/' || pathname === '/';
+  const isHome = pathname === '/entertainment' || pathname === '/entertainment/' || pathname === '/';
 
   return (
     <>
@@ -129,7 +128,7 @@ export default function Header() {
               />
             </a>
 
-            {/* Desktop Nav - matching alkemeins.com structure */}
+            {/* Desktop Nav */}
             <nav className="hidden lg:flex items-center gap-0" role="navigation" aria-label="Main navigation">
               <Dropdown
                 label="Coverage"
@@ -182,7 +181,7 @@ export default function Header() {
         </div>
 
         {/* Mobile Menu */}
-        <div className="lg:hidden bg-stone overflow-hidden" aria-hidden="true" style={{ maxHeight: mobileOpen ? '90vh' : '0', transition: 'max-height 0.4s ease', borderTop: mobileOpen ? '1px solid #e3e3d8' : 'none' }}>
+        <div className="lg:hidden bg-stone overflow-hidden" aria-hidden={!mobileOpen} style={{ maxHeight: mobileOpen ? '90vh' : '0', transition: 'max-height 0.4s ease', borderTop: mobileOpen ? '1px solid #e3e3d8' : 'none' }}>
           <div className="px-6 py-6 space-y-1 max-h-[80vh] overflow-y-auto">
             <span className="block text-blue-dark uppercase tracking-[0.12em] font-bold pb-2 border-b border-ash mb-3" style={{ fontSize: '0.65rem' }}>Coverage</span>
             {coverageItems.map((item) => (
@@ -202,12 +201,12 @@ export default function Header() {
               <Link href={isHome ? '#states' : '/#states'} onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.16em] font-bold py-2 no-underline" style={{ fontSize: '0.75rem' }}>States & Cities</Link>
 
               <span className="block text-blue-dark uppercase tracking-[0.12em] font-bold pb-2 border-b border-ash mb-3 mt-4" style={{ fontSize: '0.65rem' }}>Tools & Resources</span>
-              <Link href="/tools/fmcsa-checker/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>FMCSA Requirements Checker</Link>
+              <Link href="/tools/coverage-needs-assessment/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Coverage Needs Assessment</Link>
               <Link href="/tools/state-requirements/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>State Requirements Lookup</Link>
-              <Link href="/resources/trucking-insurance-cost/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Trucking Insurance Cost</Link>
-              <Link href="/resources/fmcsa-insurance-requirements/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>FMCSA Requirements Guide</Link>
-              <Link href="/blog/trucking-insurance-market-trends-2026/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Market Trends 2026</Link>
-              <a href="https://alkemeins.com" onClick={() => setMobileOpen(false)} className="block text-blue-dark hover:text-brand uppercase tracking-[0.12em] font-bold py-2 no-underline" style={{ fontSize: '0.65rem' }}>← Back to ALKEME</a>
+              <Link href="/resources/entertainment-insurance-cost/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Entertainment Insurance Cost</Link>
+              <Link href="/resources/production-insurance-guide/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Production Insurance Guide</Link>
+              <Link href="/blog/entertainment-insurance-trends-2026/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Market Trends 2026</Link>
+              <a href="https://alkemeins.com" onClick={() => setMobileOpen(false)} className="block text-blue-dark hover:text-brand uppercase tracking-[0.12em] font-bold py-2 no-underline" style={{ fontSize: '0.65rem' }}>Back to ALKEME</a>
             </div>
 
             <a href="https://alkemeins.com/form" className="inline-block border-2 border-gold bg-gold text-brand uppercase tracking-[0.16em] px-6 py-3 font-bold rounded-[20px] mt-4 no-underline text-center w-full" style={{ fontSize: '0.75rem', transition: 'all 0.24s' }}>

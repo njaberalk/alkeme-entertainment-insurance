@@ -9,30 +9,30 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://alkemeins.com/trucking'),
+  metadataBase: new URL('https://alkemeins.com/entertainment'),
   title: {
     template: '%s | ALKEME Insurance Services',
-    default: 'Trucking Insurance | ALKEME Insurance Services',
+    default: 'Entertainment Insurance | ALKEME Insurance Services',
   },
-  description: 'ALKEME Insurance Services provides specialized trucking insurance for owner-operators, fleets, and transportation businesses. Coverage for auto liability, cargo, physical damage, and more.',
+  description: 'ALKEME Insurance Services provides specialized entertainment insurance for productions, venues, events, and media companies. Coverage for general liability, production insurance, event cancellation, E&O, and more.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     siteName: 'ALKEME Insurance Services',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&h=630&q=80',
+        url: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1200&h=630&q=80',
         width: 1200,
         height: 630,
-        alt: 'ALKEME Insurance Services — Commercial Trucking Insurance',
+        alt: 'ALKEME Insurance Services — Entertainment Insurance',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Trucking Insurance | ALKEME Insurance Services',
-    description: 'Specialized trucking insurance for owner-operators, fleets, and transportation businesses across all 50 states.',
-    images: ['https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&h=630&q=80'],
+    title: 'Entertainment Insurance | ALKEME Insurance Services',
+    description: 'Specialized entertainment insurance for productions, venues, events, and media companies across all 50 states.',
+    images: ['https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1200&h=630&q=80'],
   },
   robots: {
     index: true,
@@ -46,7 +46,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: 'https://alkemeins.com/trucking/',
+    canonical: 'https://alkemeins.com/entertainment/',
   },
   icons: {
     icon: '/favicon.svg',

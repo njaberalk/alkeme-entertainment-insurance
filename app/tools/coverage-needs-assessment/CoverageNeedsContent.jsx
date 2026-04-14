@@ -7,10 +7,10 @@ import QuoteForm from '../../../components/QuoteForm';
 import Footer from '../../../components/Footer';
 import { cargoTypes } from '../../../data/fmcsa-requirements';
 
-export default function FMCSACheckerContent() {
-  const [selectedCargo, setSelectedCargo] = useState(null);
+export default function CoverageNeedsContent() {
+  const [selectedType, setSelectedType] = useState(null);
 
-  const result = cargoTypes.find(c => c.id === selectedCargo);
+  const result = cargoTypes.find(c => c.id === selectedType);
 
   return (
     <div className="min-h-screen bg-stone">
@@ -18,7 +18,7 @@ export default function FMCSACheckerContent() {
       <Breadcrumbs items={[
         { label: 'Home', href: '/' },
         { label: 'Tools' },
-        { label: 'FMCSA Requirements Checker' },
+        { label: 'Coverage Needs Assessment' },
       ]} />
 
       {/* Hero */}
@@ -29,10 +29,10 @@ export default function FMCSACheckerContent() {
         <div className="relative max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4 text-center">
           <p className="text-blue uppercase tracking-[0.15em] font-bold mb-4" style={{ fontSize: '0.85rem' }}>Free Tool</p>
           <h1 className="text-stone font-extrabold tracking-tight mb-4" style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', lineHeight: '1.1' }}>
-            FMCSA Coverage Requirements Checker
+            Entertainment Coverage Needs Assessment
           </h1>
           <p className="text-cream font-light mx-auto" style={{ fontSize: '1.1rem', lineHeight: '1.6', maxWidth: '600px' }}>
-            Select your cargo type below to see the exact insurance requirements, minimum limits, and required filings for your operation.
+            Select your entertainment business type below to see recommended coverages, minimum requirements, and cost guidance for your operation.
           </p>
         </div>
       </section>
@@ -40,21 +40,21 @@ export default function FMCSACheckerContent() {
       {/* Tool */}
       <section className="bg-stone" style={{ padding: '4rem 0' }}>
         <div className="max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4">
-          {/* Cargo Type Selector */}
+          {/* Business Type Selector */}
           <div className="max-w-3xl mx-auto mb-12">
             <label className="block text-brand font-bold mb-4" style={{ fontSize: '1rem' }}>
-              What type of freight do you haul?
+              What type of entertainment business do you operate?
             </label>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {cargoTypes.map((cargo) => (
+              {cargoTypes.map((type) => (
                 <button
-                  key={cargo.id}
-                  onClick={() => setSelectedCargo(cargo.id)}
-                  className={`border-2 rounded-[1.5rem] p-4 text-left cursor-pointer ${selectedCargo === cargo.id ? 'border-gold bg-gold/10' : 'border-ash bg-white/40 hover:border-blue-dark'}`}
+                  key={type.id}
+                  onClick={() => setSelectedType(type.id)}
+                  className={`border-2 rounded-[1.5rem] p-4 text-left cursor-pointer ${selectedType === type.id ? 'border-gold bg-gold/10' : 'border-ash bg-white/40 hover:border-blue-dark'}`}
                   style={{ transition: 'all 0.24s' }}
                 >
-                  <span className="block text-brand font-bold mb-1" style={{ fontSize: '0.85rem' }}>{cargo.label}</span>
-                  <span className="block text-brand/50" style={{ fontSize: '0.7rem', lineHeight: '1.3' }}>{cargo.description}</span>
+                  <span className="block text-brand font-bold mb-1" style={{ fontSize: '0.85rem' }}>{type.label}</span>
+                  <span className="block text-brand/50" style={{ fontSize: '0.7rem', lineHeight: '1.3' }}>{type.description}</span>
                 </button>
               ))}
             </div>
@@ -63,11 +63,11 @@ export default function FMCSACheckerContent() {
           {/* Results */}
           {result && (
             <div className="max-w-3xl mx-auto">
-              {/* Minimum Liability */}
+              {/* Recommended Liability */}
               <div className="border-2 border-ash rounded-[2rem] p-8 mb-6 bg-white/40">
                 <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
                   <div>
-                    <p className="text-blue-dark uppercase tracking-[0.12em] font-bold mb-1" style={{ fontSize: '0.7rem' }}>Federal Minimum Liability</p>
+                    <p className="text-blue-dark uppercase tracking-[0.12em] font-bold mb-1" style={{ fontSize: '0.7rem' }}>Recommended Minimum Liability</p>
                     <p className="text-brand font-extrabold" style={{ fontSize: '2.5rem', lineHeight: '1' }}>{result.minimumLiability}</p>
                   </div>
                   <a
@@ -79,9 +79,9 @@ export default function FMCSACheckerContent() {
                   </a>
                 </div>
 
-                {/* Required Filings */}
+                {/* Key Requirements */}
                 <div className="mb-6">
-                  <h3 className="text-brand font-bold mb-3" style={{ fontSize: '1rem' }}>Required Filings</h3>
+                  <h3 className="text-brand font-bold mb-3" style={{ fontSize: '1rem' }}>Key Requirements</h3>
                   <div className="space-y-2">
                     {result.filings.map((filing, i) => (
                       <div key={i} className="flex items-center gap-2">
@@ -92,8 +92,8 @@ export default function FMCSACheckerContent() {
                   </div>
                 </div>
 
-                {/* Required Coverages */}
-                <h3 className="text-brand font-bold mb-4" style={{ fontSize: '1rem' }}>Coverage Requirements</h3>
+                {/* Recommended Coverages */}
+                <h3 className="text-brand font-bold mb-4" style={{ fontSize: '1rem' }}>Recommended Coverages</h3>
                 <div className="space-y-4">
                   {result.requiredCoverages.map((cov, i) => (
                     <div key={i} className="border border-ash rounded-[1rem] p-4">
@@ -101,7 +101,7 @@ export default function FMCSACheckerContent() {
                         <div className="flex-1">
                           {cov.slug ? (
                             <Link href={`/coverage/${cov.slug}/`} className="text-brand font-bold hover:text-blue-dark no-underline" style={{ fontSize: '0.95rem', transition: 'color 0.2s' }}>
-                              {cov.coverage} →
+                              {cov.coverage}
                             </Link>
                           ) : (
                             <span className="text-brand font-bold" style={{ fontSize: '0.95rem' }}>{cov.coverage}</span>
@@ -127,13 +127,13 @@ export default function FMCSACheckerContent() {
 
               {/* Cross-links */}
               <div className="grid sm:grid-cols-2 gap-4">
-                <Link href="/resources/fmcsa-insurance-requirements/" className="block border-2 border-ash rounded-[2rem] p-5 hover:border-blue-dark no-underline" style={{ transition: 'all 0.24s' }}>
+                <Link href="/resources/entertainment-insurance-cost/" className="block border-2 border-ash rounded-[2rem] p-5 hover:border-blue-dark no-underline" style={{ transition: 'all 0.24s' }}>
                   <span className="text-blue-dark uppercase tracking-[0.12em] font-bold block mb-1" style={{ fontSize: '0.65rem' }}>Guide</span>
-                  <span className="text-brand font-bold block" style={{ fontSize: '0.9rem' }}>FMCSA Insurance Requirements Explained →</span>
+                  <span className="text-brand font-bold block" style={{ fontSize: '0.9rem' }}>How Much Does Entertainment Insurance Cost?</span>
                 </Link>
-                <Link href="/resources/new-authority-insurance/" className="block border-2 border-ash rounded-[2rem] p-5 hover:border-blue-dark no-underline" style={{ transition: 'all 0.24s' }}>
+                <Link href="/resources/production-insurance-guide/" className="block border-2 border-ash rounded-[2rem] p-5 hover:border-blue-dark no-underline" style={{ transition: 'all 0.24s' }}>
                   <span className="text-blue-dark uppercase tracking-[0.12em] font-bold block mb-1" style={{ fontSize: '0.65rem' }}>Guide</span>
-                  <span className="text-brand font-bold block" style={{ fontSize: '0.9rem' }}>Insurance for New Trucking Authority →</span>
+                  <span className="text-brand font-bold block" style={{ fontSize: '0.9rem' }}>The Complete Guide to Production Insurance</span>
                 </Link>
               </div>
             </div>

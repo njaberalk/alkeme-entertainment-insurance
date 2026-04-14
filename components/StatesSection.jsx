@@ -4,16 +4,16 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { cities } from '../data/cities';
 
 const featuredStates = [
-  { name: 'Texas', slug: 'texas', abbr: 'TX' },
   { name: 'California', slug: 'california', abbr: 'CA' },
-  { name: 'Florida', slug: 'florida', abbr: 'FL' },
+  { name: 'New York', slug: 'new-york', abbr: 'NY' },
   { name: 'Georgia', slug: 'georgia', abbr: 'GA' },
+  { name: 'Texas', slug: 'texas', abbr: 'TX' },
+  { name: 'Louisiana', slug: 'louisiana', abbr: 'LA' },
   { name: 'Illinois', slug: 'illinois', abbr: 'IL' },
-  { name: 'Ohio', slug: 'ohio', abbr: 'OH' },
-  { name: 'Pennsylvania', slug: 'pennsylvania', abbr: 'PA' },
-  { name: 'Indiana', slug: 'indiana', abbr: 'IN' },
+  { name: 'Florida', slug: 'florida', abbr: 'FL' },
+  { name: 'Nevada', slug: 'nevada', abbr: 'NV' },
   { name: 'Tennessee', slug: 'tennessee', abbr: 'TN' },
-  { name: 'North Carolina', slug: 'north-carolina', abbr: 'NC' },
+  { name: 'Washington', slug: 'washington', abbr: 'WA' },
 ];
 
 const allStates = [
@@ -39,14 +39,14 @@ export default function StatesSection() {
             Nationwide Coverage
           </p>
           <h2 className="text-stone font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Trucking Insurance Across All 50 States
+            Entertainment Insurance Across All 50 States
           </h2>
           <p className="text-cream font-light" style={{ lineHeight: '22px' }}>
-            State-specific requirements, corridors, and coverage guidance — wherever your fleet operates.
+            State-specific film incentives, venue regulations, and coverage guidance — wherever your entertainment business operates.
           </p>
         </div>
 
-        {/* Featured states - top trucking states */}
+        {/* Featured states - top entertainment states */}
         <div ref={gridRef} className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-10 stagger-children">
           {featuredStates.map((state) => (
             <Link
@@ -80,9 +80,9 @@ export default function StatesSection() {
           </div>
         </div>
 
-        {/* All 100 Trucking Cities */}
+        {/* All 100 Entertainment Cities */}
         <div className="mt-14 text-center">
-          <h3 className="text-stone font-bold mb-6" style={{ fontSize: '1.3rem' }}>Major Trucking Cities</h3>
+          <h3 className="text-stone font-bold mb-6" style={{ fontSize: '1.3rem' }}>Major Entertainment Cities</h3>
           <div className="flex flex-wrap justify-center gap-2">
             {cities.map((c) => (
               <Link

@@ -2,46 +2,48 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-// All linkable terms → their page URLs
+// All linkable terms -> their page URLs
 // Order matters: longer phrases first to avoid partial matches
 const LINK_MAP = [
   // Coverages
-  ['primary auto liability', '/coverage/auto-liability/'],
-  ['auto liability', '/coverage/auto-liability/'],
-  ['physical damage', '/coverage/physical-damage/'],
-  ['motor truck cargo', '/coverage/motor-truck-cargo/'],
-  ['cargo coverage', '/coverage/motor-truck-cargo/'],
-  ['cargo insurance', '/coverage/motor-truck-cargo/'],
   ['general liability', '/coverage/general-liability/'],
-  ['non-trucking liability', '/coverage/non-trucking-liability/'],
-  ['bobtail coverage', '/coverage/non-trucking-liability/'],
-  ['bobtail insurance', '/coverage/non-trucking-liability/'],
-  ['trailer interchange', '/coverage/trailer-interchange/'],
+  ['production insurance', '/coverage/production-insurance/'],
+  ['event cancellation', '/coverage/event-cancellation/'],
+  ['equipment floater', '/coverage/equipment-floater/'],
+  ['equipment coverage', '/coverage/equipment-floater/'],
+  ['inland marine', '/coverage/equipment-floater/'],
   ['workers\' compensation', '/coverage/workers-compensation/'],
   ['workers compensation', '/coverage/workers-compensation/'],
   ['workers\' comp', '/coverage/workers-compensation/'],
   ['workers comp', '/coverage/workers-compensation/'],
-  ['umbrella coverage', '/coverage/umbrella-excess-liability/'],
-  ['umbrella liability', '/coverage/umbrella-excess-liability/'],
-  ['excess liability', '/coverage/umbrella-excess-liability/'],
-  ['occupational accident', '/coverage/occupational-accident/'],
+  ['commercial auto', '/coverage/commercial-auto/'],
+  ['errors and omissions', '/coverage/errors-omissions/'],
+  ['errors & omissions', '/coverage/errors-omissions/'],
+  ['E&O coverage', '/coverage/errors-omissions/'],
+  ['E&O insurance', '/coverage/errors-omissions/'],
+  ['media liability', '/coverage/errors-omissions/'],
+  ['cyber liability', '/coverage/cyber-liability/'],
+  ['umbrella coverage', '/coverage/umbrella-excess/'],
+  ['umbrella liability', '/coverage/umbrella-excess/'],
+  ['excess liability', '/coverage/umbrella-excess/'],
+  ['employment practices', '/coverage/employment-practices/'],
+  ['cast insurance', '/coverage/production-insurance/'],
 
   // Industries
-  ['owner-operators', '/industries/owner-operators/'],
-  ['owner operators', '/industries/owner-operators/'],
-  ['small fleets', '/industries/small-fleets/'],
-  ['large fleets', '/industries/large-fleets/'],
-  ['hot shot trucking', '/industries/hot-shot-trucking/'],
-  ['hot shot', '/industries/hot-shot-trucking/'],
-  ['LTL', '/industries/ltl-last-mile/'],
-  ['last mile', '/industries/ltl-last-mile/'],
-  ['intermodal', '/industries/intermodal/'],
-  ['refrigerated', '/industries/refrigerated/'],
-  ['flatbed', '/industries/flatbed/'],
-  ['hazmat', '/industries/hazmat/'],
-  ['car haulers', '/industries/car-haulers/'],
+  ['film production', '/industries/film-production/'],
+  ['live events', '/industries/live-events/'],
+  ['music venues', '/industries/music-venues/'],
+  ['performing arts', '/industries/theaters-performing-arts/'],
+  ['sports entertainment', '/industries/sports-entertainment/'],
+  ['amusement parks', '/industries/amusement-parks/'],
+  ['theme parks', '/industries/amusement-parks/'],
+  ['nightclubs', '/industries/nightclubs-bars/'],
+  ['streaming media', '/industries/streaming-media/'],
+  ['digital media', '/industries/streaming-media/'],
+  ['festivals', '/industries/festivals-fairs/'],
+  ['talent agencies', '/industries/talent-agencies/'],
 
-  // States (only match when followed by common context words to avoid over-linking)
+  // States
   ['Alabama', '/states/alabama/'], ['Alaska', '/states/alaska/'], ['Arizona', '/states/arizona/'],
   ['Arkansas', '/states/arkansas/'], ['California', '/states/california/'], ['Colorado', '/states/colorado/'],
   ['Connecticut', '/states/connecticut/'], ['Delaware', '/states/delaware/'], ['Florida', '/states/florida/'],
@@ -62,12 +64,11 @@ const LINK_MAP = [
   ['West Virginia', '/states/west-virginia/'], ['Wisconsin', '/states/wisconsin/'], ['Wyoming', '/states/wyoming/'],
 
   // Resources
-  ['FMCSA requirements', '/resources/fmcsa-insurance-requirements/'],
-  ['FMCSA', '/resources/fmcsa-insurance-requirements/'],
-  ['MCS-90', '/resources/fmcsa-insurance-requirements/'],
+  ['certificate of insurance', '/resources/certificate-of-insurance-guide/'],
+  ['COI requirements', '/resources/certificate-of-insurance-guide/'],
 
   // Tools
-  ['requirements checker', '/tools/fmcsa-checker/'],
+  ['coverage needs assessment', '/tools/coverage-needs-assessment/'],
   ['state requirements', '/tools/state-requirements/'],
 ];
 
@@ -77,7 +78,7 @@ export default function SmartText({ text, className, style }) {
   if (!text) return null;
 
   // Get current page path to avoid self-linking
-  const currentPath = pathname?.replace(/\/trucking/, '') || '';
+  const currentPath = pathname?.replace(/\/entertainment/, '') || '';
   const parts = autoLink(text, currentPath);
 
   return (
@@ -112,7 +113,6 @@ function autoLink(text, currentPath = '') {
 
     for (const [term, href] of LINK_MAP) {
       if (linked.has(term)) continue;
-      // Skip if this link points to the current page
       if (currentPath && href === currentPath) continue;
       if (currentPath && currentPath.endsWith('/') && href === currentPath) continue;
       if (currentPath && href.replace(/\/$/, '') === currentPath.replace(/\/$/, '')) continue;
@@ -128,11 +128,9 @@ function autoLink(text, currentPath = '') {
     }
 
     if (earliestMatch) {
-      // Add text before the match
       if (earliestIndex > 0) {
         parts.push(remaining.substring(0, earliestIndex));
       }
-      // Add the link
       const matchedText = remaining.substring(earliestIndex, earliestIndex + earliestMatch.length);
       parts.push({ text: matchedText, href: earliestMatch.href });
       linked.add(matchedTerm);

@@ -1,579 +1,517 @@
 export const resources = [
   {
-    slug: 'trucking-insurance-cost',
-    title: 'How Much Does Trucking Insurance Cost?',
-    metaTitle: 'How Much Does Trucking Insurance Cost in 2026?',
-    metaDescription: 'Learn what trucking insurance costs for owner-operators and fleets. Breakdown of pricing factors, average premiums by coverage type, and proven ways to reduc...',
+    slug: 'entertainment-insurance-cost',
+    title: 'How Much Does Entertainment Insurance Cost?',
+    metaTitle: 'How Much Does Entertainment Insurance Cost in 2026?',
+    metaDescription: 'Learn what entertainment insurance costs for productions, events, and venues. Breakdown of pricing factors, average premiums by coverage type, and cost management strategies.',
     category: 'Guide',
-    heroHeading: 'How Much Does Trucking Insurance Cost?',
+    heroHeading: 'How Much Does Entertainment Insurance Cost?',
     heroSubheading:
-      'A detailed breakdown of commercial trucking insurance premiums, what drives them, and how to keep them under control.',
+      'A detailed breakdown of entertainment insurance premiums for productions, events, venues, and media companies.',
     overview:
-      'Trucking insurance is one of the largest operating expenses for any motor carrier, often second only to fuel and driver wages. Annual premiums for a single truck can range from $9,000 to over $20,000 depending on your authority status, operating radius, cargo type, and claims history. Understanding how insurers price your risk is the first step toward managing this cost effectively.',
+      'Entertainment insurance costs vary widely depending on the type of operation, scale of activity, and specific coverages required. A single-day event liability policy might cost a few hundred dollars, while a comprehensive production insurance package for a major film can exceed $500,000. Understanding how insurers price entertainment risks is essential for budgeting and cost management.',
     sections: [
       {
         heading: 'Average Cost by Operation Type',
         content:
-          'Insurance costs vary significantly depending on your operation. A leased owner-operator with physical damage and bobtail liability typically pays between $3,000 and $6,000 per year because the motor carrier\'s policy handles primary liability and cargo coverage. An owner-operator running under their own authority faces a much larger insurance obligation, with total annual premiums commonly falling between $9,000 and $16,000 for a clean operation hauling general freight.\n\nSmall fleets of two to fifteen trucks generally pay between $8,000 and $14,000 per truck per year, with total program costs ranging from $20,000 to over $200,000 depending on fleet size and risk profile. Mid-size and large fleets with strong safety records and favorable loss history may see per-truck costs drop below $7,000 as volume discounts and fleet-rated programs become available.\n\nNew authorities consistently face the highest premiums in the industry. Carriers in their first two years of operation should expect to pay 20 to 40 percent more than established operators with comparable equipment and operating profiles. Some new authority programs start at $14,000 to $22,000 per truck because the insurer has no loss history to evaluate and must price for the unknown.',
+          'Production insurance for film and television typically costs between 2 and 4 percent of the total production budget. A $1 million independent film might pay $20,000 to $40,000 for a full production package including cast insurance, liability, and equipment coverage. Major studio productions with budgets exceeding $50 million can spend $1 million or more on insurance.\n\nEvent liability for a single-day event with 500 attendees might cost $500 to $2,000 for basic general liability coverage. Multi-day festivals with 10,000 or more attendees and comprehensive coverage including cancellation and liquor liability can cost $25,000 to $100,000 or more. Venue operators typically spend $5,000 to $30,000 annually on a comprehensive insurance program depending on capacity, programming, and alcohol service.\n\nStreaming platforms and digital media companies face insurance costs ranging from $10,000 to $100,000 or more annually depending on the volume of content, subscriber count, and cyber risk profile.',
       },
       {
         heading: 'Cost Breakdown by Coverage Type',
         content:
-          'Primary auto liability is the single most expensive component, typically representing 40 to 55 percent of your total insurance spend. For a $1,000,000 policy on a single truck hauling general commodities, expect annual premiums between $5,000 and $9,000 depending on your experience, location, and driving record.\n\nPhysical damage coverage generally costs between 3 and 5 percent of your vehicle\'s stated value annually. A truck insured for $120,000 might carry a physical damage premium of $3,600 to $6,000 per year with a $2,500 deductible. Higher deductibles can reduce this cost meaningfully.\n\nMotor truck cargo insurance runs between $400 and $2,500 per year for standard commodities at $100,000 in coverage. Specialized or high-value freight can push cargo premiums significantly higher. General liability adds another $500 to $1,800 annually, and occupational accident insurance for owner-operators and independent contractors typically costs between $1,200 and $3,600 per year depending on benefit levels.',
+          'General liability for entertainment businesses typically costs between $1,500 and $10,000 annually for $1,000,000 per occurrence limits, depending on the type of operation and revenue. Event-specific liability policies for individual events cost less but cannot be annualized.\n\nProduction insurance packages range from $15,000 to over $500,000 depending on budget size and coverages included. Cast insurance alone can represent 30 to 50 percent of the total production insurance cost. Event cancellation premiums typically run 1 to 3 percent of the insured event budget.\n\nEquipment floater coverage costs between 1 and 3 percent of the total insured equipment value annually. Workers compensation rates vary by state and classification, with entertainment-specific codes carrying higher rates than standard office classifications. E&O coverage for content clearance typically costs $3,000 to $15,000 for a three-year policy on an independent production.',
       },
       {
         heading: 'Factors That Drive Your Premium',
         bullets: [
-          'Years of operating authority and verifiable experience under your own MC number',
-          'Driver MVR records, CSA scores, and FMCSA safety rating (Satisfactory, Conditional, or Unsatisfactory)',
-          'Claims history over the past three to five years, including frequency, severity, and types of losses',
-          'Cargo types hauled, with hazardous materials, oversized loads, and high-value goods commanding higher rates',
-          'Operating radius and geography, as long-haul interstate runs price differently than local or regional routes',
-          'Vehicle age, value, and type, including whether equipment is owned or leased',
-          'Annual mileage per unit and total fleet mileage exposure',
-          'Deductible selections across all coverage lines',
-          'Use of electronic logging devices, dash cameras, and telematics platforms',
+          'Type and scale of entertainment operation: film, event, venue, or digital media',
+          'Revenue and budget size, which directly correlate to coverage limits needed',
+          'Claims history over the past three to five years',
+          'Event attendance capacity and historical crowd sizes',
+          'Whether alcohol is served or sold at events or venues',
+          'Stunt work, pyrotechnics, or other high-risk activities in productions',
+          'Geographic location and state-specific regulatory requirements',
+          'Cast medical history and availability risk for production insurance',
+          'Equipment values and whether gear is owned or rented',
         ],
       },
       {
-        heading: 'How to Reduce Your Insurance Costs',
+        heading: 'How to Manage Insurance Costs',
         content:
-          'The most effective way to lower premiums is to maintain a clean loss record. Carriers with three or more years of favorable claims history routinely qualify for rates 15 to 30 percent below new authority pricing. Invest in driver safety programs, pre-trip inspection protocols, and ongoing MVR monitoring to keep your risk profile strong.\n\nRaising your deductibles is an immediate lever. Moving from a $1,000 to a $2,500 collision deductible can reduce physical damage premiums by 10 to 20 percent, though you need cash reserves to absorb the higher out-of-pocket exposure. Bundling all coverage lines with a single insurer or agency often unlocks multi-policy discounts and streamlines administration.\n\nTechnology investments pay for themselves through insurance savings. Carriers using forward-facing dash cameras see average premium reductions of 8 to 15 percent, and comprehensive telematics programs that monitor speed, braking, and hours of service compliance can earn additional discounts. Completing the FMCSA\'s safety audit and maintaining a Satisfactory rating also signals lower risk to underwriters.',
+          'The most effective way to manage entertainment insurance costs is to maintain a clean claims history and demonstrate strong risk management practices. Productions with comprehensive safety plans, certified stunt coordinators, and experienced crew consistently receive better rates.\n\nBundling multiple coverages with a single carrier or through a single entertainment insurance specialist can unlock package discounts. Starting the insurance process early gives your broker time to market your risk to multiple carriers and negotiate competitive terms.\n\nFor recurring events, annual programs that cover multiple events throughout the year are often more cost-effective than purchasing individual event policies. Venues can reduce premiums by investing in safety improvements, staff training, and security infrastructure.',
       },
       {
         heading: 'Getting Accurate Quotes',
         content:
-          'Insurance pricing in trucking is highly individualized, so published averages can only provide a general range. To get an accurate quote, you will need to provide your USDOT number, MC authority information, loss runs from the past three to five years, vehicle schedules with VINs and values, driver lists with dates of birth and CDL numbers, and a description of your commodities and operating lanes.\n\nWork with a broker or agency that specializes in trucking insurance rather than a generalist who writes commercial auto as a sideline. Trucking specialists have access to markets that do not accept submissions from general agents, and they understand how to present your risk in the most favorable light. The difference between a well-prepared submission and a poorly assembled one can easily be 20 percent or more in annual premium.',
+          'Entertainment insurance pricing is highly individualized, so published averages provide only general guidance. To get an accurate quote, you will need to provide detailed information about your operation including production budgets, event schedules, venue capacity, equipment values, staffing levels, and historical claims data.\n\nWork with a broker who specializes in entertainment insurance rather than a generalist. Entertainment specialists have relationships with markets that do not accept submissions from general agents, and they understand how to present entertainment risks in the most favorable light. The difference between a well-prepared and a poorly prepared submission can be 20 percent or more in annual premium.',
       },
     ],
     faqs: [
       {
-        q: 'How much does insurance cost for a new trucking authority?',
-        a: 'New authorities typically pay between $14,000 and $22,000 per truck per year for a full coverage program including auto liability, physical damage, cargo, and general liability. Premiums are higher for the first two to three years because insurers have no loss history to evaluate. Rates generally decrease significantly after you build a clean track record.',
+        q: 'How much does event cancellation insurance cost?',
+        a: 'Event cancellation insurance typically costs 1 to 3 percent of the total event budget or insured amount. A $500,000 event might pay $5,000 to $15,000 for cancellation coverage depending on the location, time of year, weather exposure, and whether non-appearance coverage is included.',
       },
       {
-        q: 'Why is trucking insurance so expensive?',
-        a: 'Trucking insurance carries high premiums because the loss potential is substantial. A single serious accident involving a commercial vehicle can generate claims of $1,000,000 or more in bodily injury, and jury verdicts in trucking cases have been escalating across the country. Insurers price this severity risk into every policy, along with the high value of the equipment and cargo being insured.',
+        q: 'Is production insurance tax deductible?',
+        a: 'Yes. Production insurance premiums are a legitimate business expense and are typically deductible for tax purposes. Consult with your accountant for specific guidance on how to categorize insurance costs in your production budget.',
       },
       {
-        q: 'Can I get trucking insurance with no money down?',
-        a: 'Some insurers and premium finance companies offer low down payment options, but completely zero-down programs are rare for new authorities. Most carriers require 20 to 33 percent of the annual premium at inception, with the balance financed over nine or ten monthly installments. Premium financing adds interest charges, so the total cost of insurance is slightly higher than paying in full.',
+        q: 'Can small productions afford proper insurance?',
+        a: 'Yes. Short-term production packages for micro-budget films and small events are available at accessible price points. The cost of not having insurance, including inability to rent equipment, secure locations, or satisfy distribution requirements, typically far exceeds the premium.',
       },
       {
-        q: 'Does my personal driving record affect my trucking insurance rate?',
-        a: 'Yes. Underwriters pull the MVR (motor vehicle report) for every driver on your policy, including you as the owner-operator. Moving violations, accidents, and DUI or DWI convictions on your personal record will increase your commercial insurance premiums and may limit the markets willing to offer you coverage.',
+        q: 'Why is entertainment insurance more expensive than standard business insurance?',
+        a: 'Entertainment operations carry higher risk due to large crowds, physical performances, expensive portable equipment, high-profile talent, and the concentrated nature of event-based revenue. Insurers price these elevated exposures accordingly.',
       },
     ],
-    relatedResources: ['new-authority-insurance', 'lower-trucking-insurance-premiums'],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    relatedResources: ['production-insurance-guide', 'event-cancellation-guide'],
+    relatedCoverages: ['general-liability', 'production-insurance', 'event-cancellation'],
   },
 
   {
-    slug: 'fmcsa-insurance-requirements',
-    title: 'FMCSA Insurance Requirements for Motor Carriers',
-    metaTitle: 'FMCSA Insurance Requirements for Motor Carriers',
-    metaDescription: 'Complete guide to FMCSA insurance requirements. Minimum liability limits by cargo type, MCS-90 and BMC-91 filings, and how to stay compliant with federal reg...',
+    slug: 'production-insurance-guide',
+    title: 'The Complete Guide to Production Insurance',
+    metaTitle: 'Production Insurance Guide: What Every Producer Needs',
+    metaDescription: 'Complete guide to production insurance covering cast insurance, completion bonds, negative film coverage, E&O requirements, and how to structure your production package.',
     category: 'Guide',
-    heroHeading: 'FMCSA Insurance Requirements for Motor Carriers',
+    heroHeading: 'The Complete Guide to Production Insurance',
     heroSubheading:
-      'Everything motor carriers need to know about federal insurance requirements, minimum limits, and mandatory filings.',
+      'Everything producers need to know about structuring production insurance from development through delivery.',
     overview:
-      'The Federal Motor Carrier Safety Administration requires all for-hire and private motor carriers operating in interstate commerce to maintain minimum levels of financial responsibility. Failing to meet these requirements results in revocation of your operating authority and the inability to legally haul freight. This guide covers every aspect of FMCSA insurance compliance so you can keep your authority active and your operations running.',
+      'Production insurance is a non-negotiable requirement for any film, television, or commercial production. This guide covers every component of a production insurance package, explains when and how to secure coverage, and provides practical guidance for managing production risks throughout the production lifecycle.',
     sections: [
       {
-        heading: 'Minimum Liability Limits by Cargo Type',
+        heading: 'Components of a Production Package',
         content:
-          'FMCSA financial responsibility requirements are set by 49 CFR Part 387 and vary based on the type of commodity transported and the weight of the vehicle. For-hire carriers transporting non-hazardous general freight in vehicles over 10,001 pounds must maintain a minimum of $750,000 in public liability coverage.\n\nCarriers transporting hazardous materials face significantly higher minimums. If you haul oil or hazardous waste, the minimum increases to $1,000,000. For carriers transporting certain highly dangerous hazardous materials such as Division 1.1, 1.2, or 1.3 explosives, Division 2.3 poison gas, or highway route-controlled quantities of radioactive materials, the required minimum jumps to $5,000,000.\n\nPrivate carriers transporting their own non-hazardous goods in vehicles over 10,001 pounds must carry at least $750,000 as well. For-hire carriers operating passenger vehicles have separate requirements: $5,000,000 for vehicles designed to seat 16 or more passengers, and $1,500,000 for vehicles seating 15 or fewer passengers.\n\nIt is critical to understand that these are federal minimums. Many shippers, brokers, and freight platforms contractually require higher limits, and industry standard practice for general freight is $1,000,000. Operating at the bare minimum may satisfy the FMCSA but can limit your access to profitable loads.',
+          'A standard production insurance package includes multiple coverage components, each addressing a specific production risk. Cast insurance covers financial losses when key cast members cannot perform. Negative film and faulty stock coverage protects recorded material. Props, sets, and wardrobe coverage insures production assets.\n\nExtra expense coverage pays for additional costs caused by covered events such as weather delays or cast illness. Third-party property damage covers filming locations and borrowed facilities. Miscellaneous equipment coverage extends to rented production gear. General liability provides the foundation for all third-party claims.',
       },
       {
-        heading: 'MCS-90 Endorsement',
+        heading: 'Completion Bonds and Insurance',
         content:
-          'The MCS-90 endorsement is a mandatory attachment to the liability policy of every for-hire interstate motor carrier. It functions as a guarantee to the public that the insurer will pay claims arising from the carrier\'s negligence, even if the underlying policy would otherwise exclude or deny the claim.\n\nThe MCS-90 is not additional coverage in the traditional sense. It acts as a safety net that ensures injured parties are compensated regardless of policy technicalities. If the insurer pays a claim under the MCS-90 that would not have been covered under the base policy, the insurer has the right to seek reimbursement from the motor carrier.\n\nYour insurer files the MCS-90 electronically with the FMCSA as part of your proof of financial responsibility. If your policy is cancelled or non-renewed, the insurer must provide 30 days advance notice to the FMCSA through a cancellation filing. During those 30 days, your authority remains active, but you must secure replacement coverage before the cancellation takes effect or your authority will be revoked.',
+          'Completion bonds guarantee to financiers that a film will be delivered on time and on budget. The bond company evaluates the production plan, budget, schedule, and key personnel before issuing the guarantee. Production insurance is a prerequisite for obtaining a completion bond.\n\nThe bond company reviews the insurance program to ensure adequate coverage is in place for all foreseeable production risks. Cast insurance limits, equipment coverage, and extra expense provisions are all evaluated. Deficiencies in the insurance program can delay or prevent bond issuance, which in turn can delay financing.',
       },
       {
-        heading: 'BMC-91 and BMC-91X Filings',
+        heading: 'E&O Requirements for Distribution',
         content:
-          'The BMC-91 is the form used by your insurance company to file proof of your liability coverage with the FMCSA. It certifies that you carry at least the minimum required amount of public liability insurance. The BMC-91X serves the same function but is used when coverage is provided through a surplus lines insurer rather than an admitted carrier.\n\nThese filings are electronic and processed through the FMCSA\'s Licensing and Insurance system. Once your insurer submits the BMC-91 or BMC-91X, your authority status in the FMCSA database updates to reflect active, compliant coverage. Brokers and shippers routinely check this status before tendering loads, so timely filing is essential.\n\nSeparately, if you are a freight broker or freight forwarder rather than a motor carrier, you are required to maintain a BMC-84 surety bond or BMC-85 trust fund in the amount of $75,000. This is distinct from the motor carrier liability filing and ensures that brokers can meet their financial obligations to carriers and shippers.',
+          'Errors and omissions insurance is required by virtually every distributor and streaming platform before they will accept delivery of completed content. Standard distribution requirements specify minimum E&O limits of $1,000,000 to $3,000,000 with a policy period of at least three years from first distribution.\n\nThe E&O process involves a thorough legal clearance of the content by an entertainment attorney, reviewing scripts, music licenses, image permissions, talent releases, and any claims of factual accuracy. The clearance report is submitted to the E&O insurer as part of the underwriting process.',
       },
       {
-        heading: 'Cargo Insurance Requirements',
+        heading: 'Timeline for Securing Coverage',
         content:
-          'While the FMCSA does not set a specific minimum for motor truck cargo insurance for property carriers, cargo coverage is effectively required by the market. Nearly every broker, shipper, and load board requires proof of cargo insurance before tendering freight, and the industry standard minimum is $100,000 per occurrence.\n\nFor-hire household goods carriers are the exception: they are required by FMCSA regulation to offer cargo liability coverage to shippers and must maintain sufficient insurance to meet those obligations. Beyond regulatory requirements, your motor carrier operating agreement and any broker-carrier contracts will specify cargo insurance minimums that you must maintain as a condition of doing business.',
-      },
-      {
-        heading: 'Maintaining Compliance',
-        bullets: [
-          'Ensure your insurer files the BMC-91 or BMC-91X immediately upon binding your policy to avoid any gap in your FMCSA filings',
-          'Monitor your authority status on the FMCSA SAFER System website to confirm your insurance filings are active and current',
-          'Never allow your policy to lapse, as the FMCSA will begin revocation proceedings and your authority status will change to Not Authorized',
-          'Provide 30-day advance notice to your insurer before making changes that could affect coverage, such as adding new vehicle types or commodities',
-          'Review your coverage limits annually and whenever you add new freight types to ensure you meet the correct minimum for your commodity mix',
-          'Keep copies of your insurance certificate, MCS-90 endorsement, and BMC-91 filing confirmation with your operating documents at all times',
-        ],
+          'Production insurance discussions should begin during development. Cast insurance applications require medical examinations that take time to schedule and process. Equipment rental agreements and location contracts require certificates of insurance before they can be executed.\n\nThe ideal timeline is to engage an entertainment insurance broker at least 60 to 90 days before principal photography begins. This allows time for cast medical exams, underwriting review, policy negotiation, and certificate issuance to all parties requiring proof of insurance.',
       },
     ],
     faqs: [
       {
-        q: 'What happens if my FMCSA insurance filing lapses?',
-        a: 'When your insurer files a cancellation notice with the FMCSA, you have 30 days to secure replacement coverage and file a new BMC-91. If you fail to do so, your operating authority is revoked and your status changes to Not Authorized. You cannot legally operate as a for-hire carrier without active filings, and brokers will immediately stop tendering loads to you.',
+        q: 'What is the minimum production insurance a film needs?',
+        a: 'At minimum, a production needs general liability (required by locations and equipment rental houses), workers compensation (required by state law), and equipment coverage (required by rental agreements). For distribution, E&O insurance will also be required.',
       },
       {
-        q: 'Do I need the MCS-90 if I am a private carrier?',
-        a: 'The MCS-90 endorsement is required for for-hire motor carriers operating in interstate commerce. Private carriers hauling their own goods are generally not required to carry the MCS-90, though they must still maintain the minimum financial responsibility required by 49 CFR 387 and file proof of coverage with the FMCSA.',
+        q: 'Can production insurance be purchased for short films?',
+        a: 'Yes. Short-term production policies are available for short films, student films, and micro-budget projects. These scaled-down programs cover the same risks as major production packages but at limits and premiums appropriate for smaller budgets.',
       },
       {
-        q: 'Is cargo insurance required by the FMCSA?',
-        a: 'The FMCSA does not set a specific cargo insurance minimum for most property carriers. However, cargo insurance is effectively required by the marketplace. Brokers, shippers, and load boards universally require proof of cargo coverage, and the standard minimum is $100,000. Household goods carriers are an exception and do have specific FMCSA cargo liability requirements.',
+        q: 'What does cast insurance actually cover?',
+        a: 'Cast insurance reimburses the production for additional costs incurred when a covered cast member cannot perform due to covered illness, injury, or death. This includes daily production costs during shutdown, costs to extend the production schedule, and in severe cases, costs to recast or abandon the project.',
+      },
+      {
+        q: 'When should E&O insurance be purchased?',
+        a: 'E&O discussions should begin during pre-production, but the formal clearance process typically happens during post-production when the final cut is available. The policy should be bound before delivery to any distributor, which is the universal requirement.',
       },
     ],
-    relatedResources: ['new-authority-insurance', 'trucking-insurance-cost'],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'general-liability'],
+    relatedResources: ['entertainment-insurance-cost', 'film-tv-insurance-guide'],
+    relatedCoverages: ['production-insurance', 'errors-omissions', 'equipment-floater'],
   },
 
   {
-    slug: 'new-authority-insurance',
-    title: 'Insurance for New Trucking Authority',
-    metaTitle: 'Insurance for New Trucking Authority | Guide',
-    metaDescription:
-      'Guide to getting trucking insurance with a new MC authority. What coverage you need, expected costs, and how to secure the best rates with no operating history.',
+    slug: 'event-cancellation-guide',
+    title: 'Event Cancellation Insurance: What You Need to Know',
+    metaTitle: 'Event Cancellation Insurance Guide for Entertainment',
+    metaDescription: 'Guide to event cancellation insurance covering weather clauses, force majeure, communicable disease exclusions, and how to structure coverage for concerts and festivals.',
     category: 'Guide',
-    heroHeading: 'Insurance for New Trucking Authority',
+    heroHeading: 'Event Cancellation Insurance Guide',
     heroSubheading:
-      'What every new motor carrier needs to know about securing coverage, meeting FMCSA filing requirements, and managing first-year insurance costs.',
+      'Understanding weather clauses, force majeure, non-appearance coverage, and communicable disease provisions.',
     overview:
-      'Getting insurance as a new trucking authority is one of the most challenging and expensive steps in launching a motor carrier. With no operating history for underwriters to evaluate, you represent an unknown risk, and insurers price that uncertainty into your premiums. This guide walks you through the process of obtaining coverage, the costs to expect, and strategies to position your operation for better rates as you build a track record.',
+      'Event cancellation insurance is the financial safety net for live entertainment. When millions of dollars in non-refundable commitments are at stake, the ability to recover those costs in the event of a cancellation can mean the difference between a manageable setback and a business-ending loss. This guide explains how event cancellation coverage works and how to structure it effectively.',
     sections: [
       {
-        heading: 'What Coverage You Need Before You Haul',
+        heading: 'How Event Cancellation Works',
         content:
-          'Before your operating authority becomes active, you must have several insurance policies in place and filed with the FMCSA. At a minimum, you need primary auto liability with a BMC-91 filing and MCS-90 endorsement. The minimum limit is $750,000 for general freight carriers, though most brokers and load boards require $1,000,000.\n\nBeyond the federal requirements, you will need motor truck cargo insurance to get access to freight. The standard minimum is $100,000, though many brokers require higher limits for specific commodities. Physical damage coverage is essential if you have a loan or lease on your equipment, and most operators carry it regardless because replacing a total loss out of pocket can be financially devastating.\n\nGeneral liability insurance at $1,000,000 per occurrence is standard for any business and is frequently required by shipper contracts and facility access agreements. Finally, if you are an owner-operator with no employees, occupational accident insurance provides income replacement and medical coverage that you would otherwise lack as an independent contractor not covered by workers compensation.',
+          'Event cancellation insurance reimburses the insured for irrecoverable expenses and, in some policies, lost anticipated revenue when a covered event cannot proceed as planned. The policy triggers when the event is cancelled, postponed, abandoned, curtailed, or relocated due to a covered peril.\n\nCovered perils are defined in the policy and vary by insurer and policy form. Common covered perils include adverse weather, non-appearance of essential participants, damage to or denial of access to the venue, civil authority orders, and terrorism. Exclusions are equally important to understand, as they define the events that will not trigger coverage.',
       },
       {
-        heading: 'Why New Authority Insurance Costs More',
+        heading: 'Weather Clauses and Triggers',
         content:
-          'Insurers base their pricing on predictable risk, and a new carrier with no loss history is the opposite of predictable. The underwriter has no way to verify how you maintain equipment, how you select and manage drivers, or how your operation actually performs on the road. This uncertainty is reflected in premiums that run 20 to 40 percent higher than what an established carrier with the same equipment and lanes would pay.\n\nThe new authority market has also tightened considerably in recent years. Several insurers have exited the segment entirely after experiencing poor loss ratios with startup carriers. The carriers that remain in the market are selective and disciplined about pricing, which limits competition and keeps rates elevated. As a result, new authorities with fewer than two years of experience often have access to only three to five insurance markets, compared to the dozens available to experienced operators.',
+          'Weather is the most commonly claimed peril for outdoor events. Policies can be structured with objective weather triggers based on measurable conditions: wind speed exceeding a specific threshold, rainfall above a defined amount over a set period, or lightning strikes within a specified radius of the event site.\n\nObjective triggers are preferred because they eliminate subjective judgment about whether weather conditions warranted cancellation. The triggers should be calibrated to conditions that would genuinely prevent the event from proceeding safely, not conditions that merely reduce attendance or comfort.',
       },
       {
-        heading: 'What Underwriters Look For',
-        bullets: [
-          'CDL experience of the owner and all listed drivers, ideally three or more years of verifiable OTR or regional experience',
-          'Clean MVR reports with no DUI, reckless driving, or at-fault accident history in the past three to five years',
-          'A clear CSA profile for any drivers who have operated under a previous carrier DOT number',
-          'Vehicle age and condition, with most new authority markets preferring equipment no older than 10 to 15 years',
-          'A defined operating plan including lanes, commodity types, and expected annual mileage',
-          'Business formation documents and proof that the USDOT and MC numbers are active',
-          'Completion of the FMCSA new entrant safety audit, if applicable',
-          'Prior insurance history, even if from a personal auto or non-trucking policy',
-        ],
+        heading: 'Force Majeure Provisions',
+        content:
+          'Force majeure coverage addresses events beyond human control that prevent the event from proceeding. This can include terrorism, civil unrest, natural disasters, government orders to evacuate or shelter in place, and catastrophic infrastructure failures. The scope of force majeure coverage varies significantly between policies and insurers.\n\nFollowing recent global events, force majeure provisions have come under increased scrutiny. Communicable disease exclusions have become standard in many policies, and coverage for pandemic-related cancellations is now offered as a separate and often expensive endorsement where available at all.',
       },
       {
-        heading: 'How to Get the Best Rate as a New Authority',
+        heading: 'Structuring Coverage Effectively',
         content:
-          'Start by working with a broker or agency that specializes in new authority placements. These specialists know which markets are actively writing new ventures and can match your profile to the best available options. A generalist agent who writes one or two trucking policies a year simply does not have the market access or underwriting relationships to place new authorities competitively.\n\nPresent a thorough submission package. Include your business plan, driver qualifications, equipment details, and a clear description of your intended operations. Underwriters respond favorably to applicants who demonstrate professionalism and preparedness. If you have prior CDL experience as a company driver, provide verification letters from previous employers showing your years of service and safety record.\n\nConsider starting with higher deductibles to reduce your initial premium. A $2,500 or $5,000 collision deductible will lower your physical damage cost, and you can adjust to a lower deductible once your rates come down after establishing a clean record. Invest in dash cameras and an ELD system before you apply for coverage, as many underwriters view these technologies favorably and some offer explicit discounts for their use.',
-      },
-      {
-        heading: 'Timeline and Process',
-        content:
-          'Insurance for a new authority can typically be bound within one to two weeks of submitting a complete application, though the timeline depends on how quickly you provide all required documentation. The process generally involves completing an application with your agency, submitting driver MVRs and vehicle information, receiving quotes from available markets, binding coverage and making your down payment, and having your insurer file the BMC-91 and MCS-90 with the FMCSA.\n\nOnce the FMCSA processes your insurance filing, your authority status will change from Pending to Authorized, and you can legally begin hauling freight. This filing process typically takes one to three business days after your insurer submits the paperwork. Do not dispatch any loads until your authority status is confirmed as active in the FMCSA SAFER System.',
+          'Effective event cancellation coverage starts with an accurate assessment of the total financial exposure. This includes all non-refundable deposits, committed production costs, marketing expenses, venue fees, talent fees, and any other costs that cannot be recovered if the event is cancelled.\n\nThe policy limit should equal or exceed this total exposure. Coverage should be bound as early as possible, ideally when the first financial commitment is made. For weather-related coverage, the policy must be in place before any named storms are identified. Waiting to purchase coverage eliminates options and increases costs.',
       },
     ],
     faqs: [
       {
-        q: 'How long do I have to pay higher new authority rates?',
-        a: 'Most insurers consider you a new authority for the first two to three years. After that period, assuming you have maintained a clean loss record, your rates will begin to align with standard market pricing. The most significant premium decrease typically occurs at renewal after your second year of continuous coverage with no claims.',
+        q: 'Does event cancellation cover voluntary cancellations?',
+        a: 'No. Event cancellation insurance only covers cancellations caused by perils specifically listed in the policy. Voluntary decisions to cancel for business reasons, poor ticket sales, or other non-covered causes are not eligible for reimbursement.',
       },
       {
-        q: 'Can I get new authority insurance with bad credit?',
-        a: 'Credit history is one of many factors underwriters consider, but it is not typically a disqualifying factor on its own for trucking insurance. A lower credit score may limit your available markets and could result in higher premiums. Some insurers also require a larger down payment from applicants with poor credit history.',
+        q: 'Can I add communicable disease coverage?',
+        a: 'Some insurers offer communicable disease coverage as a separate endorsement, though availability is limited and premiums are significantly higher than standard coverage. Early engagement with a specialist broker is essential if this coverage is needed.',
       },
       {
-        q: 'Do I need insurance before I get my MC number?',
-        a: 'You apply for your MC number through the FMCSA before you have insurance, but your authority will not become active until your insurer files the required BMC-91 proof of coverage. Most carriers begin the insurance process simultaneously with their authority application so that coverage is ready to bind as soon as the MC number is issued.',
+        q: 'How quickly are event cancellation claims paid?',
+        a: 'Claim payment timelines depend on the complexity of the claim and the documentation provided. Simple claims with clear triggers and well-documented expenses can be resolved in weeks. Complex claims involving multiple days, partial cancellations, or disputed triggers may take several months.',
       },
       {
-        q: 'What is the minimum down payment for new authority insurance?',
-        a: 'Down payments for new authority policies typically range from 25 to 40 percent of the annual premium. On a $15,000 annual policy, that means $3,750 to $6,000 at inception. Some programs offer lower down payments through premium financing, though interest charges increase the total cost. Be cautious of any program advertising zero down, as these often carry unfavorable terms.',
+        q: 'Is event postponement covered the same as cancellation?',
+        a: 'Postponement coverage reimburses additional costs incurred to reschedule the event, which may be less than the costs of outright cancellation. The specific terms for postponement, including time limits for rescheduling and covered incremental costs, are defined in the policy.',
       },
     ],
-    relatedResources: ['trucking-insurance-cost', 'fmcsa-insurance-requirements'],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'physical-damage'],
+    relatedResources: ['entertainment-insurance-cost', 'venue-liability-guide'],
+    relatedCoverages: ['event-cancellation', 'general-liability', 'umbrella-excess'],
   },
 
   {
-    slug: 'lower-trucking-insurance-premiums',
-    title: 'How to Lower Your Trucking Insurance Premiums',
-    metaTitle: 'How to Lower Trucking Insurance Premiums',
-    metaDescription: 'Proven strategies to reduce your trucking insurance costs. Safety programs, technology discounts, deductible strategies, and risk management tips for motor c...',
+    slug: 'film-tv-insurance-guide',
+    title: 'Film & TV Insurance: A Producer\'s Guide',
+    metaTitle: 'Film & TV Insurance Guide for Producers',
+    metaDescription: 'Producer\'s guide to film and television insurance covering cast insurance, E&O, negative film protection, props and sets coverage, and distribution requirements.',
     category: 'Guide',
-    heroHeading: 'How to Lower Your Trucking Insurance Premiums',
+    heroHeading: 'Film & TV Insurance: A Producer\'s Guide',
     heroSubheading:
-      'Actionable strategies that help owner-operators and fleet managers reduce insurance costs without sacrificing the coverage they need.',
+      'Cast insurance, E&O requirements, negative film coverage, and everything producers need to know about insuring a production.',
     overview:
-      'Insurance premiums are a controllable expense if you understand what drives them and take deliberate steps to improve your risk profile. The strategies in this guide are used by the most well-run fleets in the industry and are equally applicable to owner-operators managing a single truck. Most carriers who implement even a few of these practices see meaningful premium reductions within one to two renewal cycles.',
+      'Producing film and television content requires navigating a complex web of insurance requirements imposed by studios, distributors, completion bond companies, equipment rental houses, filming locations, and talent unions. This guide walks producers through the key coverage components, explains what each party requires, and provides practical guidance for managing insurance throughout the production lifecycle.',
     sections: [
       {
-        heading: 'Build and Maintain a Clean Loss Record',
+        heading: 'Cast Insurance Essentials',
         content:
-          'Nothing influences your insurance premium more than your claims history. Underwriters examine the past three to five years of losses when pricing your renewal, and they look at both frequency (how many claims you have) and severity (how much those claims cost). A single large claim can raise your rates, but frequent small claims are often viewed as a greater concern because they suggest systemic operational problems.\n\nDocument every safety measure you take. When you implement a new training program, install safety equipment, or discipline a driver for a violation, create a written record. When your underwriter reviews your account at renewal, a documented safety culture can make the difference between a rate increase and a rate hold. If you do have a claim, cooperate fully and promptly with the investigation to minimize the ultimate cost. The faster a claim closes, the less impact it has on your experience rating.',
+          'Cast insurance is typically the most expensive and most critical component of a production insurance package. It reimburses the production for financial losses when a covered cast member cannot perform due to accident, illness, or death. On major productions, daily shutdown costs can exceed $200,000, making adequate cast insurance essential for financial survival.\n\nUnderwriters require medical examinations for principal cast and review their medical histories, lifestyle activities, and stunt involvement. Pre-existing conditions are commonly excluded unless specifically negotiated into coverage. The application process takes time, so cast insurance discussions should begin as soon as principal casting decisions are made.',
       },
       {
-        heading: 'Invest in Safety Technology',
+        heading: 'Negative Film and Digital Media Coverage',
         content:
-          'Forward-facing and dual-facing dash cameras are the single most impactful technology investment for insurance savings. Cameras serve two purposes: they deter unsafe driving behavior, and they provide evidence that can exonerate your driver in not-at-fault accidents. Many insurers offer premium credits of 8 to 15 percent for carriers with active camera programs, and the cameras pay for themselves by reducing fraudulent claims and disputed-fault accidents.\n\nTelematics and fleet management platforms that monitor speed, hard braking, following distance, and hours of service compliance give you real-time visibility into driver behavior. Use this data to coach drivers before bad habits lead to accidents. Some insurers partner with specific telematics providers and offer direct premium discounts when you share your safety data with them.\n\nElectronic logging devices are now mandated for most carriers, but going beyond basic compliance with a fully integrated ELD and fleet management system demonstrates operational maturity to underwriters. Collision mitigation systems, lane departure warnings, and automatic emergency braking are increasingly recognized by insurers as meaningful risk reducers.',
+          'Despite the name, negative film coverage now extends to all recorded media including digital files, hard drives, and cloud-stored footage. It covers the loss of recorded material due to equipment malfunction, accidental damage, processing errors, or theft. The policy reimburses the cost of reshooting lost footage.\n\nIn the digital age, data management protocols are as important as physical film handling. Productions should implement redundant backup procedures, secure data storage, and clear chain-of-custody protocols for all recorded media. Insurers evaluate these procedures during underwriting.',
       },
       {
-        heading: 'Driver Management Strategies',
-        bullets: [
-          'Implement a rigorous driver hiring process that includes MVR review, PSP report verification, previous employer checks, and road testing',
-          'Conduct annual MVR pulls on every driver and take corrective action immediately when violations appear',
-          'Establish a written driver safety program with documented training on defensive driving, cargo securement, and hours of service compliance',
-          'Use a progressive discipline policy for safety violations that creates a clear paper trail showing how you manage risk',
-          'Require new drivers to complete a ride-along orientation period before operating independently',
-          'Monitor CSA BASIC scores quarterly and address any deterioration before it triggers underwriter concern',
-          'Offer safety bonuses or incentive programs that reward clean driving records and accident-free miles',
-        ],
+        heading: 'Props, Sets, and Wardrobe',
+        content:
+          'Productions invest heavily in physical assets that may be irreplaceable: custom-built sets, period costumes, practical props, and specialty vehicles. Props, sets, and wardrobe coverage insures these assets against physical damage, theft, and loss during production.\n\nThe challenge is accurate valuation. A custom-built set that cost $500,000 to construct may have no resale value but would cost the full amount to rebuild. Coverage should be written at replacement cost rather than actual cash value to ensure the production can rebuild or replace damaged assets.',
       },
       {
-        heading: 'Optimize Your Coverage Structure',
+        heading: 'Distribution Insurance Requirements',
         content:
-          'Review your deductibles annually and consider whether higher deductibles make financial sense for your operation. Raising your collision deductible from $1,000 to $2,500 or $5,000 can reduce your physical damage premium by 10 to 25 percent. However, you need sufficient cash reserves to absorb the higher out-of-pocket cost when a claim occurs, so this strategy works best for established carriers with healthy balance sheets.\n\nEnsure your vehicle values are accurate. Over-insuring a truck inflates your physical damage premium, while under-insuring creates a coverage gap when you need to replace the vehicle. Update your vehicle schedule at every renewal with current market values rather than carrying stale numbers from when you originally insured the equipment.\n\nBundle your coverage lines with one insurer or agency wherever possible. Multi-policy programs often carry account pricing credits, and a single insurer with a comprehensive view of your operation can underwrite more favorably than multiple carriers each seeing only a fragment of your risk.',
-      },
-      {
-        heading: 'Work with the Right Insurance Partner',
-        content:
-          'Your choice of insurance broker or agency has a direct impact on your premium. A trucking insurance specialist with strong market relationships can present your risk more effectively to underwriters, negotiate pricing on your behalf, and identify coverage structures that a generalist agent would not know to offer.\n\nAsk your broker what loss control resources they provide. The best trucking insurance agencies offer fleet safety assessments, driver training materials, compliance consulting, and claims advocacy services that help you maintain the risk profile that earns the best rates. If your current broker simply processes paperwork and sends you a renewal bill, you are leaving money on the table.\n\nStart the renewal process 90 to 120 days before your policy expiration. This gives your broker time to market your account broadly, negotiate with multiple underwriters, and secure the most competitive terms. Last-minute renewals limit your options and often result in higher premiums because there is no time for competitive underwriting.',
+          'Distributors and streaming platforms require specific insurance coverages before accepting delivery of completed content. The universal requirement is errors and omissions coverage at minimum limits of $1,000,000 per claim and in the aggregate, with a policy period of at least three years from the first distribution date.\n\nSome distributors also require proof of adequate general liability, clearance of all music and third-party content, and chain-of-title documentation. Producers should obtain distribution insurance requirements early in the process to avoid delays at delivery.',
       },
     ],
     faqs: [
       {
-        q: 'How much can dash cameras reduce my insurance premium?',
-        a: 'Most insurers offer premium credits of 8 to 15 percent for carriers with active forward-facing or dual-facing camera systems. The actual savings depend on your insurer, the camera system you use, and whether you actively review and use the footage for driver coaching. Beyond the direct premium credit, cameras also reduce claim costs by providing evidence in disputed-fault accidents.',
+        q: 'What is the biggest insurance risk on a film production?',
+        a: 'Cast availability is typically the biggest risk. The inability of a key cast member to work can shut down production entirely at costs of $100,000 or more per day on major projects. Cast insurance with adequate limits and carefully negotiated terms is the most critical coverage component.',
       },
       {
-        q: 'Does my FMCSA safety rating affect my insurance rates?',
-        a: 'Yes. A Satisfactory FMCSA safety rating signals to underwriters that your operation meets federal compliance standards. A Conditional or Unsatisfactory rating will significantly increase your premiums and may cause some insurers to decline coverage entirely. If you do not yet have a rating, completing the new entrant safety audit promptly is viewed favorably by underwriters.',
+        q: 'Do SAG-AFTRA productions have specific insurance requirements?',
+        a: 'Yes. SAG-AFTRA requires productions to maintain workers compensation, general liability, and other coverages as conditions of their agreements. Specific requirements depend on the type of production and the SAG-AFTRA agreement tier applicable to the project.',
       },
       {
-        q: 'Will raising my deductible actually save me money?',
-        a: 'In most cases, yes. Increasing your collision deductible from $1,000 to $2,500 typically reduces your physical damage premium by 10 to 15 percent, and moving to $5,000 can save 15 to 25 percent. The key is having the financial reserves to absorb the higher deductible when a claim occurs. If a $5,000 out-of-pocket expense would create a cash flow crisis, a lower deductible provides more stability.',
+        q: 'How long does it take to get production insurance in place?',
+        a: 'Allow at least 30 to 60 days for a standard production insurance placement, and 60 to 90 days if cast medical examinations are required. Rush placements are possible but limit market options and may result in higher premiums.',
+      },
+      {
+        q: 'Can production insurance cover multiple projects?',
+        a: 'Yes. Annual production insurance programs are available for companies that produce multiple projects throughout the year. These programs provide continuous coverage and can be more cost-effective than purchasing separate policies for each production.',
       },
     ],
-    relatedResources: ['trucking-insurance-cost', 'trucking-insurance-claims-guide'],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'occupational-accident'],
+    relatedResources: ['production-insurance-guide', 'entertainment-insurance-cost'],
+    relatedCoverages: ['production-insurance', 'errors-omissions', 'workers-compensation'],
   },
 
   {
-    slug: 'commercial-auto-vs-trucking-insurance',
-    title: 'Commercial Auto Insurance vs Trucking Insurance',
-    metaTitle: 'Commercial Auto vs Trucking Insurance Explained',
-    metaDescription: 'Understand the critical differences between commercial auto and trucking insurance. Learn which coverage your operation needs and avoid costly gaps in protec...',
-    category: 'Comparison',
-    heroHeading: 'Commercial Auto Insurance vs Trucking Insurance',
-    heroSubheading:
-      'Two distinct coverage types that serve different operations, and choosing the wrong one can leave you dangerously exposed.',
-    overview:
-      'Commercial auto insurance and trucking insurance are often confused, but they are designed for fundamentally different operations. Commercial auto policies cover businesses that use vehicles as part of their work, such as contractors, delivery services, and sales fleets. Trucking insurance is a specialized program built for motor carriers operating under USDOT authority who haul freight for hire. Understanding which one fits your operation is essential to avoiding coverage gaps that can be financially devastating.',
-    sections: [
-      {
-        heading: 'What Commercial Auto Insurance Covers',
-        content:
-          'Commercial auto insurance is designed for businesses that own or operate vehicles in the course of their work but are not in the business of transporting goods for hire. This includes service companies using work trucks, sales organizations with company cars, delivery businesses using vans and straight trucks, and contractors hauling their own tools and materials to job sites.\n\nA standard commercial auto policy provides liability coverage for bodily injury and property damage caused by your business vehicles, plus optional physical damage coverage for your own vehicles. Policies are typically written on standard ISO forms and are widely available from most business insurance carriers. Premiums are generally lower than trucking insurance because the risk profile is less severe: commercial vehicles tend to be smaller, operate in more limited geographies, and are driven by employees rather than long-haul operators.',
-      },
-      {
-        heading: 'What Trucking Insurance Covers',
-        content:
-          'Trucking insurance is a specialized program designed for motor carriers operating under FMCSA authority. It addresses the unique regulatory requirements and risk exposures of for-hire transportation including the MCS-90 endorsement, BMC-91 filings, and compliance with 49 CFR Part 387 minimum financial responsibility standards.\n\nA trucking insurance program typically includes primary auto liability with the MCS-90 endorsement, physical damage, motor truck cargo liability, general liability, and may extend to non-trucking liability, trailer interchange coverage, and occupational accident or workers compensation. These coverages are coordinated to address the full spectrum of risk that a motor carrier faces, from at-fault accidents and cargo damage to regulatory compliance and contractual obligations.\n\nTrucking policies are underwritten by specialty markets that understand the industry. Underwriters evaluate operating authority history, CSA scores, commodity types, lane profiles, and fleet composition in ways that a standard commercial auto underwriter would not. This specialization means better risk assessment but also means fewer available markets compared to standard commercial auto.',
-      },
-      {
-        heading: 'Key Differences',
-        bullets: [
-          'Regulatory filings: trucking insurance includes the MCS-90 endorsement and BMC-91 filing required by the FMCSA, while commercial auto does not',
-          'Cargo coverage: trucking programs include motor truck cargo liability for freight in your care, custody, and control, which is not part of commercial auto',
-          'Underwriting approach: trucking policies are underwritten based on authority history, CSA data, and commodity types, while commercial auto focuses on vehicle use, driver records, and mileage',
-          'Coverage scope: trucking insurance addresses the full motor carrier risk profile including hired auto, trailer interchange, and bobtail or non-trucking liability',
-          'Premium level: trucking insurance premiums are significantly higher due to the greater severity exposure of heavy commercial vehicles operating interstate',
-          'Market availability: trucking insurance is written by a smaller group of specialty carriers, while commercial auto is broadly available across the insurance market',
-        ],
-      },
-      {
-        heading: 'When You Need Trucking Insurance',
-        content:
-          'You need trucking insurance if you operate under your own USDOT number and MC authority, if you haul freight for hire, or if you are an owner-operator running under your own operating authority. Any vehicle that requires FMCSA registration and operates in interstate commerce hauling goods for compensation must be covered under a trucking insurance program that satisfies federal financial responsibility requirements.\n\nA common and dangerous mistake is purchasing a standard commercial auto policy for a trucking operation because it is cheaper. The commercial auto policy will not include the MCS-90 endorsement or BMC-91 filing, which means your authority is not properly supported. More critically, a commercial auto insurer that does not write trucking risks may deny a claim involving a loaded tractor-trailer because the vehicle was being used for for-hire transportation, which falls outside the policy terms.',
-      },
-      {
-        heading: 'Coverage Gaps to Avoid',
-        content:
-          'The most dangerous gap is using a commercial auto policy for a for-hire trucking operation. Beyond the missing regulatory filings, a standard commercial auto policy may exclude coverage for vehicles over a certain weight class, for operations involving the transportation of goods for hire, or for accidents occurring during loaded interstate hauls. These exclusions can void your entire claim in the event of a serious accident.\n\nAnother common gap involves owner-operators who lease on to a carrier and purchase a non-trucking liability policy thinking it provides full coverage. NTL only applies when you are not under dispatch. If you have an accident while hauling a load or driving to pick up a load assignment, the NTL policy does not respond. You must understand exactly when your carrier\'s policy covers you and when your own coverage needs to apply.',
-      },
-    ],
-    faqs: [
-      {
-        q: 'Can I use a commercial auto policy for my trucking company?',
-        a: 'No. If you operate under USDOT authority and haul freight for hire, you need a trucking insurance program that includes the MCS-90 endorsement and BMC-91 filing. A standard commercial auto policy does not satisfy FMCSA requirements and may exclude coverage for for-hire transportation, leaving you uninsured when you need protection most.',
-      },
-      {
-        q: 'Is trucking insurance more expensive than commercial auto?',
-        a: 'Yes, significantly. Trucking insurance premiums are higher because the risk exposure is greater. Heavy commercial vehicles operating interstate present much higher severity potential than light-duty commercial vehicles used for local business purposes. A single tractor-trailer accident can produce claims exceeding $1,000,000, and insurers price this severity into trucking policies.',
-      },
-      {
-        q: 'Do hotshot carriers need trucking insurance or commercial auto?',
-        a: 'Hotshot carriers operating under their own MC authority and hauling freight for hire need trucking insurance, even if they are using medium-duty trucks rather than Class 8 tractors. The determining factor is not the size of the vehicle but whether you are operating as a for-hire motor carrier under FMCSA authority. Some insurers offer modified trucking programs for hotshot operators that reflect the different risk profile of lighter equipment.',
-      },
-    ],
-    relatedResources: ['fmcsa-insurance-requirements', 'primary-vs-non-trucking-liability'],
-    relatedCoverages: ['auto-liability', 'general-liability', 'motor-truck-cargo'],
-  },
-
-  {
-    slug: 'primary-vs-non-trucking-liability',
-    title: 'Primary Liability vs Non-Trucking Liability Explained',
-    metaTitle: 'Primary vs Non-Trucking Liability Insurance',
-    metaDescription: 'Learn the critical difference between primary liability and non-trucking liability insurance for truckers.',
-    category: 'Comparison',
-    heroHeading: 'Primary Liability vs Non-Trucking Liability Explained',
-    heroSubheading:
-      'Understanding when each coverage applies is essential for every owner-operator who leases onto a motor carrier.',
-    overview:
-      'Primary liability and non-trucking liability are two different coverage types that apply at different times during a trucker\'s operations. Confusing the two, or failing to coordinate them properly with your carrier\'s policy, is one of the most common and costly insurance mistakes owner-operators make. This guide explains exactly when each coverage responds, how they interact, and how to ensure you are never left without protection.',
-    sections: [
-      {
-        heading: 'Primary Liability Insurance',
-        content:
-          'Primary auto liability insurance is the foundational coverage required for any motor carrier operating under its own authority. It covers bodily injury and property damage that your commercial vehicle causes to third parties. When an owner-operator runs under their own MC number, their primary liability policy is what responds in an at-fault accident.\n\nFor owner-operators who lease onto a carrier, the carrier\'s primary liability policy typically covers the leased-on operator while they are under dispatch. Under FMCSA leasing regulations (49 CFR 376), the carrier must assume full responsibility for the operation of the leased vehicle during the term of the lease and when the vehicle is being used in the carrier\'s service. This means the carrier\'s insurance, not the owner-operator\'s, responds to liability claims arising from dispatched operations.\n\nThe key question for any leased-on owner-operator is: what exactly counts as being under dispatch? The answer varies by carrier and by lease agreement, and the gray areas are where coverage gaps occur. Some carriers define dispatch as only the time between load pickup and delivery. Others extend it to include driving to the shipper for pickup. Understanding your specific carrier\'s definition is critical.',
-      },
-      {
-        heading: 'Non-Trucking Liability Insurance',
-        content:
-          'Non-trucking liability, sometimes called NTL or deadhead insurance, provides coverage for owner-operators when they are using their truck for purposes not related to their carrier\'s business. If you are leased onto a carrier and you use your truck for personal errands, drive to a mechanic for maintenance, or travel home after completing a delivery, non-trucking liability covers you during those activities.\n\nNTL specifically excludes coverage when you are under dispatch or performing any activity related to your carrier\'s business. It is designed to fill the gap between your carrier\'s insurance, which covers you while working, and the times when you are using your commercial vehicle for non-business purposes. Without NTL, you have no liability coverage during personal use because your truck is a commercial vehicle that is not covered by a personal auto policy.\n\nPremiums for non-trucking liability are relatively modest, typically ranging from $400 to $1,200 per year, because the coverage only applies during limited periods of personal use when the vehicle is less likely to be involved in a high-severity accident.',
-      },
-      {
-        heading: 'Bobtail Liability: A Third Option',
-        content:
-          'Bobtail liability is sometimes confused with non-trucking liability, but there is an important distinction. Bobtail insurance specifically covers you while operating your tractor without a trailer attached, which is the literal meaning of bobtailing. Some bobtail policies cover you regardless of whether you are on business or personal use, while others mirror the NTL exclusion for dispatched operations.\n\nThe practical difference matters most when you are driving your tractor without a trailer to pick up an empty trailer or driving to your next load assignment. Under a strict non-trucking liability policy, this type of trip might be considered business-related and therefore excluded. A bobtail policy that covers all non-dispatched operation would still respond.\n\nMany modern policies blend elements of both coverages, and the specific policy language controls when coverage applies. Do not rely on the label; read the insuring agreement and exclusions to understand exactly what your policy covers.',
-      },
-      {
-        heading: 'Common Mistakes and Coverage Gaps',
-        bullets: [
-          'Assuming the carrier\'s insurance covers you 24/7 when it only applies during dispatched operations as defined in your lease agreement',
-          'Purchasing NTL but using your truck for business activities like deadheading to your next load, which NTL typically excludes',
-          'Failing to read the specific exclusions in your NTL policy, as definitions of personal use versus business use vary between insurers',
-          'Not carrying any coverage for non-dispatch periods, leaving you completely uninsured during personal use of your commercial vehicle',
-          'Confusing bobtail coverage with non-trucking liability and discovering the distinction only after a claim is denied',
-          'Dropping NTL coverage to save money and then having a serious at-fault accident while driving home from a delivery',
-        ],
-      },
-      {
-        heading: 'How to Coordinate Your Coverage',
-        content:
-          'Start by reading your carrier lease agreement carefully. It should specify when the carrier\'s insurance applies and when it does not. Then review your NTL or bobtail policy to confirm it covers the exact periods when the carrier\'s policy does not. The goal is seamless coverage with no gaps between the two policies.\n\nAsk your insurance agent to review both policies side by side and identify any scenarios where neither policy would respond. Common gray areas include driving to a shipper for your first load pickup of the day, deadheading between loads without an active dispatch, and using your truck for personal errands during a rest break between dispatched loads. If any gaps exist, discuss endorsement options or policy language changes that can close them.\n\nKeep your carrier\'s certificate of insurance on file and provide your NTL or bobtail certificate to your carrier. In the event of a claim, having both policies documented streamlines the process of determining which insurer responds and prevents delays in coverage.',
-      },
-    ],
-    faqs: [
-      {
-        q: 'Do I need non-trucking liability if I lease onto a carrier?',
-        a: 'Yes. Your carrier\'s insurance covers you only while you are under dispatch. Any time you use your truck for personal purposes, drive home, or operate the vehicle outside of your carrier\'s business, you need your own liability coverage. Non-trucking liability fills this gap at a relatively low cost, typically $400 to $1,200 per year.',
-      },
-      {
-        q: 'What is the difference between bobtail and non-trucking liability?',
-        a: 'Non-trucking liability covers personal use of your truck when you are not under dispatch. Bobtail liability covers operation of your tractor without a trailer, and depending on the policy, may apply during both business and personal use. The terms are sometimes used interchangeably, but the coverage triggers can differ significantly. Always read the specific policy language rather than relying on the label.',
-      },
-      {
-        q: 'Am I covered while deadheading to my next load?',
-        a: 'This depends on your carrier\'s definition of dispatch and the specific language in both the carrier\'s policy and your NTL policy. Some carriers consider you under dispatch until you notify them you are available, while others define dispatch as only the active load assignment. If your carrier\'s policy does not cover deadheading and your NTL excludes business-related driving, you could have a gap. Clarify this with your carrier and your insurance agent.',
-      },
-    ],
-    relatedResources: ['commercial-auto-vs-trucking-insurance', 'fmcsa-insurance-requirements'],
-    relatedCoverages: ['auto-liability', 'bobtail-liability', 'physical-damage'],
-  },
-
-  {
-    slug: 'occupational-accident-vs-workers-comp',
-    title: "Occupational Accident vs Workers' Comp for Truckers",
-    metaTitle: "Occupational Accident vs Workers' Comp | Trucking Insurance",
-    metaDescription: "Compare occupational accident insurance and workers' compensation for truckers. Coverage differences, compliance requirements, and which one your operation n...",
-    category: 'Comparison',
-    heroHeading: "Occupational Accident vs Workers' Comp for Truckers",
-    heroSubheading:
-      'Two approaches to protecting truckers against on-the-job injuries, each designed for a different employment classification.',
-    overview:
-      "Workers' compensation and occupational accident insurance both provide financial protection when a trucker is injured on the job, but they are designed for fundamentally different employment relationships. Workers' comp is a state-mandated insurance program for employees, while occupational accident insurance is a voluntary coverage designed for independent contractors. Understanding which applies to your operation, and ensuring your classification is correct, is both a compliance issue and a coverage issue.",
-    sections: [
-      {
-        heading: "Workers' Compensation Insurance",
-        content:
-          "Workers' compensation is a state-regulated insurance program that provides medical benefits, wage replacement, and disability payments to employees who are injured or become ill as a result of their job. Every state except Texas requires employers to carry workers' compensation coverage for their employees, though specific requirements, benefit levels, and exemptions vary by state.\n\nFor trucking companies with employee drivers, workers' comp is mandatory. The policy covers medical treatment related to the work injury, a portion of lost wages during recovery (typically 60 to 70 percent of the average weekly wage), permanent disability benefits if the injury results in lasting impairment, and death benefits to the family of an employee killed on the job.\n\nWorkers' compensation operates as a no-fault system. The injured employee receives benefits regardless of who caused the injury, and in exchange, the employee generally gives up the right to sue the employer for negligence. This quid pro quo provides certainty for both parties. Premiums are based on payroll, job classification codes, and the employer's experience modification factor, which reflects historical claim activity.",
-      },
-      {
-        heading: 'Occupational Accident Insurance',
-        content:
-          "Occupational accident insurance, commonly called OA or occ/acc, is a voluntary coverage designed specifically for independent contractors who are not eligible for workers' compensation. In trucking, this primarily means owner-operators and other ICs who are classified as self-employed business owners rather than employees of the carrier they lease onto.\n\nOA policies provide benefits similar to workers' comp, including accident medical expense coverage, disability income benefits (both temporary and permanent), and accidental death and dismemberment benefits. However, because OA is not regulated like workers' comp, the specific benefits, limits, and exclusions vary widely between policies. Some OA plans are comprehensive with $1,000,000 or more in accident medical coverage, while others offer minimal protection with low benefit limits and restrictive terms.\n\nMany motor carriers require leased-on owner-operators to carry occupational accident insurance as a condition of the lease agreement. Some carriers sponsor group OA programs that offer better rates and coverage terms than individual policies. If your carrier offers a group program, compare its benefits and costs against individual market options before enrolling.",
-      },
-      {
-        heading: 'Key Differences',
-        bullets: [
-          "Workers' comp is mandatory for employees in nearly every state; occupational accident insurance is voluntary for independent contractors",
-          "Workers' comp benefits are set by state statute and provide consistent, guaranteed coverage levels; OA benefits vary by policy and insurer",
-          "Workers' comp premiums are based on payroll and experience rating; OA premiums are per-person and based on coverage selections and risk factors",
-          "Workers' comp includes an exclusive remedy provision that generally prevents employees from suing the employer; OA carries no such protection for the carrier",
-          "Workers' comp covers occupational diseases and repetitive stress injuries; many OA policies only cover injuries caused by specific accidents",
-          "Workers' comp claims are managed through a state-regulated system with formal dispute resolution; OA claims are handled through the insurance contract and may involve arbitration",
-          "Workers' comp provides unlimited medical coverage for the work injury in most states; OA policies have defined medical expense limits that can be exhausted",
-        ],
-      },
-      {
-        heading: 'The Classification Question',
-        content:
-          "The threshold issue in choosing between workers' comp and occupational accident insurance is whether your drivers are employees or independent contractors. This classification is not a matter of preference: it is determined by the nature of the working relationship under federal and state law. The IRS, the Department of Labor, state workforce agencies, and courts all apply tests that examine the degree of control the carrier exercises over the driver.\n\nMisclassifying an employee as an independent contractor to avoid workers' compensation obligations is a serious legal and financial risk. If an injured driver classified as an IC is later determined to be an employee, the carrier faces retroactive workers' comp premiums, penalties for operating without required coverage, potential personal injury lawsuits that workers' comp would have otherwise barred, and regulatory enforcement actions.\n\nThe trucking industry has faced increased scrutiny on this issue in recent years, with several states aggressively reclassifying owner-operators as employees for workers' compensation purposes. Before relying on occupational accident insurance in place of workers' comp, confirm that your drivers genuinely meet the independent contractor tests applicable in your state and in the states where they operate.",
-      },
-      {
-        heading: 'Choosing the Right Coverage',
-        content:
-          "If your drivers are W-2 employees, you need workers' compensation insurance. There is no substitute or alternative. The penalty for failing to carry workers' comp when required ranges from fines and stop-work orders to criminal prosecution in some states.\n\nIf your drivers are legitimate 1099 independent contractors, occupational accident insurance is the appropriate coverage. When evaluating OA policies, look carefully at the accident medical expense limit (aim for at least $500,000, with $1,000,000 preferred), the weekly disability benefit amount and duration, whether the policy covers occupational diseases or only traumatic injuries, any exclusions for pre-existing conditions or specific types of accidents, and whether the policy includes a survivor benefit.\n\nSome carriers maintain both coverages: workers' comp for their employee drivers and an OA program for their leased owner-operators. This is often the most compliant and protective approach for carriers with a mixed workforce of employees and independent contractors.",
-      },
-    ],
-    faqs: [
-      {
-        q: "Does an owner-operator need workers' comp?",
-        a: "Owner-operators who are legitimately classified as independent contractors are generally not required to carry workers' compensation for themselves, though requirements vary by state. Some states require owner-operators to carry workers' comp or have specific exemption procedures. Occupational accident insurance is the standard alternative for ICs, but you should verify the requirements in your state of domicile and the states where you operate.",
-      },
-      {
-        q: 'What does occupational accident insurance typically cost?',
-        a: 'Individual occupational accident insurance premiums typically range from $100 to $300 per month depending on the benefit levels selected, the nature of your operations, and your risk profile. Group programs offered through carriers can sometimes reduce costs. Key variables include the accident medical expense limit, the disability benefit amount, and whether the policy includes accidental death coverage.',
-      },
-      {
-        q: 'Can a motor carrier require owner-operators to carry occupational accident insurance?',
-        a: "Yes. Many motor carriers require leased-on owner-operators to maintain occupational accident insurance as a condition of the lease agreement. This protects both the owner-operator and the carrier. Some carriers sponsor group OA programs and deduct the premium from settlement payments, while others require the owner-operator to obtain individual coverage and provide proof of insurance.",
-      },
-    ],
-    relatedResources: ['commercial-auto-vs-trucking-insurance', 'trucking-insurance-glossary'],
-    relatedCoverages: ['occupational-accident', 'workers-compensation', 'auto-liability'],
-  },
-
-  {
-    slug: 'trucking-insurance-claims-guide',
-    title: 'What to Do After a Trucking Accident: Claims Guide',
-    metaTitle: 'Trucking Accident Claims Guide | Step by Step',
-    metaDescription: 'Step-by-step guide for handling a trucking insurance claim after an accident. What to document, who to contact, and how to protect your rights throughout the...',
+    slug: 'venue-liability-guide',
+    title: 'Venue Liability Insurance Guide',
+    metaTitle: 'Venue Liability Insurance Guide for Entertainment',
+    metaDescription: 'Guide to venue liability insurance covering crowd management, alcohol service requirements, security obligations, and premises liability for entertainment venues.',
     category: 'Guide',
-    heroHeading: 'What to Do After a Trucking Accident: Claims Guide',
+    heroHeading: 'Venue Liability Insurance Guide',
     heroSubheading:
-      'A step-by-step roadmap for navigating the insurance claims process after a commercial vehicle accident.',
+      'Crowd management, alcohol service, security requirements, and premises liability for entertainment venues of all sizes.',
     overview:
-      'How you handle the first hours and days after a trucking accident directly impacts the outcome of your insurance claim. Proper documentation, timely reporting, and cooperation with your insurer can mean the difference between a claim that resolves efficiently and one that drags on for months with a worse outcome. This guide covers every step of the process from the scene of the accident through final claim resolution.',
+      'Entertainment venues face a unique combination of premises liability, liquor liability, and operational risks that demand specialized insurance expertise. From intimate music clubs to major arenas, understanding the liability exposures inherent in hosting live entertainment is essential for venue operators who want to protect their businesses and the safety of their patrons.',
     sections: [
       {
-        heading: 'At the Scene: Immediate Steps',
+        heading: 'Premises Liability Fundamentals',
         content:
-          'Safety is the first priority. Check for injuries to yourself, your passengers, and occupants of other vehicles. Call 911 if anyone is injured or if there is significant property damage. Move vehicles out of traffic if it is safe to do so, and set up reflective triangles or flares to warn approaching traffic.\n\nOnce the scene is secured, begin documenting everything. Use your phone to take photographs of all vehicles involved from multiple angles, the accident scene including road conditions, traffic signals, and signage, any visible injuries, skid marks, debris patterns, and the positions of vehicles before they are moved. If you have a dash camera, preserve the footage immediately and note the time stamp of the incident.\n\nExchange information with the other driver or drivers, including name, phone number, insurance company and policy number, driver license number, license plate number, and vehicle make and model. Collect contact information from any witnesses. When law enforcement arrives, cooperate with the investigation, provide factual information, and obtain the accident report number.\n\nDo not admit fault, apologize for the accident, or make statements about what you think caused the collision. Anything you say at the scene can be used against you later. Stick to the facts and let the investigation determine fault.',
+          'Premises liability holds venue operators responsible for maintaining a reasonably safe environment for visitors. In entertainment venues, this extends to the condition of seating, stairs, and walkways; the integrity of stages, barriers, and railings; adequate lighting in all areas; and proper crowd flow management.\n\nVenue operators have a duty of care to invitees, which in the entertainment context includes ticket holders, performers, vendors, and their guests. This duty requires regular inspection of the premises, prompt repair of known hazards, adequate warning of unavoidable dangers, and reasonable security measures.',
       },
       {
-        heading: 'Reporting the Accident',
+        heading: 'Crowd Management and Safety',
         content:
-          'Notify your insurance company or broker as soon as possible, ideally within 24 hours of the accident. Most trucking insurance policies require prompt notice of any accident or incident, and failure to report promptly can jeopardize your coverage. Have the following information ready when you call: date, time, and location of the accident, names and contact information for all parties involved, the police report number, a brief factual description of what happened, and the extent of injuries and property damage.\n\nIf you are an owner-operator leased onto a carrier, you must also notify the carrier immediately. The carrier\'s safety department will have reporting procedures to follow, and their insurance may be the primary responding policy depending on whether you were under dispatch at the time of the accident. Report to both your carrier and your own insurer to ensure all applicable policies are activated.\n\nFor accidents involving injuries, fatalities, or vehicles that must be towed from the scene, FMCSA regulations may require the carrier to file a crash report. Your carrier\'s safety department should handle this filing, but be aware of the obligation and confirm it has been completed.',
+          'Crowd management is the single most important safety concern for entertainment venues. Overcrowding, inadequate egress capacity, poor barrier placement, and insufficient trained staff have contributed to catastrophic incidents at venues worldwide. Insurers evaluate crowd management capabilities carefully.\n\nEffective crowd management includes enforced capacity limits, trained crowd management staff, clear emergency evacuation routes and procedures, barrier systems designed to prevent crushing, and real-time monitoring of crowd density throughout the venue.',
       },
       {
-        heading: 'Documentation Checklist',
-        bullets: [
-          'Photographs of all vehicle damage, the accident scene, road conditions, and any visible injuries',
-          'Dash camera footage covering the period before, during, and after the collision',
-          'The police accident report, which you can typically obtain from the responding agency within a few days',
-          'Names, phone numbers, and insurance information for all parties involved',
-          'Contact information for all witnesses at the scene',
-          'Written notes about what happened, recorded as soon as possible while details are fresh',
-          'Medical records and treatment documentation if you were injured, starting from the date of the accident',
-          'Repair estimates for your vehicle from qualified commercial truck repair facilities',
-          'Towing and storage receipts if your vehicle was removed from the scene',
-          'Copies of your bills of lading and dispatch records showing what you were hauling and your operational status at the time',
-          'Your ELD records for the 24 hours surrounding the accident',
-        ],
+        heading: 'Alcohol Service Requirements',
+        content:
+          'Venues that serve alcohol face liquor liability exposure under dram shop laws, which hold establishments responsible for injuries caused by patrons they overserved. This exposure can generate claims well into the millions of dollars when an intoxicated patron causes a serious vehicle accident after leaving the venue.\n\nInsurers require evidence of responsible alcohol service practices including staff training in programs like TIPS or ServSafe, monitoring of patron intoxication levels, refusal of service to visibly intoxicated individuals, and procedures for arranging alternative transportation for impaired patrons.',
       },
       {
-        heading: 'Working with the Claims Adjuster',
+        heading: 'Security Obligations',
         content:
-          'Your insurance company will assign a claims adjuster to investigate the accident and manage your claim. The adjuster will contact you to take a recorded statement, review your documentation, inspect the vehicle damage, and assess liability. Cooperate fully with your adjuster, answer questions honestly, and provide all requested documentation promptly.\n\nIf the other party\'s insurer contacts you, you are not obligated to provide a recorded statement to them. Consult with your own insurer or an attorney before speaking with the other party\'s adjuster. Anything you say in a recorded statement can be used to minimize or deny your claim.\n\nFor physical damage claims, the adjuster or an appraiser will inspect your vehicle and prepare a damage estimate. If you disagree with the valuation, particularly in a total loss situation, you have the right to provide comparable vehicle listings, recent maintenance and upgrade documentation, and an independent appraisal to support a higher value. Many policies include an appraisal clause that provides a formal dispute resolution process when you and the insurer cannot agree on the value.',
-      },
-      {
-        heading: 'What to Expect in the Claims Process',
-        content:
-          'Simple claims involving only property damage and clear liability can resolve in two to four weeks. More complex claims involving injuries, disputed fault, or multiple parties can take several months to a year or longer. Throughout the process, stay in regular contact with your adjuster and respond promptly to any requests for additional information.\n\nIf your vehicle is being repaired, your insurer will work with the repair facility on estimates, supplemental damage findings, and payment. If the vehicle is declared a total loss, the insurer will offer a settlement based on the actual cash value of the vehicle at the time of loss, minus your deductible. If you carry agreed value or stated amount coverage, the settlement will be based on the pre-agreed value on your policy.\n\nFor cargo damage claims, your motor truck cargo insurer will investigate the cause and extent of the damage. Preserve any damaged cargo for inspection and do not dispose of it until the adjuster authorizes release. Cargo claims are resolved based on the value of the goods and the terms of the bill of lading, subject to your policy limits and deductible.',
+          'Entertainment venues must provide reasonable security commensurate with the foreseeable risks of their operations. For venues hosting events with large crowds, loud music, and alcohol service, this includes trained security personnel at entrances and throughout the venue, bag checks and weapon screening where appropriate, incident response protocols, and coordination with local law enforcement.\n\nInadequate security can result in liability for foreseeable criminal acts on the premises. Courts have increasingly held venue operators liable for assaults, shootings, and other violent acts when the operator failed to implement reasonable security measures in light of known risks.',
       },
     ],
     faqs: [
       {
-        q: 'How quickly do I need to report an accident to my insurer?',
-        a: 'Report every accident to your insurance company within 24 hours. Most trucking policies require prompt notice, and many specify that late reporting can be grounds for claim denial. Call your broker or insurer\'s claims hotline as soon as you have addressed immediate safety concerns at the scene. Early reporting gives the insurer the best opportunity to investigate, preserve evidence, and manage the claim effectively.',
+        q: 'What liability limits do entertainment venues typically carry?',
+        a: 'Most entertainment venues carry general liability limits of $1,000,000 per occurrence and $2,000,000 aggregate at minimum. Larger venues with higher capacity typically carry $5,000,000 or more in combined primary and umbrella limits. Liquor liability should be at least $1,000,000.',
       },
       {
-        q: 'Should I give a recorded statement to the other driver\'s insurance company?',
-        a: 'You are not obligated to provide a recorded statement to the other party\'s insurer, and doing so without guidance can harm your claim. Consult with your own insurance company or an attorney before speaking with the opposing adjuster. Your own insurer may advise you on what to say or handle communications on your behalf.',
+        q: 'Are venue operators liable for injuries in mosh pits?',
+        a: 'Venue operators can face liability for mosh pit injuries if they fail to implement reasonable safety measures such as barriers, trained security in the pit area, and medical staff on standby. While participants assume some risk, the operator must still take reasonable steps to prevent foreseeable injuries.',
       },
       {
-        q: 'What if I disagree with the insurance company\'s damage estimate?',
-        a: 'If you believe the damage estimate or total loss valuation is too low, provide supporting evidence such as comparable vehicle listings, documentation of recent upgrades and maintenance, and an independent appraisal from a qualified appraiser. Many trucking policies include an appraisal clause that provides a binding process when you and the insurer cannot agree on value. Discuss this option with your adjuster or broker.',
+        q: 'Does venue insurance cover damage caused by performers?',
+        a: 'Damage caused by performers to the venue is typically a claim against the performer or promoter. Venue operators should require performers and promoters to carry their own liability insurance with the venue named as an additional insured.',
       },
       {
-        q: 'Does filing a claim always increase my premiums?',
-        a: 'Not always, but frequently. The impact depends on the type and severity of the claim and whether you were at fault. A large at-fault liability claim will almost certainly increase your premiums at renewal. A comprehensive claim for a weather event or theft may have less impact. Some insurers offer claim forgiveness for the first incident. The long-term cost of a premium increase sometimes exceeds the claim payment itself, so discuss the financial implications with your broker before filing small claims.',
+        q: 'How does outdoor versus indoor venue status affect coverage?',
+        a: 'Outdoor venues face additional weather exposure, noise ordinance issues, and environmental liability concerns. Indoor venues have their own risks including fire safety, HVAC adequacy, and structural load capacity. Insurance programs should address the specific characteristics of each venue type.',
       },
     ],
-    relatedResources: ['lower-trucking-insurance-premiums', 'trucking-insurance-glossary'],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    relatedResources: ['event-cancellation-guide', 'entertainment-insurance-cost'],
+    relatedCoverages: ['general-liability', 'umbrella-excess', 'workers-compensation'],
   },
 
   {
-    slug: 'trucking-insurance-glossary',
-    title: 'Trucking Insurance Glossary: Key Terms Explained',
-    metaTitle: 'Trucking Insurance Glossary | 30+ Key Terms',
-    metaDescription: 'Comprehensive glossary of trucking insurance terms. Clear definitions of MCS-90, BMC-91, bobtail liability, cargo insurance, and 30+ other essential industry...',
+    slug: 'equipment-coverage-guide',
+    title: 'Equipment Coverage for Entertainment Businesses',
+    metaTitle: 'Entertainment Equipment Insurance Guide',
+    metaDescription: 'Guide to equipment insurance for entertainment businesses. Owned vs rented gear, inland marine coverage, scheduling items, and protecting production equipment.',
+    category: 'Guide',
+    heroHeading: 'Equipment Coverage for Entertainment',
+    heroSubheading:
+      'Owned versus rented equipment, inland marine coverage, scheduling requirements, and protecting your gear on the move.',
+    overview:
+      'Entertainment equipment represents a massive portable asset base that standard property insurance cannot adequately protect. Cameras, lenses, lighting packages, sound systems, musical instruments, and staging equipment travel constantly between locations, creating exposures that require specialized equipment floater and inland marine coverage. This guide explains how to properly insure entertainment equipment.',
+    sections: [
+      {
+        heading: 'Types of Equipment Coverage',
+        content:
+          'Equipment floater policies provide all-risk coverage for scheduled equipment wherever it is located. Inland marine policies serve a similar function for equipment in transit or stored at locations other than the primary business premises. The choice between these policy types depends on the nature of the operation and the insurance company.\n\nBlanket equipment coverage provides a single aggregate limit for all qualifying equipment without requiring individual item scheduling. This is useful for businesses with large, frequently changing inventories. Scheduled coverage lists each item individually with its own insured value, providing certainty about coverage for specific high-value pieces.',
+      },
+      {
+        heading: 'Owned vs. Rented Equipment',
+        content:
+          'Owned equipment should be insured at full replacement cost, which is the cost to replace the item with a new equivalent. Depreciated or actual cash value coverage may leave you unable to replace essential equipment after a total loss.\n\nRented equipment coverage is critical in the entertainment industry because rental agreements universally hold the renter responsible for loss or damage. A single camera and lens package can be worth $200,000 or more. Without equipment floater coverage, a theft or accident involving rented gear creates immediate personal financial liability for the full replacement value.',
+      },
+      {
+        heading: 'Scheduling and Valuation',
+        content:
+          'Accurate equipment schedules are the foundation of effective equipment coverage. Every covered item should be listed with a detailed description, serial number, and current replacement value. Schedules should be updated whenever equipment is purchased, sold, or significantly changes in value.\n\nUndervaluation is a common problem. Equipment values should reflect current replacement costs, not original purchase prices or depreciated book values. An equipment schedule that was accurate two years ago may significantly undervalue items that have increased in replacement cost.',
+      },
+      {
+        heading: 'Protecting Equipment in the Field',
+        content:
+          'Insurance is the financial backstop, but physical security measures are the first line of defense. Securing equipment in locked vehicles and storage, using GPS tracking on high-value items, maintaining chain-of-custody documentation, and implementing checkout procedures all reduce the likelihood of loss.\n\nInsurers reward proactive equipment management with better rates. Companies that can demonstrate systematic equipment tracking, secure storage facilities, and trained handling procedures present a lower risk profile that translates into lower premiums.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Does homeowners or renters insurance cover production equipment?',
+        a: 'Personal homeowners or renters policies provide very limited coverage for business equipment and typically exclude equipment used for commercial purposes. Entertainment equipment requires a dedicated equipment floater or inland marine policy for proper protection.',
+      },
+      {
+        q: 'How often should equipment schedules be updated?',
+        a: 'Equipment schedules should be updated at least annually and whenever significant purchases or disposals occur. Mid-term schedule additions are typically accommodated by insurers, but failing to add new equipment leaves it uninsured.',
+      },
+      {
+        q: 'Is equipment covered at a rented storage facility?',
+        a: 'Yes. Equipment floater and inland marine policies typically cover equipment at any location, including rented storage facilities. However, you should verify that the policy does not exclude specific storage situations and that the storage facility carries its own insurance.',
+      },
+      {
+        q: 'What happens if rented equipment is stolen from a locked vehicle?',
+        a: 'Theft from a locked vehicle is typically a covered loss under an equipment floater policy. The claim would pay the replacement value of the stolen items less any deductible. You would then use the insurance proceeds to reimburse the rental company for their loss.',
+      },
+    ],
+    relatedResources: ['entertainment-insurance-cost', 'production-insurance-guide'],
+    relatedCoverages: ['equipment-floater', 'production-insurance', 'commercial-auto'],
+  },
+
+  {
+    slug: 'certificate-of-insurance-guide',
+    title: 'Certificate of Insurance Guide for Entertainment',
+    metaTitle: 'COI Guide for Entertainment & Venues',
+    metaDescription: 'Guide to certificates of insurance for entertainment businesses. COI requirements for venues, filming locations, permit applications, and production operations.',
+    category: 'Guide',
+    heroHeading: 'Certificate of Insurance Guide',
+    heroSubheading:
+      'Understanding COI requirements for venues, filming locations, permits, and the entertainment contracts that depend on them.',
+    overview:
+      'Certificates of insurance are the documentation that proves your coverage exists, and in the entertainment industry, they are required at virtually every turn. Venues demand them from event promoters, locations demand them from production companies, permit offices require them for filming and event approvals, and talent agencies require them before their clients will work. Understanding how to manage COI requests efficiently is an operational necessity for any entertainment business.',
+    sections: [
+      {
+        heading: 'What a COI Contains',
+        content:
+          'A certificate of insurance is a standardized document, typically the ACORD 25 form, that summarizes the key coverage details of an insurance policy. It identifies the insured party, the insurance company, the policy number, effective dates, coverage types, and liability limits.\n\nThe COI also identifies additional insureds, which are third parties who have been granted insured status under the policy. In entertainment, venues, location owners, and production partners frequently require additional insured status as a condition of their contracts. The COI serves as proof that this endorsement has been added.',
+      },
+      {
+        heading: 'Common COI Requirements in Entertainment',
+        content:
+          'Venue operators typically require promoters and production companies to provide a COI showing general liability with the venue as an additional insured, plus evidence of workers compensation. Filming locations require similar documentation, often with specific endorsements for property damage waivers.\n\nPermit offices for filming and special events require COIs showing minimum liability limits that vary by jurisdiction. Equipment rental houses require proof of equipment coverage before releasing gear. Talent agencies and unions may require specific coverages as conditions of their agreements.',
+      },
+      {
+        heading: 'Managing COI Requests',
+        content:
+          'Entertainment businesses often need to issue dozens or even hundreds of COIs over the course of a year, each with specific requirements from different parties. Efficient COI management starts with a responsive insurance broker who can issue certificates quickly and accurately.\n\nMaintaining a template file with common additional insured requirements, standard coverage specifications, and frequently requested endorsements streamlines the process. Many insurance brokers now offer online certificate management portals where common COIs can be issued in minutes.',
+      },
+      {
+        heading: 'Additional Insured Requirements',
+        content:
+          'Additional insured endorsements extend the protection of your liability policy to a third party. When a venue is named as an additional insured on a promoter\'s policy, the venue gains the right to be defended and indemnified under that policy for claims arising from the promoter\'s operations.\n\nUnderstanding the scope of additional insured coverage is important. Standard additional insured endorsements cover the third party only for claims arising from your operations, not for their own negligence. Some contracts request broader additional insured coverage, which should be reviewed with your broker to ensure your policy supports the requested terms.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'How quickly can a COI be issued?',
+        a: 'With a responsive insurance broker, standard COIs can typically be issued within 24 hours, and often same-day for routine requests. Rush requests involving non-standard endorsements or unusual additional insured requirements may take longer. Building a relationship with a broker who understands entertainment timelines is essential.',
+      },
+      {
+        q: 'Does an additional insured endorsement cost extra?',
+        a: 'Some policies include blanket additional insured endorsements at no extra cost for parties required by written contract. Others may charge a nominal fee per endorsement. The cost is typically minimal compared to the value of meeting contractual requirements.',
+      },
+      {
+        q: 'Can a COI be issued before the policy is in force?',
+        a: 'No. A COI can only be issued for a policy that is currently in force. If you need to provide proof of coverage for a future event, you need to ensure the policy is bound before the COI can be created.',
+      },
+      {
+        q: 'What happens if a COI has incorrect information?',
+        a: 'Incorrect COIs should be corrected immediately. Providing a COI with inaccurate information, whether intentional or accidental, can create coverage disputes and damage business relationships. Always verify COI details before forwarding to requesting parties.',
+      },
+    ],
+    relatedResources: ['venue-liability-guide', 'entertainment-insurance-cost'],
+    relatedCoverages: ['general-liability', 'production-insurance', 'equipment-floater'],
+  },
+
+  {
+    slug: 'claims-guide',
+    title: 'Entertainment Insurance Claims Guide',
+    metaTitle: 'How to File Entertainment Insurance Claims',
+    metaDescription: 'Guide to filing entertainment insurance claims. Documentation requirements, production shutdown procedures, event cancellation claims, and working with adjusters.',
+    category: 'Guide',
+    heroHeading: 'Entertainment Insurance Claims Guide',
+    heroSubheading:
+      'How to file claims, document losses, manage production shutdowns, and work with adjusters to achieve fair claim outcomes.',
+    overview:
+      'When an entertainment insurance claim occurs, the response in the first hours and days has a significant impact on the outcome. Whether it is a production shutdown due to cast illness, an event cancellation due to weather, equipment theft on location, or a liability claim from an injured audience member, knowing how to document the loss, notify the insurer, and manage the claims process is essential for achieving a fair result.',
+    sections: [
+      {
+        heading: 'Immediate Response',
+        content:
+          'The first priority in any claim situation is safety. Ensure that any injured parties receive medical attention, secure the scene, and prevent further damage or loss. Once the immediate situation is under control, begin documenting the circumstances.\n\nNotify your insurance broker and carrier as soon as possible. Most policies require prompt notification of claims or incidents that may give rise to claims. Delayed notification can jeopardize coverage. Your broker can guide you through the initial steps and coordinate with the insurance company\'s claims department.',
+      },
+      {
+        heading: 'Documentation Requirements',
+        content:
+          'Thorough documentation is the foundation of a successful claim. For production claims, this includes production schedules, call sheets, daily production reports, and records showing the impact of the loss on the shooting schedule. For event cancellation claims, document all non-refundable expenses through contracts, invoices, and payment records.\n\nPhotographic and video evidence of damaged property, equipment, or conditions at the time of loss should be captured immediately. Witness statements should be collected while memories are fresh. Police reports should be filed for theft and criminal activity. All costs incurred as a result of the loss should be tracked meticulously.',
+      },
+      {
+        heading: 'Working With Adjusters',
+        content:
+          'Insurance companies assign claims adjusters to evaluate and settle claims. In entertainment, specialized adjusters with industry knowledge produce better outcomes for all parties. If your claim is assigned to a generalist adjuster, your broker can advocate for reassignment to an entertainment specialist.\n\nCooperate fully with the adjuster while protecting your interests. Provide requested documentation promptly, be available for interviews, and keep detailed records of all communications. If the claim is complex or high-value, consider engaging a public adjuster or claims advocate who specializes in entertainment losses.',
+      },
+      {
+        heading: 'Common Claim Scenarios',
+        bullets: [
+          'Cast illness or injury shutting down production: document daily costs, rescheduling efforts, and medical records',
+          'Weather cancellation of an outdoor event: verify weather trigger thresholds were met, document all irrecoverable expenses',
+          'Equipment theft on location: file a police report immediately, provide equipment schedule with values',
+          'Audience injury at a venue: secure incident reports, witness statements, and surveillance footage',
+          'Content piracy or data breach: engage forensic investigators immediately, preserve all digital evidence',
+          'Property damage to a filming location: photograph damage, obtain repair estimates, notify location owner',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'How long do I have to file an entertainment insurance claim?',
+        a: 'Most policies require notification as soon as practicable after a loss or incident. While formal claim filing deadlines vary by policy and state, best practice is to notify your broker within 24 hours of any event that may give rise to a claim. Delayed notification can result in reduced coverage or claim denial.',
+      },
+      {
+        q: 'Can I choose my own repair vendors or contractors?',
+        a: 'In most cases, yes. While some policies have preferred vendor programs, the insured typically retains the right to choose repair vendors and contractors. Obtain multiple estimates for significant repairs and discuss vendor selection with your adjuster to avoid disputes.',
+      },
+      {
+        q: 'What if I disagree with the adjuster\'s valuation?',
+        a: 'If you believe the adjuster\'s valuation is too low, provide supporting documentation including independent appraisals, replacement cost quotes, and comparable sales data. If a dispute persists, most policies include an appraisal provision where each party selects an independent appraiser to resolve the disagreement.',
+      },
+      {
+        q: 'Does filing a claim increase my premiums?',
+        a: 'Claims history is one factor in premium calculation, and a pattern of claims can result in higher premiums at renewal. However, a single well-managed claim should not dramatically impact costs if your overall loss experience is favorable. Not filing legitimate claims defeats the purpose of carrying insurance.',
+      },
+    ],
+    relatedResources: ['entertainment-insurance-cost', 'certificate-of-insurance-guide'],
+    relatedCoverages: ['general-liability', 'event-cancellation', 'production-insurance'],
+  },
+
+  {
+    slug: 'entertainment-insurance-glossary',
+    title: 'Entertainment Insurance Glossary',
+    metaTitle: 'Entertainment Insurance Glossary: 50+ Key Terms',
+    metaDescription: 'Comprehensive glossary of entertainment insurance terms. Definitions for production insurance, event coverage, venue liability, and media insurance terminology.',
     category: 'Reference',
-    heroHeading: 'Trucking Insurance Glossary: Key Terms Explained',
+    heroHeading: 'Entertainment Insurance Glossary',
     heroSubheading:
-      'Clear, plain-language definitions of the terms you will encounter when purchasing and managing trucking insurance.',
+      '50+ key entertainment insurance terms defined clearly for producers, promoters, venue operators, and entertainment professionals.',
     overview:
-      'Trucking insurance has its own vocabulary, and understanding these terms is essential for making informed coverage decisions. This glossary covers more than 30 terms that motor carriers, owner-operators, and fleet managers encounter regularly when dealing with insurance policies, regulatory filings, and claims. Each definition is written in practical language with context on how the term applies to your operation.',
+      'Entertainment insurance uses specialized terminology that can be confusing even for experienced industry professionals. This glossary defines the most important terms you will encounter when purchasing insurance, reviewing policies, filing claims, and negotiating contracts in the entertainment industry.',
     sections: [
       {
-        heading: 'Regulatory and Filing Terms',
+        heading: 'Production Insurance Terms',
         content:
-          'BMC-91: The form used by an insurance company to file proof of a motor carrier\'s public liability coverage with the FMCSA. The BMC-91 certifies that the carrier maintains at least the federally required minimum liability insurance.\n\nBMC-91X: The version of the BMC-91 filing used when coverage is provided by a surplus lines insurer rather than an admitted insurance carrier. It serves the same purpose as the standard BMC-91.\n\nBMC-84: A surety bond required for freight brokers and freight forwarders in the amount of $75,000. This bond protects carriers and shippers against financial loss resulting from the broker\'s failure to meet its obligations.\n\nBMC-85: A trust fund agreement that serves as an alternative to the BMC-84 surety bond for freight brokers. The broker deposits $75,000 into a qualifying trust fund rather than purchasing a surety bond.\n\nMCS-90: A mandatory endorsement attached to the liability policy of every for-hire interstate motor carrier. The MCS-90 guarantees that the insurer will pay valid public liability claims up to the minimum required limit, even if a policy exclusion would otherwise apply.\n\nFMCSA: The Federal Motor Carrier Safety Administration, the agency within the U.S. Department of Transportation that regulates the trucking industry. The FMCSA sets insurance requirements, safety standards, and licensing rules for motor carriers.\n\nUSDOT Number: A unique identification number assigned by the FMCSA to every commercial motor carrier operating in interstate commerce. The USDOT number is used to track safety information and compliance status.\n\nMC Number: The Motor Carrier operating authority number issued by the FMCSA to for-hire carriers. An active MC number with proper insurance filings is required before a carrier can legally transport freight for compensation in interstate commerce.\n\nCSA: Compliance, Safety, Accountability, the FMCSA\'s data-driven safety program. CSA assigns scores in seven Behavioral Analysis and Safety Improvement Categories (BASICs) based on inspection, crash, and violation data. Insurers use CSA scores as an underwriting factor.\n\nSAFER System: Safety and Fitness Electronic Records System, the FMCSA\'s online database where the public can access motor carrier registration, safety, and insurance information. Brokers and shippers check the SAFER System to verify a carrier\'s authority and insurance status.',
+          'Cast Insurance: Coverage that reimburses production costs when a key cast member cannot perform due to covered illness, injury, or death. Also called essential elements coverage.\n\nCompletion Bond: A guarantee issued to financiers that a film will be delivered on time and on budget. Requires adequate production insurance as a prerequisite.\n\nNegative Film Coverage: Insurance covering loss of recorded material due to equipment malfunction, accidental damage, or processing errors. Now extends to all digital media formats.\n\nFaulty Stock Coverage: Protection against defective raw film stock or recording media that produces unusable footage.\n\nExtra Expense: Coverage for additional costs incurred when production must be extended, rescheduled, or relocated due to a covered event.\n\nProps, Sets, and Wardrobe: Coverage for the physical assets created for or used in a production, insured against damage, theft, and loss.\n\nThird-Party Property Damage: Coverage for damage your production causes to filming locations, borrowed facilities, and other property you do not own.',
       },
       {
-        heading: 'Liability Coverage Terms',
+        heading: 'Event Insurance Terms',
         content:
-          'Primary Auto Liability: The foundational liability coverage that pays for bodily injury and property damage your commercial vehicle causes to third parties. Required by the FMCSA for all motor carriers at minimum limits ranging from $750,000 to $5,000,000 depending on commodities transported.\n\nGeneral Liability: Coverage for bodily injury and property damage claims arising from your business operations that are not related to the operation of a vehicle. This includes slip-and-fall injuries at your terminal, damage caused by your employees during loading and unloading, and other premises and operations liability.\n\nUmbrella/Excess Liability: A policy that provides additional liability limits above and beyond your primary auto liability and general liability policies. An umbrella policy increases your total available limit for catastrophic claims that exceed your underlying coverage.\n\nNon-Trucking Liability (NTL): Coverage for owner-operators who lease onto a carrier, providing liability protection during personal use of the truck when the driver is not under dispatch. Also called deadhead liability or bobtail insurance, though these terms have technical distinctions.\n\nBobtail Liability: Coverage for operating a tractor without an attached trailer. Depending on the policy, bobtail coverage may apply during both business and personal use or may be limited to non-business operations similar to NTL.\n\nHired Auto Liability: Coverage for liability arising from vehicles you rent, borrow, or hire for business use. This extends your liability protection to vehicles you do not own but are temporarily using in your operations.\n\nTrailer Interchange Coverage: Insurance that covers physical damage to trailers you are pulling under a trailer interchange agreement with another party. Standard physical damage policies often exclude non-owned trailers, making this endorsement necessary when you haul trailers owned by others.',
+          'Event Cancellation: Coverage for irrecoverable expenses and lost revenue when a scheduled event is cancelled, postponed, or abandoned due to covered perils.\n\nNon-Appearance: Coverage for financial losses when a headline performer or essential participant is unable to appear at an event due to covered reasons.\n\nForce Majeure: Events beyond human control that prevent an event from proceeding, such as terrorism, natural disasters, or government orders. Coverage scope varies by policy.\n\nCurtailment: Coverage for losses when an event is cut short before its scheduled conclusion due to a covered peril.\n\nWeather Trigger: An objective weather condition, such as wind speed or rainfall amount, that activates event cancellation coverage when met or exceeded.\n\nAbandonment: The permanent cancellation of an event with no intention to reschedule. Different from postponement in terms of insurance coverage and claim calculation.',
       },
       {
-        heading: 'Property and Cargo Terms',
+        heading: 'Venue and Liability Terms',
         content:
-          'Physical Damage: Insurance covering damage to your own vehicles. Physical damage policies include two components: collision coverage (damage from striking another object or overturning) and comprehensive coverage (damage from theft, fire, weather, vandalism, and other non-collision events).\n\nCollision Coverage: The component of physical damage insurance that pays to repair or replace your vehicle after it collides with another vehicle, object, or overturns. Coverage applies regardless of fault.\n\nComprehensive Coverage: The component of physical damage insurance that covers non-collision damage including theft, fire, vandalism, windstorm, hail, flood, falling objects, and animal strikes.\n\nMotor Truck Cargo Insurance: Coverage for loss or damage to freight in your care, custody, and control while you are transporting it. Cargo insurance responds when goods are damaged, destroyed, or stolen during transit, loading, or unloading.\n\nActual Cash Value (ACV): A valuation method that determines the value of a damaged or total loss vehicle based on its fair market value at the time of the loss, accounting for depreciation. ACV is the standard valuation basis in most physical damage policies.\n\nAgreed Value: A valuation method where you and the insurer pre-agree on the value of the vehicle at policy inception. In a total loss, the insurer pays the agreed amount rather than an ACV assessment. This eliminates depreciation disputes and ensures a predictable settlement.\n\nStated Amount: A valuation method where you declare the value of the vehicle on the policy. In a total loss, the insurer pays the lesser of the stated amount, the actual cash value, or the cost of repair. Stated amount is not the same as agreed value because the insurer can still apply depreciation.\n\nDeductible: The amount you pay out of pocket before your insurance coverage begins to pay on a claim. Higher deductibles reduce your premium but increase your financial exposure when a loss occurs.',
+          'Premises Liability: Legal responsibility of property owners and operators for injuries that occur on their premises due to unsafe conditions.\n\nDram Shop Liability: Legal liability of establishments that serve alcohol for injuries caused by patrons who were overserved. Most states have dram shop laws.\n\nAssault and Battery: Coverage for claims arising from violent acts on the premises. Often excluded from standard GL policies and requiring a separate endorsement.\n\nAdditional Insured: A third party added to your insurance policy who gains coverage for claims arising from your operations. Common in entertainment contracts.\n\nCertificate of Insurance (COI): A document that provides proof of insurance coverage, including policy details, coverage types, limits, and additional insureds.\n\nOccurrence: An accident or event that triggers coverage under a liability policy. Policies are typically written on an occurrence basis, covering events that occur during the policy period.\n\nClaims-Made: A policy that covers claims reported during the policy period, regardless of when the event occurred. Common in E&O and professional liability policies.',
       },
       {
-        heading: 'Workers Protection Terms',
+        heading: 'Coverage Structure Terms',
         content:
-          "Workers' Compensation: State-mandated insurance that provides medical benefits, wage replacement, and disability payments to employees injured on the job. Required for trucking companies with employee drivers in every state except Texas.\n\nOccupational Accident Insurance (OA): Voluntary coverage designed for independent contractors that provides benefits similar to workers' compensation, including accident medical expenses, disability income, and accidental death and dismemberment benefits. The standard injury coverage for owner-operators who are not classified as employees.\n\nEmployers Liability: A component of the workers' compensation policy that covers lawsuits brought by employees alleging employer negligence. While the exclusive remedy provision of workers' comp generally bars employee lawsuits, exceptions exist, and employers liability responds in those situations.\n\nExperience Modification Factor (EMR or E-Mod): A multiplier applied to workers' compensation premiums based on a company's historical claim experience compared to the industry average. An EMR below 1.0 indicates better-than-average loss experience and results in lower premiums. An EMR above 1.0 indicates worse-than-average experience and higher premiums.",
-      },
-      {
-        heading: 'Underwriting and Policy Terms',
-        content:
-          'Premium: The amount you pay for your insurance coverage, typically expressed as an annual amount and payable in installments. Premiums are determined by underwriting factors including your loss history, driver records, fleet size, commodities hauled, and operating radius.\n\nLoss Run: A report from your current or prior insurance company showing your claims history over a specified period, typically three to five years. Loss runs include claim dates, types, amounts paid, and amounts reserved. Underwriters require loss runs when quoting your renewal or new business.\n\nLoss Ratio: The ratio of claims paid by the insurer to premiums collected, expressed as a percentage. A loss ratio of 60 percent means the insurer paid 60 cents in claims for every dollar of premium collected. High loss ratios lead to premium increases or non-renewal.\n\nMVR (Motor Vehicle Report): A record of a driver\'s history from the state department of motor vehicles, including violations, accidents, license suspensions, and DUI convictions. Underwriters pull MVRs for every driver on a trucking policy as a primary risk assessment tool.\n\nPSP (Pre-Employment Screening Program): An FMCSA program that provides motor carriers access to a driver\'s crash and inspection history from the previous five years. PSP reports are used in the hiring process to evaluate driver safety records.\n\nExclusion: A specific risk, situation, or type of loss that your insurance policy does not cover. Understanding exclusions is critical because a claim falling within an exclusion will be denied regardless of how much premium you pay.\n\nEndorsement: A written modification to your insurance policy that adds, removes, or changes coverage terms. Endorsements can broaden or restrict the base policy and are attached as addenda to the policy document.\n\nCertificate of Insurance (COI): A document issued by your insurer that summarizes your coverage types, limits, and effective dates. Brokers, shippers, and other parties frequently require COIs as proof that you maintain adequate insurance.\n\nPremium Finance: An arrangement where a finance company pays your insurance premium to the insurer and you repay the finance company in monthly installments with interest. Premium financing reduces the upfront cash required to bind coverage but increases the total cost.\n\nSubrogation: The process by which your insurer, after paying your claim, seeks reimbursement from the party that caused the loss. If another driver was at fault in your accident, your insurer may pursue subrogation against that driver\'s insurance to recover the claim payment.\n\nIndemnity: The principle that insurance restores you to the financial position you were in before the loss, no better and no worse. Insurance payments are designed to indemnify you for your actual loss, not to provide a profit.\n\nAdditional Insured: A person or organization added to your insurance policy who receives coverage under your policy for claims arising from your operations. Shippers and brokers frequently require motor carriers to add them as additional insureds on their liability policies.',
+          'Umbrella Liability: A policy that provides additional limits above primary policies and may also broaden coverage beyond the scope of underlying policies.\n\nExcess Liability: A policy that provides additional limits above primary policies but follows the exact terms of the underlying coverage without broadening.\n\nDeductible: The amount the insured must pay out of pocket before insurance coverage begins to pay. Also called self-insured retention (SIR) in some policy forms.\n\nAggregate Limit: The maximum total amount an insurance policy will pay for all covered claims during the policy period.\n\nPer Occurrence Limit: The maximum amount a policy will pay for any single occurrence or event.\n\nSubrogation: The insurer\'s right to recover from a third party who caused the loss after the insurer has paid the claim.\n\nEndorsement: A modification to a standard insurance policy that adds, removes, or changes coverage terms. Also called a rider.',
       },
     ],
     faqs: [
       {
-        q: 'What is the difference between a COI and the actual insurance policy?',
-        a: 'A certificate of insurance (COI) is a summary document that shows your coverage types, limits, and effective dates. It does not confer any coverage rights or alter the terms of the policy itself. The actual insurance policy is the full legal contract between you and the insurer containing the insuring agreement, exclusions, conditions, and endorsements. When questions arise about what is or is not covered, the policy language controls, not the COI.',
+        q: 'What is the difference between occurrence and claims-made policies?',
+        a: 'An occurrence policy covers events that happen during the policy period, regardless of when the claim is reported. A claims-made policy covers claims reported during the policy period, regardless of when the event occurred. E&O and professional liability are often written on a claims-made basis.',
       },
       {
-        q: 'What does it mean to be named as an additional insured?',
-        a: 'When another party is named as an additional insured on your policy, they receive coverage under your policy for claims arising from your operations. For example, if a shipper is an additional insured on your auto liability policy and is sued because your truck caused an accident while hauling their freight, your policy would respond to defend and indemnify the shipper. This is a common contractual requirement in the trucking industry.',
+        q: 'What does additional insured mean?',
+        a: 'An additional insured is a party added to your insurance policy who gains coverage for claims arising from your operations. In entertainment, venues, location owners, and production partners commonly require additional insured status as a condition of their contracts.',
       },
       {
-        q: 'How is a loss run different from a claims history?',
-        a: 'A loss run is an official report generated by your insurance company that provides a verified record of all claims filed under your policy during a specified period. A claims history is a more general term for your record of past claims. Underwriters require loss runs specifically because they are verified documents from the insurer, not self-reported. You can request loss runs from your current and prior insurance carriers at any time.',
+        q: 'What is the difference between a deductible and a self-insured retention?',
+        a: 'Both represent the amount the insured pays before coverage applies. The key difference is that with a deductible, the insurer handles the claim and deducts the amount from the payment. With an SIR, the insured manages and pays claims until the retention is met, at which point the insurer takes over.',
+      },
+      {
+        q: 'What is subrogation?',
+        a: 'Subrogation is the insurer\'s right to pursue recovery from a third party responsible for a loss after paying a claim. For example, if your equipment is damaged by a negligent third party, your insurer pays your claim and then seeks reimbursement from the responsible party.',
       },
     ],
-    relatedResources: ['fmcsa-insurance-requirements', 'trucking-insurance-claims-guide'],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'general-liability'],
+    relatedResources: ['entertainment-insurance-cost', 'claims-guide'],
+    relatedCoverages: ['general-liability', 'production-insurance', 'event-cancellation'],
   },
 ];
 

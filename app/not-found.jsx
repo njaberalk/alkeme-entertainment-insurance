@@ -15,7 +15,7 @@ export default function NotFound() {
           404
         </h1>
         <p className="text-brand/70 mb-8 max-w-md mx-auto" style={{ fontSize: '1rem', lineHeight: '1.6' }}>
-          The page you&apos;re looking for doesn&apos;t exist or has been moved. Let us help you find the right coverage.
+          The page you&apos;re looking for doesn&apos;t exist or has been moved. Let us help you find the right entertainment insurance coverage.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link

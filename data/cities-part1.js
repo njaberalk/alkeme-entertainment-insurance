@@ -1,1102 +1,2402 @@
 export const citiesPart1 = [
   {
-    slug: 'dallas-tx',
-    city: 'Dallas',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in Dallas, TX',
-    metaDescription: 'Commercial trucking insurance in Dallas, Texas. Coverage for carriers on I-35, I-20, and I-30 corridors.',
-    heroHeading: 'Dallas Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Dallas-Fort Worth metroplex.',
-    overview: 'Dallas is a top U.S. freight hub where I-35, I-20, and I-30 converge, driving massive volumes of cross-country and cross-border commerce.',
-    sections: [
-      { heading: 'Trucking in Dallas', content: 'Dallas ranks among the busiest freight markets in the nation, anchored by major distribution centers, intermodal yards, and a dense concentration of carriers serving retail, manufacturing, and energy sectors across the Sun Belt.' },
-      { heading: 'Key Corridors', content: 'I-35 connects Dallas to Laredo and the Mexican border to the south and Oklahoma City to the north. I-20 runs east-west linking Dallas to Shreveport and Midland-Odessa. I-30 provides a direct route to Little Rock and beyond.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for high-traffic urban corridors', 'Physical damage for long-haul rigs on I-20 and I-35', 'Motor truck cargo for retail and manufacturing freight', 'Non-trucking liability for owner-operators'] },
+    "slug": "new-york-ny",
+    "city": "New York",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "abbreviation": "NY",
+    "metaTitle": "Entertainment Insurance in New York, NY",
+    "metaDescription": "Entertainment insurance in New York, New York. Coverage for productions, venues, events, and entertainment businesses in the New York area.",
+    "heroHeading": "New York Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in New York, NY.",
+    "overview": "NYC is the nation's Broadway capital and a global entertainment center with thousands of venues, studios, and production facilities. Entertainment businesses in New York need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the New York market.",
+    "sections": [
+      {
+        "heading": "Entertainment in New York",
+        "content": "NYC is the nation's Broadway capital and a global entertainment center with thousands of venues, studios, and production facilities.\n\nThe New York entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in New York should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in New York.\n\nLocal filming and event permits in New York typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What insurance do Dallas-based carriers need?', a: 'At minimum, auto liability and cargo coverage. Most carriers also add physical damage and non-trucking liability.' },
-      { q: 'Does heavy metro traffic affect premiums?', a: 'Yes. Dallas-Fort Worth congestion increases accident exposure, which insurers factor into rates.' },
+    "faqs": [
+      {
+        "q": "What insurance do New York entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are New York's filming permit insurance requirements?",
+        "a": "Filming permits in New York typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'houston-tx',
-    city: 'Houston',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in Houston, TX',
-    metaDescription: 'Commercial trucking insurance in Houston, Texas. Coverage for carriers on I-10, I-45, and I-69 corridors.',
-    heroHeading: 'Houston Trucking Insurance',
-    heroSubheading: 'Protecting carriers in the nation\'s energy and port capital.',
-    overview: 'Houston\'s Port of Houston and petrochemical complex make it one of the largest freight origins in the United States.',
-    sections: [
-      { heading: 'Trucking in Houston', content: 'Houston generates enormous freight volumes from its refineries, petrochemical plants, and the Port of Houston, one of the busiest ports in the country. Carriers haul everything from crude oil to consumer goods across the metro.' },
-      { heading: 'Key Corridors', content: 'I-10 runs east to Beaumont and west to San Antonio. I-45 connects Houston to Dallas. I-69 links the city to the Rio Grande Valley. The Sam Houston Tollway and Beltway 8 handle heavy local truck traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Hazmat endorsements for petrochemical haulers', 'Auto liability for congested urban routes', 'Motor truck cargo for port drayage operations', 'Physical damage for flatbed and tanker fleets'] },
+    "slug": "los-angeles-ca",
+    "city": "Los Angeles",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Entertainment Insurance in Los Angeles, CA",
+    "metaDescription": "Entertainment insurance in Los Angeles, California. Coverage for productions, venues, events, and entertainment businesses in the Los Angeles area.",
+    "heroHeading": "Los Angeles Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Los Angeles, CA.",
+    "overview": "Los Angeles is the heart of the global entertainment industry with Hollywood studios, major venues, and a massive live event market. Entertainment businesses in Los Angeles need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the California market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Los Angeles",
+        "content": "Los Angeles is the heart of the global entertainment industry with Hollywood studios, major venues, and a massive live event market.\n\nThe Los Angeles entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Los Angeles should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in California.\n\nLocal filming and event permits in Los Angeles typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Do Houston carriers need special hazmat coverage?', a: 'Carriers hauling petroleum or chemicals need pollution liability and MCS-90 endorsements in addition to standard coverage.' },
-      { q: 'How does hurricane season affect trucking insurance here?', a: 'Flood and weather-related claims can spike premiums. Carriers should review comprehensive physical damage coverage before storm season.' },
+    "faqs": [
+      {
+        "q": "What insurance do Los Angeles entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Los Angeles's filming permit insurance requirements?",
+        "a": "Filming permits in Los Angeles typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'san-antonio-tx',
-    city: 'San Antonio',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in San Antonio, TX',
-    metaDescription: 'Commercial trucking insurance in San Antonio, Texas. Coverage for carriers on I-10, I-35, and I-37 corridors.',
-    heroHeading: 'San Antonio Trucking Insurance',
-    heroSubheading: 'Coverage for carriers at the crossroads of I-10 and I-35.',
-    overview: 'San Antonio sits at the junction of I-10 and I-35, making it a critical waypoint for freight moving between Mexico, the Gulf Coast, and the Midwest.',
-    sections: [
-      { heading: 'Trucking in San Antonio', content: 'San Antonio serves as a key distribution point for cross-border trade with Mexico. The city\'s military installations, manufacturing sector, and growing population fuel steady freight demand.' },
-      { heading: 'Key Corridors', content: 'I-35 runs north to Austin and Dallas and south toward Laredo. I-10 stretches east to Houston and west to El Paso. I-37 connects San Antonio to Corpus Christi and the Gulf Coast.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for cross-border routes', 'Motor truck cargo for NAFTA freight', 'Physical damage for long-haul equipment', 'Trailer interchange for intermodal operations'] },
+    "slug": "chicago-il",
+    "city": "Chicago",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "abbreviation": "IL",
+    "metaTitle": "Entertainment Insurance in Chicago, IL",
+    "metaDescription": "Entertainment insurance in Chicago, Illinois. Coverage for productions, venues, events, and entertainment businesses in the Chicago area.",
+    "heroHeading": "Chicago Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Chicago, IL.",
+    "overview": "Chicago's theater and comedy scene, major festivals like Lollapalooza, and world-class music venues make it a premier entertainment city. Entertainment businesses in Chicago need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Illinois market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Chicago",
+        "content": "Chicago's theater and comedy scene, major festivals like Lollapalooza, and world-class music venues make it a premier entertainment city.\n\nThe Chicago entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Chicago should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Illinois.\n\nLocal filming and event permits in Chicago typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is cross-border insurance different for San Antonio carriers?', a: 'Carriers crossing into Mexico need separate Mexican liability policies. U.S. coverage typically ends at the border.' },
-      { q: 'What corridors see the most truck traffic?', a: 'I-35 between San Antonio and Laredo is one of the heaviest truck corridors in the nation due to cross-border trade.' },
+    "faqs": [
+      {
+        "q": "What insurance do Chicago entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Chicago's filming permit insurance requirements?",
+        "a": "Filming permits in Chicago typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'chicago-il',
-    city: 'Chicago',
-    state: 'Illinois',
-    stateSlug: 'illinois',
-    abbreviation: 'IL',
-    metaTitle: 'Trucking Insurance in Chicago, IL',
-    metaDescription: 'Commercial trucking insurance in Chicago, Illinois. Coverage for carriers on I-90, I-94, I-80, and I-55 corridors.',
-    heroHeading: 'Chicago Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in America\'s freight crossroads.',
-    overview: 'Chicago is the largest intermodal hub in North America, with more rail and truck freight passing through the metro than any other U.S. city.',
-    sections: [
-      { heading: 'Trucking in Chicago', content: 'Chicago\'s central location and massive intermodal facilities make it the top freight hub in the country. Carriers serve retail distribution centers, manufacturing plants, and agricultural shippers across the region.' },
-      { heading: 'Key Corridors', content: 'I-90 and I-94 connect Chicago to Milwaukee and Detroit. I-80 runs east-west south of the city. I-55 heads to St. Louis. I-57 runs south to Memphis. I-294 and I-355 handle suburban truck traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for dense urban and tollway driving', 'Physical damage for intermodal drayage trucks', 'Motor truck cargo for high-value retail freight', 'Workers compensation for warehouse cross-dock operations'] },
+    "slug": "houston-tx",
+    "city": "Houston",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Entertainment Insurance in Houston, TX",
+    "metaDescription": "Entertainment insurance in Houston, Texas. Coverage for productions, venues, events, and entertainment businesses in the Houston area.",
+    "heroHeading": "Houston Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Houston, TX.",
+    "overview": "Houston's diverse entertainment market includes major venues, a growing production sector, and vibrant nightlife. Entertainment businesses in Houston need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Texas market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Houston",
+        "content": "Houston's diverse entertainment market includes major venues, a growing production sector, and vibrant nightlife.\n\nThe Houston entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Houston should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Texas.\n\nLocal filming and event permits in Houston typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why are Chicago trucking insurance rates high?', a: 'Cook County has a plaintiff-friendly legal environment and heavy traffic congestion, both of which drive up claims costs and premiums.' },
-      { q: 'What types of freight move through Chicago?', a: 'Consumer goods, food products, automotive parts, and agricultural commodities are the largest categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Houston entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Houston's filming permit insurance requirements?",
+        "a": "Filming permits in Houston typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'memphis-tn',
-    city: 'Memphis',
-    state: 'Tennessee',
-    stateSlug: 'tennessee',
-    abbreviation: 'TN',
-    metaTitle: 'Trucking Insurance in Memphis, TN',
-    metaDescription: 'Commercial trucking insurance in Memphis, Tennessee. Coverage for carriers on I-40, I-55, and I-240 corridors.',
-    heroHeading: 'Memphis Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in America\'s distribution center.',
-    overview: 'Memphis is a top logistics hub anchored by FedEx\'s global headquarters, major rail yards, and the busiest cargo airport in North America.',
-    sections: [
-      { heading: 'Trucking in Memphis', content: 'Memphis\'s central location and multimodal infrastructure make it a premier distribution hub. The city is home to massive warehousing complexes and serves as a transfer point between truck, rail, air, and barge freight.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to Nashville and west to Little Rock. I-55 connects Memphis to St. Louis to the north and Jackson, Mississippi to the south. I-240 and I-269 loop around the metro area.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for high-volume last-mile delivery', 'Motor truck cargo for distribution center freight', 'Physical damage for regional fleet equipment', 'General liability for warehouse operations'] },
+    "slug": "phoenix-az",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "abbreviation": "AZ",
+    "metaTitle": "Entertainment Insurance in Phoenix, AZ",
+    "metaDescription": "Entertainment insurance in Phoenix, Arizona. Coverage for productions, venues, events, and entertainment businesses in the Phoenix area.",
+    "heroHeading": "Phoenix Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Phoenix, AZ.",
+    "overview": "Phoenix's entertainment market includes major venues, resort events in Scottsdale, and a growing arts scene. Entertainment businesses in Phoenix need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Arizona market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Phoenix",
+        "content": "Phoenix's entertainment market includes major venues, resort events in Scottsdale, and a growing arts scene.\n\nThe Phoenix entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Phoenix should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Arizona.\n\nLocal filming and event permits in Phoenix typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does Memphis\'s logistics density affect insurance?', a: 'Yes. High truck volumes in the warehouse districts increase accident frequency, which affects premiums.' },
-      { q: 'What makes Memphis unique for trucking?', a: 'Memphis offers truck, rail, air, and river barge connections, giving carriers flexible intermodal options.' },
+    "faqs": [
+      {
+        "q": "What insurance do Phoenix entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Phoenix's filming permit insurance requirements?",
+        "a": "Filming permits in Phoenix typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'atlanta-ga',
-    city: 'Atlanta',
-    state: 'Georgia',
-    stateSlug: 'georgia',
-    abbreviation: 'GA',
-    metaTitle: 'Trucking Insurance in Atlanta, GA',
-    metaDescription: 'Commercial trucking insurance in Atlanta, Georgia. Coverage for carriers on I-75, I-85, and I-20 corridors.',
-    heroHeading: 'Atlanta Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Southeast\'s busiest freight market.',
-    overview: 'Atlanta is the Southeast\'s dominant distribution hub where I-75, I-85, and I-20 converge, connecting carriers to ports, manufacturers, and consumers across the region.',
-    sections: [
-      { heading: 'Trucking in Atlanta', content: 'Atlanta\'s strategic position in the Southeast makes it a primary distribution point for consumer goods, food, and building materials. The metro area hosts hundreds of distribution centers and a thriving carrier community.' },
-      { heading: 'Key Corridors', content: 'I-75 runs north to Chattanooga and south to Macon and Florida. I-85 connects to Charlotte and Montgomery. I-20 runs east to Augusta and west to Birmingham. I-285 loops the metro.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for congested metro corridors', 'Physical damage for Southeast regional fleets', 'Motor truck cargo for retail distribution', 'Umbrella coverage for high-exposure operations'] },
+    "slug": "philadelphia-pa",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "abbreviation": "PA",
+    "metaTitle": "Entertainment Insurance in Philadelphia, PA",
+    "metaDescription": "Entertainment insurance in Philadelphia, Pennsylvania. Coverage for productions, venues, events, and entertainment businesses in the Philadelphia area.",
+    "heroHeading": "Philadelphia Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Philadelphia, PA.",
+    "overview": "Philadelphia's performing arts tradition, major venues, and growing production activity make it a significant entertainment market. Entertainment businesses in Philadelphia need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Pennsylvania market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Philadelphia",
+        "content": "Philadelphia's performing arts tradition, major venues, and growing production activity make it a significant entertainment market.\n\nThe Philadelphia entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Philadelphia should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Pennsylvania.\n\nLocal filming and event permits in Philadelphia typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is Georgia a tough state for trucking claims?', a: 'Georgia has seen rising nuclear verdicts in trucking cases, making adequate liability limits essential.' },
-      { q: 'What freight moves through Atlanta?', a: 'Consumer packaged goods, building materials, food and beverage, and e-commerce fulfillment are major categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Philadelphia entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Philadelphia's filming permit insurance requirements?",
+        "a": "Filming permits in Philadelphia typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'los-angeles-ca',
-    city: 'Los Angeles',
-    state: 'California',
-    stateSlug: 'california',
-    abbreviation: 'CA',
-    metaTitle: 'Trucking Insurance in Los Angeles, CA',
-    metaDescription: 'Commercial trucking insurance in Los Angeles, California. Coverage for carriers on I-5, I-10, I-710, and I-405 corridors.',
-    heroHeading: 'Los Angeles Trucking Insurance',
-    heroSubheading: 'Insurance for carriers serving the nation\'s busiest port complex.',
-    overview: 'Los Angeles and its twin ports of LA and Long Beach handle more container volume than any other U.S. gateway, generating massive drayage and long-haul freight demand.',
-    sections: [
-      { heading: 'Trucking in Los Angeles', content: 'LA\'s port complex drives a huge drayage market, while the Inland Empire\'s warehouse corridor fuels regional and long-haul trucking. Carriers move imported goods, produce, and manufactured products throughout the West.' },
-      { heading: 'Key Corridors', content: 'I-710 connects the ports to rail yards and warehouses. I-5 runs north-south through the state. I-10 heads east toward San Bernardino and Phoenix. I-405 handles heavy local traffic. I-15 links to Las Vegas.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for heavy port drayage traffic', 'Motor truck cargo for containerized imports', 'Physical damage for equipment in congested corridors', 'Pollution liability for older diesel fleets under CARB rules'] },
+    "slug": "san-antonio-tx",
+    "city": "San Antonio",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Entertainment Insurance in San Antonio, TX",
+    "metaDescription": "Entertainment insurance in San Antonio, Texas. Coverage for productions, venues, events, and entertainment businesses in the San Antonio area.",
+    "heroHeading": "San Antonio Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in San Antonio, TX.",
+    "overview": "San Antonio's River Walk entertainment district and cultural events drive significant entertainment business. Entertainment businesses in San Antonio need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Texas market.",
+    "sections": [
+      {
+        "heading": "Entertainment in San Antonio",
+        "content": "San Antonio's River Walk entertainment district and cultural events drive significant entertainment business.\n\nThe San Antonio entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in San Antonio should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Texas.\n\nLocal filming and event permits in San Antonio typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does California regulation affect trucking insurance?', a: 'Yes. CARB emissions rules, AB5 labor classification, and strict safety enforcement all affect coverage needs and costs.' },
-      { q: 'What is port drayage insurance?', a: 'Drayage insurance covers short-haul container moves between ports, rail yards, and warehouses, typically requiring auto liability and cargo coverage.' },
+    "faqs": [
+      {
+        "q": "What insurance do San Antonio entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are San Antonio's filming permit insurance requirements?",
+        "a": "Filming permits in San Antonio typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'indianapolis-in',
-    city: 'Indianapolis',
-    state: 'Indiana',
-    stateSlug: 'indiana',
-    abbreviation: 'IN',
-    metaTitle: 'Trucking Insurance in Indianapolis, IN',
-    metaDescription: 'Commercial trucking insurance in Indianapolis, Indiana. Coverage for carriers on I-70, I-65, and I-74 corridors.',
-    heroHeading: 'Indianapolis Trucking Insurance',
-    heroSubheading: 'Coverage for carriers at the Crossroads of America.',
-    overview: 'Indianapolis lives up to Indiana\'s motto as the Crossroads of America, with I-70 and I-65 intersecting to create one of the Midwest\'s top freight distribution points.',
-    sections: [
-      { heading: 'Trucking in Indianapolis', content: 'Indianapolis is a major Midwest distribution center with large warehouse parks and a strong concentration of carriers. The city\'s central location allows single-day truck delivery to a large share of the U.S. population.' },
-      { heading: 'Key Corridors', content: 'I-70 runs east to Columbus and west to St. Louis. I-65 connects to Chicago in the north and Louisville to the south. I-74 links to Cincinnati. I-465 loops the metro area.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Midwest regional routes', 'Motor truck cargo for distribution center loads', 'Physical damage for fleet equipment', 'Non-trucking liability for owner-operators'] },
+    "slug": "san-diego-ca",
+    "city": "San Diego",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Entertainment Insurance in San Diego, CA",
+    "metaDescription": "Entertainment insurance in San Diego, California. Coverage for productions, venues, events, and entertainment businesses in the San Diego area.",
+    "heroHeading": "San Diego Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in San Diego, CA.",
+    "overview": "San Diego hosts Comic-Con, has a growing entertainment district, and supports year-round outdoor events. Entertainment businesses in San Diego need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the California market.",
+    "sections": [
+      {
+        "heading": "Entertainment in San Diego",
+        "content": "San Diego hosts Comic-Con, has a growing entertainment district, and supports year-round outdoor events.\n\nThe San Diego entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in San Diego should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in California.\n\nLocal filming and event permits in San Diego typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why is Indianapolis a popular carrier base?', a: 'Its central location enables one-day delivery to roughly 75% of the U.S. population, making it cost-effective for distribution.' },
-      { q: 'What commodities move through Indianapolis?', a: 'Automotive parts, pharmaceuticals, consumer goods, and food products are major freight categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do San Diego entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are San Diego's filming permit insurance requirements?",
+        "a": "Filming permits in San Diego typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'columbus-oh',
-    city: 'Columbus',
-    state: 'Ohio',
-    stateSlug: 'ohio',
-    abbreviation: 'OH',
-    metaTitle: 'Trucking Insurance in Columbus, OH',
-    metaDescription: 'Commercial trucking insurance in Columbus, Ohio. Coverage for carriers on I-70, I-71, and I-270 corridors.',
-    heroHeading: 'Columbus Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in Ohio\'s largest freight market.',
-    overview: 'Columbus is a fast-growing logistics hub at the junction of I-70 and I-71, with major e-commerce fulfillment centers driving freight demand.',
-    sections: [
-      { heading: 'Trucking in Columbus', content: 'Columbus has emerged as a top-tier logistics market fueled by e-commerce fulfillment centers, food distribution, and automotive supply chains. The city\'s population growth has expanded both inbound and outbound freight volumes.' },
-      { heading: 'Key Corridors', content: 'I-70 runs east to Wheeling and west to Indianapolis. I-71 connects Columbus to Cleveland and Cincinnati. I-270 circles the metro. US-33 links to the Southeast Ohio corridor.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional delivery routes', 'Motor truck cargo for e-commerce fulfillment', 'Physical damage for last-mile delivery fleets', 'Workers compensation for warehouse operations'] },
+    "slug": "dallas-tx",
+    "city": "Dallas",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Entertainment Insurance in Dallas, TX",
+    "metaDescription": "Entertainment insurance in Dallas, Texas. Coverage for productions, venues, events, and entertainment businesses in the Dallas area.",
+    "heroHeading": "Dallas Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Dallas, TX.",
+    "overview": "Dallas has major venues, a strong performing arts scene, and significant entertainment industry activity. Entertainment businesses in Dallas need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Texas market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Dallas",
+        "content": "Dallas has major venues, a strong performing arts scene, and significant entertainment industry activity.\n\nThe Dallas entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Dallas should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Texas.\n\nLocal filming and event permits in Dallas typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why has Columbus grown as a freight hub?', a: 'Major investments from Amazon, retail chains, and food distributors have made Columbus one of the fastest-growing logistics markets.' },
-      { q: 'What insurance challenges exist in Ohio?', a: 'Ohio\'s winter weather increases accident risk from November through March, affecting claims frequency.' },
+    "faqs": [
+      {
+        "q": "What insurance do Dallas entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Dallas's filming permit insurance requirements?",
+        "a": "Filming permits in Dallas typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'louisville-ky',
-    city: 'Louisville',
-    state: 'Kentucky',
-    stateSlug: 'kentucky',
-    abbreviation: 'KY',
-    metaTitle: 'Trucking Insurance in Louisville, KY',
-    metaDescription: 'Commercial trucking insurance in Louisville, Kentucky. Coverage for carriers on I-65, I-64, and I-71 corridors.',
-    heroHeading: 'Louisville Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the UPS Worldport region.',
-    overview: 'Louisville is a premier logistics city anchored by UPS Worldport, strong bourbon and manufacturing freight, and a central location on the Ohio River.',
-    sections: [
-      { heading: 'Trucking in Louisville', content: 'Louisville\'s logistics ecosystem revolves around UPS Worldport, the world\'s largest automated package-handling facility. The city also serves bourbon distilleries, automotive plants, and consumer goods distribution.' },
-      { heading: 'Key Corridors', content: 'I-65 runs north to Indianapolis and south to Nashville. I-64 connects to Lexington and St. Louis. I-71 heads northeast to Cincinnati and Columbus. I-265 circles the metro.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional and long-haul routes', 'Motor truck cargo for high-value package freight', 'Physical damage for fleet vehicles', 'Non-trucking liability for independent contractors'] },
+    "slug": "austin-tx",
+    "city": "Austin",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Entertainment Insurance in Austin, TX",
+    "metaDescription": "Entertainment insurance in Austin, Texas. Coverage for productions, venues, events, and entertainment businesses in the Austin area.",
+    "heroHeading": "Austin Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Austin, TX.",
+    "overview": "Austin hosts SXSW and ACL Festival, and its live music scene has earned it the title Music Capital of the World. Entertainment businesses in Austin need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Texas market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Austin",
+        "content": "Austin hosts SXSW and ACL Festival, and its live music scene has earned it the title Music Capital of the World.\n\nThe Austin entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Austin should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Texas.\n\nLocal filming and event permits in Austin typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does UPS affect Louisville\'s trucking market?', a: 'UPS Worldport generates enormous demand for drayage, LTL, and last-mile carriers in the Louisville area.' },
-      { q: 'Is Kentucky a no-fault insurance state?', a: 'Kentucky uses a choice no-fault system for personal auto, but commercial trucking follows standard liability rules.' },
+    "faqs": [
+      {
+        "q": "What insurance do Austin entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Austin's filming permit insurance requirements?",
+        "a": "Filming permits in Austin typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'nashville-tn',
-    city: 'Nashville',
-    state: 'Tennessee',
-    stateSlug: 'tennessee',
-    abbreviation: 'TN',
-    metaTitle: 'Trucking Insurance in Nashville, TN',
-    metaDescription: 'Commercial trucking insurance in Nashville, Tennessee. Coverage for carriers on I-40, I-65, and I-24 corridors.',
-    heroHeading: 'Nashville Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Middle Tennessee\'s growing freight market.',
-    overview: 'Nashville sits at the intersection of I-40, I-65, and I-24, making it a central distribution point for the Southeast and Midwest.',
-    sections: [
-      { heading: 'Trucking in Nashville', content: 'Nashville\'s rapid population and economic growth have boosted freight demand, particularly in construction materials, healthcare products, and consumer goods. The city is home to several major carrier headquarters.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to Knoxville and west to Memphis. I-65 connects to Louisville in the north and Birmingham to the south. I-24 links Nashville to Chattanooga and St. Louis.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Southeast regional lanes', 'Motor truck cargo for healthcare and consumer freight', 'Physical damage for growing fleets', 'Occupational accident for owner-operators'] },
+    "slug": "jacksonville-fl",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Entertainment Insurance in Jacksonville, FL",
+    "metaDescription": "Entertainment insurance in Jacksonville, Florida. Coverage for productions, venues, events, and entertainment businesses in the Jacksonville area.",
+    "heroHeading": "Jacksonville Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Jacksonville, FL.",
+    "overview": "Jacksonville's growing venue market and outdoor event calendar support expanding entertainment activity. Entertainment businesses in Jacksonville need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Florida market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Jacksonville",
+        "content": "Jacksonville's growing venue market and outdoor event calendar support expanding entertainment activity.\n\nThe Jacksonville entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Jacksonville should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Florida.\n\nLocal filming and event permits in Jacksonville typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is Nashville a good base for trucking companies?', a: 'Yes. Nashville\'s central location provides efficient access to Southeast, Midwest, and Gulf Coast markets.' },
-      { q: 'What risks do Nashville carriers face?', a: 'Severe weather including tornadoes and ice storms can disrupt operations, especially along I-24 and I-40.' },
+    "faqs": [
+      {
+        "q": "What insurance do Jacksonville entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Jacksonville's filming permit insurance requirements?",
+        "a": "Filming permits in Jacksonville typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'kansas-city-mo',
-    city: 'Kansas City',
-    state: 'Missouri',
-    stateSlug: 'missouri',
-    abbreviation: 'MO',
-    metaTitle: 'Trucking Insurance in Kansas City, MO',
-    metaDescription: 'Commercial trucking insurance in Kansas City, Missouri. Coverage for carriers on I-70, I-35, and I-29 corridors.',
-    heroHeading: 'Kansas City Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the center of the national highway grid.',
-    overview: 'Kansas City is a major intermodal and trucking hub where I-70 and I-35 cross, providing efficient access to markets in every direction.',
-    sections: [
-      { heading: 'Trucking in Kansas City', content: 'Kansas City is one of the nation\'s top intermodal centers with major rail yards operated by BNSF and Union Pacific. Trucking activity supports agricultural exports, automotive manufacturing, and consumer goods distribution.' },
-      { heading: 'Key Corridors', content: 'I-70 runs east to St. Louis and west to Denver. I-35 connects to Des Moines in the north and Wichita to the south. I-29 heads north to Omaha and the Dakotas. I-435 and I-635 serve metro freight traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for long-haul and regional routes', 'Motor truck cargo for agricultural and manufactured goods', 'Physical damage for intermodal drayage fleets', 'Trailer interchange coverage for rail yard operations'] },
+    "slug": "san-jose-ca",
+    "city": "San Jose",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Entertainment Insurance in San Jose, CA",
+    "metaDescription": "Entertainment insurance in San Jose, California. Coverage for productions, venues, events, and entertainment businesses in the San Jose area.",
+    "heroHeading": "San Jose Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in San Jose, CA.",
+    "overview": "San Jose supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in San Jose need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the California market.",
+    "sections": [
+      {
+        "heading": "Entertainment in San Jose",
+        "content": "San Jose supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe San Jose entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in San Jose should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in California.\n\nLocal filming and event permits in San Jose typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why do many carriers base in Kansas City?', a: 'The city offers central geography, affordable operating costs, and excellent rail and highway infrastructure.' },
-      { q: 'Does Kansas City\'s weather affect trucking insurance?', a: 'Yes. Ice storms and severe winter weather along I-70 and I-35 increase seasonal accident risk.' },
+    "faqs": [
+      {
+        "q": "What insurance do San Jose entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are San Jose's filming permit insurance requirements?",
+        "a": "Filming permits in San Jose typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'laredo-tx',
-    city: 'Laredo',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in Laredo, TX',
-    metaDescription: 'Commercial trucking insurance in Laredo, Texas. Coverage for carriers on I-35 and the U.S.-Mexico border crossing.',
-    heroHeading: 'Laredo Trucking Insurance',
-    heroSubheading: 'Coverage for carriers at the busiest U.S.-Mexico border crossing.',
-    overview: 'Laredo is the number-one U.S. land port for trade with Mexico, with more truck crossings than any other border city.',
-    sections: [
-      { heading: 'Trucking in Laredo', content: 'Laredo handles more international trade by truck than any other U.S. border city. Carriers here move automotive parts, produce, electronics, and manufactured goods between Mexico and destinations throughout the U.S.' },
-      { heading: 'Key Corridors', content: 'I-35 is the primary artery running north from Laredo to San Antonio, Dallas, and beyond. US-83 runs along the border. Mexican Highway 85 connects to Monterrey on the south side.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for cross-border operations', 'Motor truck cargo for international shipments', 'Customs bond coverage for border freight', 'Physical damage for equipment in heavy-use corridors'] },
+    "slug": "fort-worth-tx",
+    "city": "Fort Worth",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Entertainment Insurance in Fort Worth, TX",
+    "metaDescription": "Entertainment insurance in Fort Worth, Texas. Coverage for productions, venues, events, and entertainment businesses in the Fort Worth area.",
+    "heroHeading": "Fort Worth Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Fort Worth, TX.",
+    "overview": "Fort Worth supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Fort Worth need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Texas market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Fort Worth",
+        "content": "Fort Worth supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Fort Worth entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Fort Worth should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Texas.\n\nLocal filming and event permits in Fort Worth typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Do carriers need Mexican insurance to cross the border?', a: 'Yes. U.S. policies do not cover operations in Mexico. A separate Mexican liability policy is required.' },
-      { q: 'What are common Laredo freight types?', a: 'Automotive parts, fresh produce, electronics, and consumer goods dominate cross-border truck traffic.' },
+    "faqs": [
+      {
+        "q": "What insurance do Fort Worth entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Fort Worth's filming permit insurance requirements?",
+        "a": "Filming permits in Fort Worth typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'el-paso-tx',
-    city: 'El Paso',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in El Paso, TX',
-    metaDescription: 'Commercial trucking insurance in El Paso, Texas. Coverage for carriers on I-10 and the U.S.-Mexico border.',
-    heroHeading: 'El Paso Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the western Texas border crossing.',
-    overview: 'El Paso is a major U.S.-Mexico trade gateway on I-10, connecting cross-border manufacturing freight with markets across the Southwest and beyond.',
-    sections: [
-      { heading: 'Trucking in El Paso', content: 'El Paso and its sister city Ciudad Juarez form one of the largest binational manufacturing zones in the world. Maquiladora output drives heavy truck traffic across the international bridges daily.' },
-      { heading: 'Key Corridors', content: 'I-10 is the main highway running east to San Antonio and west to Tucson and Los Angeles. US-54 heads north to Alamogordo. US-85 connects south to the border crossings. I-25 begins nearby in Las Cruces.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for border and long-haul routes', 'Motor truck cargo for maquiladora freight', 'Physical damage for desert highway operations', 'Non-trucking liability for independent operators'] },
+    "slug": "columbus-oh",
+    "city": "Columbus",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "abbreviation": "OH",
+    "metaTitle": "Entertainment Insurance in Columbus, OH",
+    "metaDescription": "Entertainment insurance in Columbus, Ohio. Coverage for productions, venues, events, and entertainment businesses in the Columbus area.",
+    "heroHeading": "Columbus Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Columbus, OH.",
+    "overview": "Columbus has a strong performing arts scene, growing entertainment district, and major event programming. Entertainment businesses in Columbus need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Ohio market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Columbus",
+        "content": "Columbus has a strong performing arts scene, growing entertainment district, and major event programming.\n\nThe Columbus entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Columbus should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Ohio.\n\nLocal filming and event permits in Columbus typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What freight moves through El Paso?', a: 'Electronics, automotive components, textiles, and food products are the primary commodities crossing the border here.' },
-      { q: 'Are El Paso insurance rates affected by border operations?', a: 'Cross-border complexity and high truck volumes at the ports of entry can influence rates for carriers based here.' },
+    "faqs": [
+      {
+        "q": "What insurance do Columbus entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Columbus's filming permit insurance requirements?",
+        "a": "Filming permits in Columbus typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'jacksonville-fl',
-    city: 'Jacksonville',
-    state: 'Florida',
-    stateSlug: 'florida',
-    abbreviation: 'FL',
-    metaTitle: 'Trucking Insurance in Jacksonville, FL',
-    metaDescription: 'Commercial trucking insurance in Jacksonville, Florida. Coverage for carriers on I-95, I-10, and I-295 corridors.',
-    heroHeading: 'Jacksonville Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Northeast Florida\'s port and logistics hub.',
-    overview: 'Jacksonville combines a deep-water port with intersecting interstates to serve as a gateway for freight entering and leaving Florida.',
-    sections: [
-      { heading: 'Trucking in Jacksonville', content: 'Jacksonville\'s JAXPORT handles automobiles, containers, and bulk cargo, generating strong drayage demand. The city also serves as a distribution hub for freight destined throughout the Florida peninsula.' },
-      { heading: 'Key Corridors', content: 'I-95 runs north to Savannah and south to Miami. I-10 heads west to Tallahassee and beyond. I-295 loops the metro. US-301 and US-1 provide secondary routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-95 corridor operations', 'Motor truck cargo for port drayage', 'Physical damage for auto-hauler fleets', 'General liability for intermodal operations'] },
+    "slug": "charlotte-nc",
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "abbreviation": "NC",
+    "metaTitle": "Entertainment Insurance in Charlotte, NC",
+    "metaDescription": "Entertainment insurance in Charlotte, North Carolina. Coverage for productions, venues, events, and entertainment businesses in the Charlotte area.",
+    "heroHeading": "Charlotte Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Charlotte, NC.",
+    "overview": "Charlotte's growing entertainment market includes major venues, a developing arts district, and proximity to production activity. Entertainment businesses in Charlotte need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the North Carolina market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Charlotte",
+        "content": "Charlotte's growing entertainment market includes major venues, a developing arts district, and proximity to production activity.\n\nThe Charlotte entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Charlotte should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in North Carolina.\n\nLocal filming and event permits in Charlotte typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is Florida a high-cost state for trucking insurance?', a: 'Florida has elevated insurance costs due to high traffic density, hurricane exposure, and an active litigation environment.' },
-      { q: 'What makes Jacksonville important for trucking?', a: 'It is the primary freight gateway into Florida and one of the top vehicle-import ports in the nation.' },
+    "faqs": [
+      {
+        "q": "What insurance do Charlotte entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Charlotte's filming permit insurance requirements?",
+        "a": "Filming permits in Charlotte typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'charlotte-nc',
-    city: 'Charlotte',
-    state: 'North Carolina',
-    stateSlug: 'north-carolina',
-    abbreviation: 'NC',
-    metaTitle: 'Trucking Insurance in Charlotte, NC',
-    metaDescription: 'Commercial trucking insurance in Charlotte, North Carolina. Coverage for carriers on I-85, I-77, and I-485 corridors.',
-    heroHeading: 'Charlotte Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Carolina Piedmont freight market.',
-    overview: 'Charlotte is the largest city in the Carolinas and a growing distribution hub along the I-85 corridor between Atlanta and the Northeast.',
-    sections: [
-      { heading: 'Trucking in Charlotte', content: 'Charlotte\'s position on the I-85 corridor and growing metro population have attracted major distribution centers. The city serves manufacturing, food distribution, and e-commerce fulfillment operations.' },
-      { heading: 'Key Corridors', content: 'I-85 connects Charlotte to Atlanta and the Piedmont Triad. I-77 runs north to Virginia and south to Columbia, SC. I-485 loops the metro. I-40 is accessible via Greensboro to the north.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-85 regional lanes', 'Motor truck cargo for manufacturing freight', 'Physical damage for fleet equipment', 'Umbrella coverage for higher liability limits'] },
+    "slug": "indianapolis-in",
+    "city": "Indianapolis",
+    "state": "Indiana",
+    "stateSlug": "indiana",
+    "abbreviation": "IN",
+    "metaTitle": "Entertainment Insurance in Indianapolis, IN",
+    "metaDescription": "Entertainment insurance in Indianapolis, Indiana. Coverage for productions, venues, events, and entertainment businesses in the Indianapolis area.",
+    "heroHeading": "Indianapolis Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Indianapolis, IN.",
+    "overview": "Indianapolis Motor Speedway entertainment and a growing arts district support expanding entertainment activity. Entertainment businesses in Indianapolis need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Indiana market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Indianapolis",
+        "content": "Indianapolis Motor Speedway entertainment and a growing arts district support expanding entertainment activity.\n\nThe Indianapolis entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Indianapolis should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Indiana.\n\nLocal filming and event permits in Indianapolis typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What industries drive Charlotte trucking demand?', a: 'Manufacturing, financial services support, food distribution, and e-commerce fulfillment generate significant freight volumes.' },
-      { q: 'How does North Carolina regulate trucking insurance?', a: 'North Carolina requires minimum liability coverage and has specific filing requirements for intrastate carriers.' },
+    "faqs": [
+      {
+        "q": "What insurance do Indianapolis entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Indianapolis's filming permit insurance requirements?",
+        "a": "Filming permits in Indianapolis typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'fort-worth-tx',
-    city: 'Fort Worth',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in Fort Worth, TX',
-    metaDescription: 'Commercial trucking insurance in Fort Worth, Texas. Coverage for carriers on I-35W, I-30, and I-20 corridors.',
-    heroHeading: 'Fort Worth Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the western DFW metroplex.',
-    overview: 'Fort Worth anchors the western side of the Dallas-Fort Worth metroplex, with strong freight ties to energy, agriculture, and manufacturing industries.',
-    sections: [
-      { heading: 'Trucking in Fort Worth', content: 'Fort Worth serves as a hub for energy-sector trucking, livestock transport, and general freight distribution. The BNSF Railway headquarters and Alliance Global Logistics Hub drive intermodal activity.' },
-      { heading: 'Key Corridors', content: 'I-35W runs north to Denton and south to Waco. I-30 connects to Dallas. I-20 runs east-west. TX-170 and TX-121 serve the Alliance logistics corridor north of the city.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for metro and regional operations', 'Motor truck cargo for energy and agricultural freight', 'Physical damage for oilfield service equipment', 'Occupational accident for owner-operators'] },
+    "slug": "san-francisco-ca",
+    "city": "San Francisco",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Entertainment Insurance in San Francisco, CA",
+    "metaDescription": "Entertainment insurance in San Francisco, California. Coverage for productions, venues, events, and entertainment businesses in the San Francisco area.",
+    "heroHeading": "San Francisco Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in San Francisco, CA.",
+    "overview": "San Francisco's tech-entertainment intersection, iconic venues like the Fillmore, and vibrant arts scene drive the market. Entertainment businesses in San Francisco need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the California market.",
+    "sections": [
+      {
+        "heading": "Entertainment in San Francisco",
+        "content": "San Francisco's tech-entertainment intersection, iconic venues like the Fillmore, and vibrant arts scene drive the market.\n\nThe San Francisco entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in San Francisco should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in California.\n\nLocal filming and event permits in San Francisco typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How is Fort Worth different from Dallas for trucking?', a: 'Fort Worth has a stronger concentration of energy, agriculture, and intermodal freight compared to Dallas\'s retail and consumer goods focus.' },
-      { q: 'What is the Alliance corridor?', a: 'AllianceTexas is a massive inland port and logistics hub north of Fort Worth with integrated air, rail, and truck facilities.' },
+    "faqs": [
+      {
+        "q": "What insurance do San Francisco entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are San Francisco's filming permit insurance requirements?",
+        "a": "Filming permits in San Francisco typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'st-louis-mo',
-    city: 'St. Louis',
-    state: 'Missouri',
-    stateSlug: 'missouri',
-    abbreviation: 'MO',
-    metaTitle: 'Trucking Insurance in St. Louis, MO',
-    metaDescription: 'Commercial trucking insurance in St. Louis, Missouri. Coverage for carriers on I-70, I-64, I-55, and I-44 corridors.',
-    heroHeading: 'St. Louis Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the Gateway to the West.',
-    overview: 'St. Louis sits at the confluence of the Missouri and Mississippi Rivers with four major interstates converging, making it a natural freight crossroads.',
-    sections: [
-      { heading: 'Trucking in St. Louis', content: 'St. Louis serves as a key distribution center for the central U.S. The metro area\'s manufacturing base, river port, and rail connections support a diverse carrier community hauling automotive, food, and chemical products.' },
-      { heading: 'Key Corridors', content: 'I-70 runs east to Indianapolis and west to Kansas City. I-64 heads east to Louisville. I-55 connects to Memphis in the south and Chicago in the north. I-44 runs southwest to Tulsa and Oklahoma City.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for multi-state regional routes', 'Motor truck cargo for manufacturing freight', 'Physical damage for fleet vehicles', 'Pollution liability for chemical haulers'] },
+    "slug": "seattle-wa",
+    "city": "Seattle",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "abbreviation": "WA",
+    "metaTitle": "Entertainment Insurance in Seattle, WA",
+    "metaDescription": "Entertainment insurance in Seattle, Washington. Coverage for productions, venues, events, and entertainment businesses in the Seattle area.",
+    "heroHeading": "Seattle Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Seattle, WA.",
+    "overview": "Seattle's grunge heritage and vibrant live music scene, combined with growing tech-driven entertainment, define the market. Entertainment businesses in Seattle need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Washington market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Seattle",
+        "content": "Seattle's grunge heritage and vibrant live music scene, combined with growing tech-driven entertainment, define the market.\n\nThe Seattle entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Seattle should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Washington.\n\nLocal filming and event permits in Seattle typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does the Missouri-Illinois border affect insurance?', a: 'Carriers operating in both states need to meet each state\'s regulatory and insurance filing requirements.' },
-      { q: 'What freight originates in St. Louis?', a: 'Automotive parts, beer and beverages, chemicals, and food products are major outbound commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Seattle entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Seattle's filming permit insurance requirements?",
+        "a": "Filming permits in Seattle typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'detroit-mi',
-    city: 'Detroit',
-    state: 'Michigan',
-    stateSlug: 'michigan',
-    abbreviation: 'MI',
-    metaTitle: 'Trucking Insurance in Detroit, MI',
-    metaDescription: 'Commercial trucking insurance in Detroit, Michigan. Coverage for carriers on I-75, I-94, I-96, and the Ambassador Bridge corridor.',
-    heroHeading: 'Detroit Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the automotive capital and cross-border trade hub.',
-    overview: 'Detroit is the center of the U.S. automotive industry and the busiest commercial border crossing with Canada, driving heavy freight volumes.',
-    sections: [
-      { heading: 'Trucking in Detroit', content: 'Detroit\'s trucking market revolves around automotive manufacturing, with carriers moving parts and finished vehicles between plants, suppliers, and dealers. The Ambassador Bridge and Detroit-Windsor Tunnel handle enormous cross-border trade with Canada.' },
-      { heading: 'Key Corridors', content: 'I-75 runs north through Michigan and south to Toledo and Cincinnati. I-94 connects to Chicago and Ann Arbor. I-96 heads west to Grand Rapids. I-275 and M-10 handle metro freight traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for just-in-time automotive routes', 'Motor truck cargo for high-value auto parts', 'Physical damage for specialized car-hauler equipment', 'Cross-border coverage for U.S.-Canada operations'] },
+    "slug": "denver-co",
+    "city": "Denver",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "abbreviation": "CO",
+    "metaTitle": "Entertainment Insurance in Denver, CO",
+    "metaDescription": "Entertainment insurance in Denver, Colorado. Coverage for productions, venues, events, and entertainment businesses in the Denver area.",
+    "heroHeading": "Denver Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Denver, CO.",
+    "overview": "Denver's entertainment scene benefits from Red Rocks proximity, a growing arts district, and Colorado's outdoor event culture. Entertainment businesses in Denver need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Colorado market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Denver",
+        "content": "Denver's entertainment scene benefits from Red Rocks proximity, a growing arts district, and Colorado's outdoor event culture.\n\nThe Denver entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Denver should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Colorado.\n\nLocal filming and event permits in Denver typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does Michigan no-fault law affect trucking insurance?', a: 'Michigan\'s no-fault system applies to personal auto. Commercial trucking follows federal liability requirements, though Michigan-specific rules can affect costs.' },
-      { q: 'What is the Gordie Howe Bridge?', a: 'The Gordie Howe International Bridge is a new crossing between Detroit and Windsor that will increase cross-border trucking capacity.' },
+    "faqs": [
+      {
+        "q": "What insurance do Denver entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Denver's filming permit insurance requirements?",
+        "a": "Filming permits in Denver typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'phoenix-az',
-    city: 'Phoenix',
-    state: 'Arizona',
-    stateSlug: 'arizona',
-    abbreviation: 'AZ',
-    metaTitle: 'Trucking Insurance in Phoenix, AZ',
-    metaDescription: 'Commercial trucking insurance in Phoenix, Arizona. Coverage for carriers on I-10, I-17, and I-40 corridors.',
-    heroHeading: 'Phoenix Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the fastest-growing Southwest freight market.',
-    overview: 'Phoenix is the Southwest\'s largest metro area, with rapid population growth driving construction, consumer goods, and produce freight demand.',
-    sections: [
-      { heading: 'Trucking in Phoenix', content: 'Phoenix\'s booming population fuels demand for construction materials, consumer goods, and food products. The city serves as a distribution hub for Arizona and a transfer point between California, Texas, and Mexico.' },
-      { heading: 'Key Corridors', content: 'I-10 runs east to Tucson and west to Los Angeles. I-17 heads north to Flagstaff and connects to I-40. Loop 101, Loop 202, and Loop 303 carry heavy metro truck traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for desert long-haul routes', 'Physical damage for heat-exposed equipment', 'Motor truck cargo for construction materials', 'Non-trucking liability for owner-operators'] },
+    "slug": "nashville-tn",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "stateSlug": "tennessee",
+    "abbreviation": "TN",
+    "metaTitle": "Entertainment Insurance in Nashville, TN",
+    "metaDescription": "Entertainment insurance in Nashville, Tennessee. Coverage for productions, venues, events, and entertainment businesses in the Nashville area.",
+    "heroHeading": "Nashville Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Nashville, TN.",
+    "overview": "Nashville is the country music capital with Music Row, the Grand Ole Opry, and a booming entertainment district on Broadway. Entertainment businesses in Nashville need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Tennessee market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Nashville",
+        "content": "Nashville is the country music capital with Music Row, the Grand Ole Opry, and a booming entertainment district on Broadway.\n\nThe Nashville entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Nashville should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Tennessee.\n\nLocal filming and event permits in Nashville typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does desert heat affect trucking insurance?', a: 'Extreme heat causes tire blowouts and mechanical failures, which can increase claims and affect premiums.' },
-      { q: 'What freight moves through Phoenix?', a: 'Construction materials, produce from Nogales, consumer goods, and electronics are major categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Nashville entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Nashville's filming permit insurance requirements?",
+        "a": "Filming permits in Nashville typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'denver-co',
-    city: 'Denver',
-    state: 'Colorado',
-    stateSlug: 'colorado',
-    abbreviation: 'CO',
-    metaTitle: 'Trucking Insurance in Denver, CO',
-    metaDescription: 'Commercial trucking insurance in Denver, Colorado. Coverage for carriers on I-25, I-70, and I-76 corridors.',
-    heroHeading: 'Denver Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Rocky Mountain freight hub.',
-    overview: 'Denver is the primary distribution center for the Rocky Mountain region, sitting at the junction of I-25 and I-70.',
-    sections: [
-      { heading: 'Trucking in Denver', content: 'Denver serves as the distribution gateway for Colorado, Wyoming, and surrounding mountain states. Carriers handle consumer goods, energy equipment, agricultural products, and construction materials for the growing Front Range population.' },
-      { heading: 'Key Corridors', content: 'I-25 runs north to Cheyenne and south to Colorado Springs and Albuquerque. I-70 heads east to Kansas and west through the Eisenhower Tunnel to the Western Slope. I-76 connects to Nebraska. E-470 serves metro freight.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for mountain and plains routes', 'Physical damage for high-altitude and winter conditions', 'Motor truck cargo for energy and agricultural freight', 'Reefer breakdown coverage for temperature-controlled loads'] },
+    "slug": "oklahoma-city-ok",
+    "city": "Oklahoma City",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "abbreviation": "OK",
+    "metaTitle": "Entertainment Insurance in Oklahoma City, OK",
+    "metaDescription": "Entertainment insurance in Oklahoma City, Oklahoma. Coverage for productions, venues, events, and entertainment businesses in the Oklahoma City area.",
+    "heroHeading": "Oklahoma City Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Oklahoma City, OK.",
+    "overview": "Oklahoma City supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Oklahoma City need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Oklahoma market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Oklahoma City",
+        "content": "Oklahoma City supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Oklahoma City entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Oklahoma City should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Oklahoma.\n\nLocal filming and event permits in Oklahoma City typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does mountain driving affect insurance?', a: 'Steep grades on I-70 increase brake failures and runaway truck incidents, leading to higher premiums for mountain route carriers.' },
-      { q: 'What are Denver\'s key freight industries?', a: 'Energy, agriculture, craft brewing, technology, and construction drive the region\'s trucking demand.' },
+    "faqs": [
+      {
+        "q": "What insurance do Oklahoma City entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Oklahoma City's filming permit insurance requirements?",
+        "a": "Filming permits in Oklahoma City typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'san-bernardino-ca',
-    city: 'San Bernardino',
-    state: 'California',
-    stateSlug: 'california',
-    abbreviation: 'CA',
-    metaTitle: 'Trucking Insurance in San Bernardino, CA',
-    metaDescription: 'Commercial trucking insurance in San Bernardino, California. Coverage for carriers on I-10, I-15, and I-215 corridors.',
-    heroHeading: 'San Bernardino Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Inland Empire warehouse corridor.',
-    overview: 'San Bernardino is the heart of the Inland Empire, the nation\'s largest warehouse and distribution market, handling goods flowing from the ports of Los Angeles and Long Beach.',
-    sections: [
-      { heading: 'Trucking in San Bernardino', content: 'The Inland Empire contains over one billion square feet of warehouse space, making San Bernardino ground zero for goods distribution in the western U.S. Carriers here handle everything from port drayage to last-mile delivery.' },
-      { heading: 'Key Corridors', content: 'I-10 connects to Los Angeles and Palm Springs. I-15 runs north to Barstow and Las Vegas and south to San Diego via I-215. SR-210 and SR-60 handle local distribution traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for high-density warehouse district driving', 'Motor truck cargo for consumer goods distribution', 'Physical damage for drayage and delivery fleets', 'Workers compensation for loading dock operations'] },
+    "slug": "el-paso-tx",
+    "city": "El Paso",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Entertainment Insurance in El Paso, TX",
+    "metaDescription": "Entertainment insurance in El Paso, Texas. Coverage for productions, venues, events, and entertainment businesses in the El Paso area.",
+    "heroHeading": "El Paso Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in El Paso, TX.",
+    "overview": "El Paso supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in El Paso need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Texas market.",
+    "sections": [
+      {
+        "heading": "Entertainment in El Paso",
+        "content": "El Paso supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe El Paso entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in El Paso should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Texas.\n\nLocal filming and event permits in El Paso typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why is San Bernardino so important for trucking?', a: 'It is the primary inland distribution point for containerized imports arriving at the LA-Long Beach port complex.' },
-      { q: 'Do CARB rules affect carriers here?', a: 'Yes. California\'s Air Resources Board regulations require cleaner trucks and can affect equipment and insurance costs.' },
+    "faqs": [
+      {
+        "q": "What insurance do El Paso entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are El Paso's filming permit insurance requirements?",
+        "a": "Filming permits in El Paso typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'savannah-ga',
-    city: 'Savannah',
-    state: 'Georgia',
-    stateSlug: 'georgia',
-    abbreviation: 'GA',
-    metaTitle: 'Trucking Insurance in Savannah, GA',
-    metaDescription: 'Commercial trucking insurance in Savannah, Georgia. Coverage for carriers on I-16, I-95, and port drayage routes.',
-    heroHeading: 'Savannah Trucking Insurance',
-    heroSubheading: 'Coverage for carriers serving the fastest-growing U.S. container port.',
-    overview: 'Savannah\'s Port of Savannah is one of the fastest-growing container ports in the U.S., generating massive drayage and regional trucking demand.',
-    sections: [
-      { heading: 'Trucking in Savannah', content: 'The Georgia Ports Authority\'s Garden City Terminal has expanded rapidly, drawing distribution centers and carriers to the Savannah area. Truck drayage connects the port to inland markets throughout the Southeast.' },
-      { heading: 'Key Corridors', content: 'I-16 connects Savannah to Macon and Atlanta. I-95 runs north to Charleston and south to Jacksonville. US-17 and US-80 serve local port access routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for port drayage operations', 'Motor truck cargo for containerized imports', 'Physical damage for chassis and container equipment', 'General liability for warehouse and cross-dock work'] },
+    "slug": "washington-dc",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "stateSlug": "washington",
+    "abbreviation": "DC",
+    "metaTitle": "Entertainment Insurance in Washington, DC",
+    "metaDescription": "Entertainment insurance in Washington, District of Columbia. Coverage for productions, venues, events, and entertainment businesses in the Washington area.",
+    "heroHeading": "Washington Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Washington, DC.",
+    "overview": "Washington supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Washington need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the District of Columbia market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Washington",
+        "content": "Washington supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Washington entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Washington should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in District of Columbia.\n\nLocal filming and event permits in Washington typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What type of insurance do port drayage carriers need?', a: 'Drayage carriers need auto liability, motor truck cargo, and often trailer interchange coverage for port chassis.' },
-      { q: 'Is Savannah\'s port still growing?', a: 'Yes. Savannah has been one of the fastest-growing container ports in the country, with ongoing terminal expansion.' },
+    "faqs": [
+      {
+        "q": "What insurance do Washington entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Washington's filming permit insurance requirements?",
+        "a": "Filming permits in Washington typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'norfolk-va',
-    city: 'Norfolk',
-    state: 'Virginia',
-    stateSlug: 'virginia',
-    abbreviation: 'VA',
-    metaTitle: 'Trucking Insurance in Norfolk, VA',
-    metaDescription: 'Commercial trucking insurance in Norfolk, Virginia. Coverage for carriers on I-64, I-264, and Port of Virginia routes.',
-    heroHeading: 'Norfolk Trucking Insurance',
-    heroSubheading: 'Insurance for carriers serving the Port of Virginia.',
-    overview: 'Norfolk is home to the Port of Virginia, one of the deepest natural harbors on the East Coast, handling significant container and military freight.',
-    sections: [
-      { heading: 'Trucking in Norfolk', content: 'The Port of Virginia\'s deep-water terminals in Norfolk and Portsmouth serve as a major East Coast import-export gateway. Carriers move containers, military supplies, and agricultural exports through the Hampton Roads region.' },
-      { heading: 'Key Corridors', content: 'I-64 connects Norfolk to Richmond and beyond. I-264 runs through the Norfolk-Virginia Beach metro. US-460 heads west to the Appalachian region. The Hampton Roads Bridge-Tunnel and Monitor-Merrimac Bridge-Tunnel are key chokepoints.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for port drayage and regional lanes', 'Motor truck cargo for import-export freight', 'Physical damage for port equipment', 'Umbrella coverage for military contract haulers'] },
+    "slug": "boston-ma",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "abbreviation": "MA",
+    "metaTitle": "Entertainment Insurance in Boston, MA",
+    "metaDescription": "Entertainment insurance in Boston, Massachusetts. Coverage for productions, venues, events, and entertainment businesses in the Boston area.",
+    "heroHeading": "Boston Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Boston, MA.",
+    "overview": "Boston's performing arts institutions, historic theaters, and strong music scene create a diverse entertainment market. Entertainment businesses in Boston need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Massachusetts market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Boston",
+        "content": "Boston's performing arts institutions, historic theaters, and strong music scene create a diverse entertainment market.\n\nThe Boston entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Boston should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Massachusetts.\n\nLocal filming and event permits in Boston typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What makes Norfolk unique for trucking?', a: 'Norfolk\'s deep harbor accommodates the largest container ships, and the adjacent military bases generate specialized freight demand.' },
-      { q: 'Are there congestion issues for carriers?', a: 'Bridge-tunnel crossings can cause delays, especially during peak traffic hours and summer tourist season.' },
+    "faqs": [
+      {
+        "q": "What insurance do Boston entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Boston's filming permit insurance requirements?",
+        "a": "Filming permits in Boston typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'seattle-wa',
-    city: 'Seattle',
-    state: 'Washington',
-    stateSlug: 'washington',
-    abbreviation: 'WA',
-    metaTitle: 'Trucking Insurance in Seattle, WA',
-    metaDescription: 'Commercial trucking insurance in Seattle, Washington. Coverage for carriers on I-5, I-90, and I-405 corridors.',
-    heroHeading: 'Seattle Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Pacific Northwest\'s busiest freight market.',
-    overview: 'Seattle\'s port complex and tech-driven economy make it the Pacific Northwest\'s top freight hub, with strong ties to Asian trade routes.',
-    sections: [
-      { heading: 'Trucking in Seattle', content: 'The ports of Seattle and Tacoma form the Northwest Seaport Alliance, a major gateway for Asian imports. Carriers serve port drayage, tech industry distribution, agricultural exports, and timber products.' },
-      { heading: 'Key Corridors', content: 'I-5 is the primary north-south artery connecting to Portland and Vancouver, BC. I-90 heads east across the Cascades to Spokane. I-405 runs through the Eastside suburbs. SR-167 and SR-18 serve the port and warehouse districts.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for port and urban routes', 'Motor truck cargo for containerized Asian imports', 'Physical damage for equipment in wet conditions', 'Environmental liability for timber and ag haulers'] },
+    "slug": "las-vegas-nv",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "stateSlug": "nevada",
+    "abbreviation": "NV",
+    "metaTitle": "Entertainment Insurance in Las Vegas, NV",
+    "metaDescription": "Entertainment insurance in Las Vegas, Nevada. Coverage for productions, venues, events, and entertainment businesses in the Las Vegas area.",
+    "heroHeading": "Las Vegas Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Las Vegas, NV.",
+    "overview": "Las Vegas is a global entertainment capital with major residencies, arena shows, conventions, and a rapidly expanding sports scene. Entertainment businesses in Las Vegas need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Nevada market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Las Vegas",
+        "content": "Las Vegas is a global entertainment capital with major residencies, arena shows, conventions, and a rapidly expanding sports scene.\n\nThe Las Vegas entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Las Vegas should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Nevada.\n\nLocal filming and event permits in Las Vegas typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does Washington state regulate trucking?', a: 'Washington has weight and size restrictions, particularly on mountain passes, and requires state-specific permits for oversize loads.' },
-      { q: 'Does Seattle rain affect trucking insurance?', a: 'Wet roads year-round increase accident risk, which insurers factor into Pacific Northwest premiums.' },
+    "faqs": [
+      {
+        "q": "What insurance do Las Vegas entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Las Vegas's filming permit insurance requirements?",
+        "a": "Filming permits in Las Vegas typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'portland-or',
-    city: 'Portland',
-    state: 'Oregon',
-    stateSlug: 'oregon',
-    abbreviation: 'OR',
-    metaTitle: 'Trucking Insurance in Portland, OR',
-    metaDescription: 'Commercial trucking insurance in Portland, Oregon. Coverage for carriers on I-5, I-84, and I-205 corridors.',
-    heroHeading: 'Portland Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Columbia River freight corridor.',
-    overview: 'Portland sits at the confluence of the Willamette and Columbia Rivers with access to I-5 and I-84, serving as a key Pacific Northwest distribution point.',
-    sections: [
-      { heading: 'Trucking in Portland', content: 'Portland\'s port facilities, rail yards, and interstate access support a diverse freight market including agricultural exports, timber products, tech components, and consumer goods for the Pacific Northwest.' },
-      { heading: 'Key Corridors', content: 'I-5 runs north to Seattle and south to Salem and Eugene. I-84 heads east along the Columbia Gorge to Boise. I-205 loops east of the metro. I-405 runs through downtown.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-5 corridor operations', 'Motor truck cargo for agricultural and timber freight', 'Physical damage for equipment on mountain routes', 'Reefer breakdown for temperature-controlled produce loads'] },
+    "slug": "portland-or",
+    "city": "Portland",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "abbreviation": "OR",
+    "metaTitle": "Entertainment Insurance in Portland, OR",
+    "metaDescription": "Entertainment insurance in Portland, Oregon. Coverage for productions, venues, events, and entertainment businesses in the Portland area.",
+    "heroHeading": "Portland Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Portland, OR.",
+    "overview": "Portland's independent music scene, arts culture, and festival programming create a distinctive entertainment market. Entertainment businesses in Portland need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Oregon market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Portland",
+        "content": "Portland's independent music scene, arts culture, and festival programming create a distinctive entertainment market.\n\nThe Portland entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Portland should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Oregon.\n\nLocal filming and event permits in Portland typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What commodities move through Portland?', a: 'Wheat, timber, potatoes, tech components, and containerized goods are major commodities.' },
-      { q: 'Does Oregon have special trucking regulations?', a: 'Oregon uses a weight-mile tax instead of fuel tax for heavy trucks, and has specific environmental requirements.' },
+    "faqs": [
+      {
+        "q": "What insurance do Portland entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Portland's filming permit insurance requirements?",
+        "a": "Filming permits in Portland typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'las-vegas-nv',
-    city: 'Las Vegas',
-    state: 'Nevada',
-    stateSlug: 'nevada',
-    abbreviation: 'NV',
-    metaTitle: 'Trucking Insurance in Las Vegas, NV',
-    metaDescription: 'Commercial trucking insurance in Las Vegas, Nevada. Coverage for carriers on I-15, I-11, and US-95 corridors.',
-    heroHeading: 'Las Vegas Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Nevada freight market.',
-    overview: 'Las Vegas is a major distribution point for the Southwest, with I-15 connecting it to Los Angeles and Salt Lake City.',
-    sections: [
-      { heading: 'Trucking in Las Vegas', content: 'Las Vegas requires constant inbound freight to support its hospitality industry, convention business, and fast-growing residential population. Carriers haul food, beverages, construction materials, and consumer goods into the valley daily.' },
-      { heading: 'Key Corridors', content: 'I-15 runs south to Los Angeles and north to Salt Lake City. I-11 connects to Henderson and eventually Phoenix. US-95 heads northwest toward Reno. I-515 and the Bruce Woodbury Beltway handle metro traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for desert interstate routes', 'Motor truck cargo for hospitality and food service freight', 'Physical damage for heat-exposed equipment', 'Non-trucking liability for independent operators'] },
+    "slug": "memphis-tn",
+    "city": "Memphis",
+    "state": "Tennessee",
+    "stateSlug": "tennessee",
+    "abbreviation": "TN",
+    "metaTitle": "Entertainment Insurance in Memphis, TN",
+    "metaDescription": "Entertainment insurance in Memphis, Tennessee. Coverage for productions, venues, events, and entertainment businesses in the Memphis area.",
+    "heroHeading": "Memphis Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Memphis, TN.",
+    "overview": "Memphis is the birthplace of rock and roll and blues, with Beale Street and Sun Studio anchoring the entertainment heritage. Entertainment businesses in Memphis need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Tennessee market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Memphis",
+        "content": "Memphis is the birthplace of rock and roll and blues, with Beale Street and Sun Studio anchoring the entertainment heritage.\n\nThe Memphis entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Memphis should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Tennessee.\n\nLocal filming and event permits in Memphis typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What unique risks do Las Vegas carriers face?', a: 'Extreme summer heat, long desert stretches with limited services, and heavy tourist traffic on I-15 are key risk factors.' },
-      { q: 'Is Nevada favorable for trucking companies?', a: 'Nevada has no state income tax and moderate regulatory requirements, attracting carriers to base operations there.' },
+    "faqs": [
+      {
+        "q": "What insurance do Memphis entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Memphis's filming permit insurance requirements?",
+        "a": "Filming permits in Memphis typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'tampa-fl',
-    city: 'Tampa',
-    state: 'Florida',
-    stateSlug: 'florida',
-    abbreviation: 'FL',
-    metaTitle: 'Trucking Insurance in Tampa, FL',
-    metaDescription: 'Commercial trucking insurance in Tampa, Florida. Coverage for carriers on I-75, I-4, and I-275 corridors.',
-    heroHeading: 'Tampa Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Tampa Bay freight market.',
-    overview: 'Tampa is a major distribution hub for central Florida, with the Port of Tampa Bay and intersecting interstates driving freight activity.',
-    sections: [
-      { heading: 'Trucking in Tampa', content: 'Tampa Bay\'s port handles bulk cargo, petroleum, and building materials while the metro area\'s growth fuels demand for consumer goods, food, and construction freight. The region serves as a distribution base for the Florida peninsula.' },
-      { heading: 'Key Corridors', content: 'I-75 runs north to Atlanta and south to Fort Myers. I-4 connects Tampa to Orlando and Daytona Beach. I-275 serves the St. Petersburg and downtown corridors. US-301 provides a secondary north-south route.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Florida interstate corridors', 'Motor truck cargo for construction and consumer freight', 'Physical damage for hurricane-exposed equipment', 'General liability for port operations'] },
+    "slug": "louisville-ky",
+    "city": "Louisville",
+    "state": "Kentucky",
+    "stateSlug": "kentucky",
+    "abbreviation": "KY",
+    "metaTitle": "Entertainment Insurance in Louisville, KY",
+    "metaDescription": "Entertainment insurance in Louisville, Kentucky. Coverage for productions, venues, events, and entertainment businesses in the Louisville area.",
+    "heroHeading": "Louisville Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Louisville, KY.",
+    "overview": "Louisville hosts the Kentucky Derby and has a growing entertainment scene built around bourbon tourism and live music. Entertainment businesses in Louisville need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Kentucky market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Louisville",
+        "content": "Louisville hosts the Kentucky Derby and has a growing entertainment scene built around bourbon tourism and live music.\n\nThe Louisville entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Louisville should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Kentucky.\n\nLocal filming and event permits in Louisville typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does hurricane risk affect Tampa trucking insurance?', a: 'Yes. Coastal exposure to hurricanes can affect physical damage and business interruption coverage costs.' },
-      { q: 'What moves through the Port of Tampa?', a: 'Petroleum products, phosphate, building materials, and containers are the port\'s primary commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Louisville entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Louisville's filming permit insurance requirements?",
+        "a": "Filming permits in Louisville typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'miami-fl',
-    city: 'Miami',
-    state: 'Florida',
-    stateSlug: 'florida',
-    abbreviation: 'FL',
-    metaTitle: 'Trucking Insurance in Miami, FL',
-    metaDescription: 'Commercial trucking insurance in Miami, Florida. Coverage for carriers on I-95, I-75, and Florida\'s Turnpike.',
-    heroHeading: 'Miami Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in South Florida\'s trade gateway.',
-    overview: 'Miami is the primary U.S. gateway for trade with Latin America and the Caribbean, with PortMiami and Miami International Airport driving import-export freight.',
-    sections: [
-      { heading: 'Trucking in Miami', content: 'Miami\'s freight market is driven by international trade, with carriers hauling perishable goods, electronics, textiles, and consumer products between the port, airport, and distribution centers across South Florida.' },
-      { heading: 'Key Corridors', content: 'I-95 runs north along the coast to Fort Lauderdale and beyond. I-75 connects to Naples and the west coast via Alligator Alley. Florida\'s Turnpike heads north to Orlando. US-1 and the Palmetto Expressway handle local traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for congested urban routes', 'Motor truck cargo for perishable imports', 'Reefer breakdown for temperature-sensitive freight', 'Physical damage with comprehensive hurricane coverage'] },
+    "slug": "baltimore-md",
+    "city": "Baltimore",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "abbreviation": "MD",
+    "metaTitle": "Entertainment Insurance in Baltimore, MD",
+    "metaDescription": "Entertainment insurance in Baltimore, Maryland. Coverage for productions, venues, events, and entertainment businesses in the Baltimore area.",
+    "heroHeading": "Baltimore Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Baltimore, MD.",
+    "overview": "Baltimore supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Baltimore need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Maryland market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Baltimore",
+        "content": "Baltimore supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Baltimore entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Baltimore should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Maryland.\n\nLocal filming and event permits in Baltimore typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What type of cargo is common in Miami?', a: 'Fresh produce, flowers, seafood, electronics, and apparel dominate Miami\'s import-export freight mix.' },
-      { q: 'Are Miami insurance rates higher than other Florida cities?', a: 'Yes. Dense traffic, high theft risk, and hurricane exposure contribute to elevated premiums in South Florida.' },
+    "faqs": [
+      {
+        "q": "What insurance do Baltimore entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Baltimore's filming permit insurance requirements?",
+        "a": "Filming permits in Baltimore typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'minneapolis-mn',
-    city: 'Minneapolis',
-    state: 'Minnesota',
-    stateSlug: 'minnesota',
-    abbreviation: 'MN',
-    metaTitle: 'Trucking Insurance in Minneapolis, MN',
-    metaDescription: 'Commercial trucking insurance in Minneapolis, Minnesota. Coverage for carriers on I-94, I-35, and I-494 corridors.',
-    heroHeading: 'Minneapolis Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Upper Midwest\'s largest freight market.',
-    overview: 'Minneapolis-St. Paul is the Upper Midwest\'s transportation hub, with strong agricultural, manufacturing, and retail distribution freight.',
-    sections: [
-      { heading: 'Trucking in Minneapolis', content: 'The Twin Cities metro is a major distribution center for the Upper Midwest, home to Target, General Mills, and other companies generating significant freight volumes. Agricultural commodities from the surrounding region flow through Minneapolis for processing and distribution.' },
-      { heading: 'Key Corridors', content: 'I-94 runs east to Milwaukee and west to Fargo. I-35 splits into I-35W and I-35E through the metro, connecting to Duluth and Des Moines. I-494 and I-694 loop the metro. I-90 runs east-west across southern Minnesota.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Upper Midwest regional lanes', 'Motor truck cargo for agricultural and retail freight', 'Physical damage with winter weather protection', 'Non-trucking liability for independent contractors'] },
+    "slug": "milwaukee-wi",
+    "city": "Milwaukee",
+    "state": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "abbreviation": "WI",
+    "metaTitle": "Entertainment Insurance in Milwaukee, WI",
+    "metaDescription": "Entertainment insurance in Milwaukee, Wisconsin. Coverage for productions, venues, events, and entertainment businesses in the Milwaukee area.",
+    "heroHeading": "Milwaukee Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Milwaukee, WI.",
+    "overview": "Milwaukee hosts Summerfest, one of the world's largest music festivals, and has a strong performing arts community. Entertainment businesses in Milwaukee need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Wisconsin market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Milwaukee",
+        "content": "Milwaukee hosts Summerfest, one of the world's largest music festivals, and has a strong performing arts community.\n\nThe Milwaukee entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Milwaukee should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Wisconsin.\n\nLocal filming and event permits in Milwaukee typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does Minnesota winter affect trucking insurance?', a: 'Severe cold, ice, and snow from November through March significantly increase accident risk and can raise premiums.' },
-      { q: 'What agricultural freight moves through Minneapolis?', a: 'Corn, soybeans, wheat, sugar beets, and processed food products are major agricultural commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Milwaukee entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Milwaukee's filming permit insurance requirements?",
+        "a": "Filming permits in Milwaukee typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'milwaukee-wi',
-    city: 'Milwaukee',
-    state: 'Wisconsin',
-    stateSlug: 'wisconsin',
-    abbreviation: 'WI',
-    metaTitle: 'Trucking Insurance in Milwaukee, WI',
-    metaDescription: 'Commercial trucking insurance in Milwaukee, Wisconsin. Coverage for carriers on I-94, I-43, and I-894 corridors.',
-    heroHeading: 'Milwaukee Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in southeastern Wisconsin\'s industrial corridor.',
-    overview: 'Milwaukee is a manufacturing and distribution hub in southeastern Wisconsin with strong freight ties to Chicago and the broader Midwest.',
-    sections: [
-      { heading: 'Trucking in Milwaukee', content: 'Milwaukee\'s industrial base generates heavy freight from manufacturers of machinery, electronics, food products, and paper goods. The city\'s proximity to Chicago expands its distribution reach throughout the Midwest.' },
-      { heading: 'Key Corridors', content: 'I-94 connects Milwaukee to Chicago and Madison. I-43 runs north to Green Bay. I-894 and I-794 serve the metro area. I-41 heads west toward Oshkosh and Appleton.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-94 corridor operations', 'Motor truck cargo for manufactured goods', 'Physical damage for industrial hauling equipment', 'Workers compensation for loading and unloading'] },
+    "slug": "albuquerque-nm",
+    "city": "Albuquerque",
+    "state": "New Mexico",
+    "stateSlug": "new-mexico",
+    "abbreviation": "NM",
+    "metaTitle": "Entertainment Insurance in Albuquerque, NM",
+    "metaDescription": "Entertainment insurance in Albuquerque, New Mexico. Coverage for productions, venues, events, and entertainment businesses in the Albuquerque area.",
+    "heroHeading": "Albuquerque Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Albuquerque, NM.",
+    "overview": "Albuquerque has become a major production hub with Netflix's significant investment and New Mexico's competitive film tax credits. Entertainment businesses in Albuquerque need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the New Mexico market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Albuquerque",
+        "content": "Albuquerque has become a major production hub with Netflix's significant investment and New Mexico's competitive film tax credits.\n\nThe Albuquerque entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Albuquerque should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in New Mexico.\n\nLocal filming and event permits in Albuquerque typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What industries drive Milwaukee freight?', a: 'Manufacturing, food processing, paper products, and brewing generate the city\'s primary freight volumes.' },
-      { q: 'How close is Milwaukee to Chicago for freight?', a: 'Milwaukee is about 90 miles from Chicago on I-94, placing it within the broader Chicagoland freight market.' },
+    "faqs": [
+      {
+        "q": "What insurance do Albuquerque entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Albuquerque's filming permit insurance requirements?",
+        "a": "Filming permits in Albuquerque typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'salt-lake-city-ut',
-    city: 'Salt Lake City',
-    state: 'Utah',
-    stateSlug: 'utah',
-    abbreviation: 'UT',
-    metaTitle: 'Trucking Insurance in Salt Lake City, UT',
-    metaDescription: 'Commercial trucking insurance in Salt Lake City, Utah. Coverage for carriers on I-15, I-80, and I-84 corridors.',
-    heroHeading: 'Salt Lake City Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Intermountain West\'s freight hub.',
-    overview: 'Salt Lake City is the Intermountain West\'s primary distribution center, with I-15 and I-80 connecting western markets.',
-    sections: [
-      { heading: 'Trucking in Salt Lake City', content: 'Salt Lake City serves as the distribution gateway for Utah, Idaho, Wyoming, and Nevada. The city\'s growing population and tech sector have increased consumer goods and construction freight demand alongside traditional mining and agricultural commodities.' },
-      { heading: 'Key Corridors', content: 'I-15 runs north to Idaho Falls and south to Las Vegas. I-80 heads east through the Wasatch Range and west across the Salt Flats to Reno. I-84 connects to Boise. I-215 loops the valley.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for mountain and desert routes', 'Motor truck cargo for mining and construction freight', 'Physical damage for winter mountain driving', 'Non-trucking liability for owner-operators'] },
+    "slug": "tucson-az",
+    "city": "Tucson",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "abbreviation": "AZ",
+    "metaTitle": "Entertainment Insurance in Tucson, AZ",
+    "metaDescription": "Entertainment insurance in Tucson, Arizona. Coverage for productions, venues, events, and entertainment businesses in the Tucson area.",
+    "heroHeading": "Tucson Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Tucson, AZ.",
+    "overview": "Tucson supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Tucson need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Arizona market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Tucson",
+        "content": "Tucson supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Tucson entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Tucson should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Arizona.\n\nLocal filming and event permits in Tucson typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What risks are unique to Salt Lake City carriers?', a: 'Mountain passes, winter inversions reducing visibility, and long desert stretches on I-80 west are key risk factors.' },
-      { q: 'What freight flows through Salt Lake City?', a: 'Mining products, construction materials, consumer goods, and agricultural commodities are primary categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Tucson entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Tucson's filming permit insurance requirements?",
+        "a": "Filming permits in Tucson typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'oklahoma-city-ok',
-    city: 'Oklahoma City',
-    state: 'Oklahoma',
-    stateSlug: 'oklahoma',
-    abbreviation: 'OK',
-    metaTitle: 'Trucking Insurance in Oklahoma City, OK',
-    metaDescription: 'Commercial trucking insurance in Oklahoma City, Oklahoma. Coverage for carriers on I-35, I-40, and I-44 corridors.',
-    heroHeading: 'Oklahoma City Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Oklahoma\'s central freight market.',
-    overview: 'Oklahoma City sits at the crossroads of I-35 and I-40, serving as a distribution hub for energy, agriculture, and consumer freight in the Southern Plains.',
-    sections: [
-      { heading: 'Trucking in Oklahoma City', content: 'Oklahoma City\'s trucking market is driven by the energy sector, agricultural exports, and consumer goods distribution. The city\'s central location and affordable costs attract carriers serving regional and long-haul routes.' },
-      { heading: 'Key Corridors', content: 'I-35 runs north to Wichita and south to Dallas. I-40 heads east to Little Rock and west to Amarillo. I-44 connects to Tulsa and St. Louis. The Kilpatrick and Hefner-Chennault Turnpikes serve metro freight.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Plains state regional routes', 'Motor truck cargo for energy and agricultural freight', 'Physical damage for oilfield service trucks', 'Pollution liability for crude oil haulers'] },
+    "slug": "fresno-ca",
+    "city": "Fresno",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Entertainment Insurance in Fresno, CA",
+    "metaDescription": "Entertainment insurance in Fresno, California. Coverage for productions, venues, events, and entertainment businesses in the Fresno area.",
+    "heroHeading": "Fresno Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Fresno, CA.",
+    "overview": "Fresno supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Fresno need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the California market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Fresno",
+        "content": "Fresno supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Fresno entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Fresno should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in California.\n\nLocal filming and event permits in Fresno typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does the energy industry affect trucking here?', a: 'Oil and gas activity drives demand for specialized hauling including frac sand, pipe, equipment, and crude oil.' },
-      { q: 'Is severe weather a concern for carriers?', a: 'Yes. Oklahoma is in Tornado Alley, and severe storms and hail can damage equipment and disrupt operations.' },
+    "faqs": [
+      {
+        "q": "What insurance do Fresno entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Fresno's filming permit insurance requirements?",
+        "a": "Filming permits in Fresno typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'tulsa-ok',
-    city: 'Tulsa',
-    state: 'Oklahoma',
-    stateSlug: 'oklahoma',
-    abbreviation: 'OK',
-    metaTitle: 'Trucking Insurance in Tulsa, OK',
-    metaDescription: 'Commercial trucking insurance in Tulsa, Oklahoma. Coverage for carriers on I-44, US-75, and the Muskogee Turnpike.',
-    heroHeading: 'Tulsa Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in eastern Oklahoma\'s energy and manufacturing hub.',
-    overview: 'Tulsa is eastern Oklahoma\'s freight center, with energy, aerospace manufacturing, and agricultural freight driving trucking demand.',
-    sections: [
-      { heading: 'Trucking in Tulsa', content: 'Tulsa\'s economy blends energy, aerospace manufacturing, and agriculture, creating diverse freight demand. The Port of Catoosa on the Arkansas River Navigational System adds barge-to-truck intermodal capability.' },
-      { heading: 'Key Corridors', content: 'I-44 connects Tulsa to Oklahoma City and St. Louis. US-75 runs north to Bartlesville and south to the Dallas area. The Muskogee Turnpike and Creek Turnpike serve regional routes. US-412 heads east to Arkansas.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional and energy-sector routes', 'Motor truck cargo for aerospace and manufactured parts', 'Physical damage for oilfield equipment', 'Non-trucking liability for independent operators'] },
+    "slug": "sacramento-ca",
+    "city": "Sacramento",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Entertainment Insurance in Sacramento, CA",
+    "metaDescription": "Entertainment insurance in Sacramento, California. Coverage for productions, venues, events, and entertainment businesses in the Sacramento area.",
+    "heroHeading": "Sacramento Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Sacramento, CA.",
+    "overview": "Sacramento's Midtown entertainment district and growing music scene create demand for entertainment coverage. Entertainment businesses in Sacramento need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the California market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Sacramento",
+        "content": "Sacramento's Midtown entertainment district and growing music scene create demand for entertainment coverage.\n\nThe Sacramento entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Sacramento should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in California.\n\nLocal filming and event permits in Sacramento typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What is the Port of Catoosa?', a: 'It is the most inland river port in the U.S., connecting Tulsa to the Mississippi River system via the Arkansas River and generating truck-barge intermodal freight.' },
-      { q: 'What industries drive Tulsa freight?', a: 'Oil and gas, aerospace manufacturing, agriculture, and building materials are the primary freight generators.' },
+    "faqs": [
+      {
+        "q": "What insurance do Sacramento entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Sacramento's filming permit insurance requirements?",
+        "a": "Filming permits in Sacramento typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'little-rock-ar',
-    city: 'Little Rock',
-    state: 'Arkansas',
-    stateSlug: 'arkansas',
-    abbreviation: 'AR',
-    metaTitle: 'Trucking Insurance in Little Rock, AR',
-    metaDescription: 'Commercial trucking insurance in Little Rock, Arkansas. Coverage for carriers on I-40, I-30, and I-430 corridors.',
-    heroHeading: 'Little Rock Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Arkansas\'s central freight market.',
-    overview: 'Little Rock is Arkansas\'s freight hub where I-40 and I-30 converge, supporting trucking for retail, poultry, and manufacturing industries.',
-    sections: [
-      { heading: 'Trucking in Little Rock', content: 'Little Rock benefits from Arkansas\'s strong trucking heritage, which includes major carriers like J.B. Hunt, ABF Freight, and USA Truck headquartered in the state. The city serves as a distribution center for retail, poultry, and forest products.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to Memphis and west to Fort Smith. I-30 heads southwest to Texarkana and Dallas. I-430 and I-440 loop the metro. US-65 and US-67 serve north-south regional routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional and long-haul lanes', 'Motor truck cargo for poultry and food products', 'Reefer breakdown for temperature-controlled poultry loads', 'Physical damage for regional fleet equipment'] },
+    "slug": "mesa-az",
+    "city": "Mesa",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "abbreviation": "AZ",
+    "metaTitle": "Entertainment Insurance in Mesa, AZ",
+    "metaDescription": "Entertainment insurance in Mesa, Arizona. Coverage for productions, venues, events, and entertainment businesses in the Mesa area.",
+    "heroHeading": "Mesa Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Mesa, AZ.",
+    "overview": "Mesa supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Mesa need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Arizona market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Mesa",
+        "content": "Mesa supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Mesa entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Mesa should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Arizona.\n\nLocal filming and event permits in Mesa typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why is Arkansas important for trucking?', a: 'Arkansas is home to several of the nation\'s largest carriers and shippers, including Walmart\'s headquarters, creating strong freight demand.' },
-      { q: 'What freight originates in Arkansas?', a: 'Poultry, rice, timber products, steel, and retail distribution freight are major categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Mesa entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Mesa's filming permit insurance requirements?",
+        "a": "Filming permits in Mesa typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'birmingham-al',
-    city: 'Birmingham',
-    state: 'Alabama',
-    stateSlug: 'alabama',
-    abbreviation: 'AL',
-    metaTitle: 'Trucking Insurance in Birmingham, AL',
-    metaDescription: 'Commercial trucking insurance in Birmingham, Alabama. Coverage for carriers on I-65, I-20, and I-59 corridors.',
-    heroHeading: 'Birmingham Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in Alabama\'s industrial freight hub.',
-    overview: 'Birmingham is Alabama\'s largest city and a key freight hub where I-65, I-20, and I-59 converge, connecting the Southeast\'s industrial and distribution markets.',
-    sections: [
-      { heading: 'Trucking in Birmingham', content: 'Birmingham\'s freight market is anchored by steel production, automotive manufacturing, and distribution operations. The city\'s interstate convergence makes it a natural transfer and distribution point for the central Southeast.' },
-      { heading: 'Key Corridors', content: 'I-65 runs north to Nashville and south to Mobile and the Gulf Coast. I-20 connects to Atlanta and Mississippi. I-59 heads northeast to Chattanooga. I-459 loops the southern metro.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Southeast regional routes', 'Motor truck cargo for steel and automotive freight', 'Physical damage for heavy-haul equipment', 'General liability for industrial hauling operations'] },
+    "slug": "kansas-city-mo",
+    "city": "Kansas City",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "abbreviation": "MO",
+    "metaTitle": "Entertainment Insurance in Kansas City, MO",
+    "metaDescription": "Entertainment insurance in Kansas City, Missouri. Coverage for productions, venues, events, and entertainment businesses in the Kansas City area.",
+    "heroHeading": "Kansas City Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Kansas City, MO.",
+    "overview": "Kansas City's 18th and Vine jazz district, revitalized Power and Light entertainment district, and major sports venues. Entertainment businesses in Kansas City need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Missouri market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Kansas City",
+        "content": "Kansas City's 18th and Vine jazz district, revitalized Power and Light entertainment district, and major sports venues.\n\nThe Kansas City entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Kansas City should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Missouri.\n\nLocal filming and event permits in Kansas City typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What industries drive Birmingham freight?', a: 'Steel, automotive manufacturing, coal, and distribution centers generate the bulk of Birmingham\'s trucking demand.' },
-      { q: 'How does Alabama\'s legal environment affect trucking insurance?', a: 'Alabama has seen rising jury verdicts in trucking cases, making adequate liability coverage critical.' },
+    "faqs": [
+      {
+        "q": "What insurance do Kansas City entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Kansas City's filming permit insurance requirements?",
+        "a": "Filming permits in Kansas City typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'baton-rouge-la',
-    city: 'Baton Rouge',
-    state: 'Louisiana',
-    stateSlug: 'louisiana',
-    abbreviation: 'LA',
-    metaTitle: 'Trucking Insurance in Baton Rouge, LA',
-    metaDescription: 'Commercial trucking insurance in Baton Rouge, Louisiana. Coverage for carriers on I-10, I-12, and US-61 corridors.',
-    heroHeading: 'Baton Rouge Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Louisiana\'s petrochemical corridor.',
-    overview: 'Baton Rouge sits in the heart of Louisiana\'s petrochemical corridor along the Mississippi River, generating heavy specialized hauling demand.',
-    sections: [
-      { heading: 'Trucking in Baton Rouge', content: 'Baton Rouge\'s petrochemical refineries and chemical plants generate enormous demand for tanker trucks, flatbeds, and specialized haulers. The Mississippi River port adds bulk commodity transfer capabilities.' },
-      { heading: 'Key Corridors', content: 'I-10 runs east to New Orleans and west to Lafayette. I-12 connects to Slidell and the Gulf Coast. US-61 heads north to Natchez and Memphis. US-190 runs east-west through the metro.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for industrial plant routes', 'Pollution liability for chemical and petroleum haulers', 'Motor truck cargo for petrochemical products', 'Physical damage for specialized tanker equipment'] },
+    "slug": "atlanta-ga",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "abbreviation": "GA",
+    "metaTitle": "Entertainment Insurance in Atlanta, GA",
+    "metaDescription": "Entertainment insurance in Atlanta, Georgia. Coverage for productions, venues, events, and entertainment businesses in the Atlanta area.",
+    "heroHeading": "Atlanta Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Atlanta, GA.",
+    "overview": "Atlanta is the third-largest film production center in the nation and a major hub for hip-hop music and live entertainment. Entertainment businesses in Atlanta need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Georgia market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Atlanta",
+        "content": "Atlanta is the third-largest film production center in the nation and a major hub for hip-hop music and live entertainment.\n\nThe Atlanta entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Atlanta should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Georgia.\n\nLocal filming and event permits in Atlanta typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Do petrochemical haulers need special insurance?', a: 'Yes. Carriers hauling hazardous materials need higher liability limits, pollution coverage, and MCS-90 endorsements.' },
-      { q: 'How does hurricane season affect Baton Rouge carriers?', a: 'Storms can shut down refineries and flood routes, causing both business interruption and physical damage claims.' },
+    "faqs": [
+      {
+        "q": "What insurance do Atlanta entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Atlanta's filming permit insurance requirements?",
+        "a": "Filming permits in Atlanta typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'new-orleans-la',
-    city: 'New Orleans',
-    state: 'Louisiana',
-    stateSlug: 'louisiana',
-    abbreviation: 'LA',
-    metaTitle: 'Trucking Insurance in New Orleans, LA',
-    metaDescription: 'Commercial trucking insurance in New Orleans, Louisiana. Coverage for carriers on I-10, I-610, and port drayage routes.',
-    heroHeading: 'New Orleans Trucking Insurance',
-    heroSubheading: 'Insurance for carriers serving the Gulf Coast\'s historic port city.',
-    overview: 'New Orleans is a major Gulf Coast port city where the Mississippi River meets international shipping lanes, creating diverse freight demand.',
-    sections: [
-      { heading: 'Trucking in New Orleans', content: 'The Port of New Orleans handles containerized cargo, breakbulk freight, and agricultural exports. Carriers serve the port, petrochemical facilities, and the city\'s tourism-driven economy with food, beverage, and consumer goods deliveries.' },
-      { heading: 'Key Corridors', content: 'I-10 is the primary east-west route connecting to Baton Rouge and the Mississippi Gulf Coast. I-610 bypasses downtown. US-90 runs along the Gulf Coast. The Crescent City Connection and Causeway bridge are key crossing points.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for port and urban routes', 'Motor truck cargo for port freight and agricultural exports', 'Physical damage with flood and hurricane coverage', 'Pollution liability for bulk liquid haulers'] },
+    "slug": "omaha-ne",
+    "city": "Omaha",
+    "state": "Nebraska",
+    "stateSlug": "nebraska",
+    "abbreviation": "NE",
+    "metaTitle": "Entertainment Insurance in Omaha, NE",
+    "metaDescription": "Entertainment insurance in Omaha, Nebraska. Coverage for productions, venues, events, and entertainment businesses in the Omaha area.",
+    "heroHeading": "Omaha Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Omaha, NE.",
+    "overview": "Omaha supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Omaha need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Nebraska market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Omaha",
+        "content": "Omaha supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Omaha entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Omaha should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Nebraska.\n\nLocal filming and event permits in Omaha typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is flood insurance important for New Orleans carriers?', a: 'Yes. Low elevation and hurricane exposure make comprehensive physical damage coverage with flood protection essential.' },
-      { q: 'What commodities flow through the Port of New Orleans?', a: 'Coffee, rubber, steel, containers, grain, and forest products are major port commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Omaha entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Omaha's filming permit insurance requirements?",
+        "a": "Filming permits in Omaha typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'cincinnati-oh',
-    city: 'Cincinnati',
-    state: 'Ohio',
-    stateSlug: 'ohio',
-    abbreviation: 'OH',
-    metaTitle: 'Trucking Insurance in Cincinnati, OH',
-    metaDescription: 'Commercial trucking insurance in Cincinnati, Ohio. Coverage for carriers on I-75, I-71, and I-74 corridors.',
-    heroHeading: 'Cincinnati Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the tri-state Ohio River freight market.',
-    overview: 'Cincinnati is a tri-state logistics hub where Ohio, Kentucky, and Indiana meet, with strong consumer goods and manufacturing freight.',
-    sections: [
-      { heading: 'Trucking in Cincinnati', content: 'Cincinnati\'s logistics market benefits from its central location and the presence of major consumer goods companies. The metro area spans three states, creating a diverse carrier community serving manufacturing, food, and retail distribution.' },
-      { heading: 'Key Corridors', content: 'I-75 runs north to Dayton and south through Kentucky to Lexington. I-71 connects to Columbus and Louisville. I-74 heads west to Indianapolis. I-275 loops the tri-state metro area.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for tri-state operations', 'Motor truck cargo for consumer goods freight', 'Physical damage for fleet equipment', 'Workers compensation covering multiple state requirements'] },
+    "slug": "colorado-springs-co",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "abbreviation": "CO",
+    "metaTitle": "Entertainment Insurance in Colorado Springs, CO",
+    "metaDescription": "Entertainment insurance in Colorado Springs, Colorado. Coverage for productions, venues, events, and entertainment businesses in the Colorado Springs area.",
+    "heroHeading": "Colorado Springs Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Colorado Springs, CO.",
+    "overview": "Colorado Springs supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Colorado Springs need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Colorado market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Colorado Springs",
+        "content": "Colorado Springs supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Colorado Springs entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Colorado Springs should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Colorado.\n\nLocal filming and event permits in Colorado Springs typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does operating in three states complicate insurance?', a: 'Carriers based in the Cincinnati tri-state area need to comply with Ohio, Kentucky, and Indiana regulations, which can add complexity to coverage.' },
-      { q: 'What companies drive Cincinnati freight?', a: 'Procter & Gamble, Kroger, and other major consumer goods companies headquartered here generate significant freight volumes.' },
+    "faqs": [
+      {
+        "q": "What insurance do Colorado Springs entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Colorado Springs's filming permit insurance requirements?",
+        "a": "Filming permits in Colorado Springs typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'cleveland-oh',
-    city: 'Cleveland',
-    state: 'Ohio',
-    stateSlug: 'ohio',
-    abbreviation: 'OH',
-    metaTitle: 'Trucking Insurance in Cleveland, OH',
-    metaDescription: 'Commercial trucking insurance in Cleveland, Ohio. Coverage for carriers on I-90, I-77, and I-480 corridors.',
-    heroHeading: 'Cleveland Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in northeast Ohio\'s industrial freight market.',
-    overview: 'Cleveland is a major industrial and manufacturing hub on Lake Erie with strong freight connections to the Midwest, Northeast, and Canada.',
-    sections: [
-      { heading: 'Trucking in Cleveland', content: 'Cleveland\'s manufacturing heritage supports a robust trucking market focused on steel, automotive parts, chemicals, and industrial equipment. The Port of Cleveland on Lake Erie adds bulk freight capability.' },
-      { heading: 'Key Corridors', content: 'I-90 runs east to Erie and west toward Toledo. I-77 heads south to Akron and Canton. I-480 and I-271 serve the southern and eastern suburbs. I-71 connects to Columbus. The Ohio Turnpike (I-80/I-90) is a major commercial route.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Great Lakes regional routes', 'Motor truck cargo for industrial and steel freight', 'Physical damage for harsh winter conditions', 'Pollution liability for chemical haulers'] },
+    "slug": "raleigh-nc",
+    "city": "Raleigh",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "abbreviation": "NC",
+    "metaTitle": "Entertainment Insurance in Raleigh, NC",
+    "metaDescription": "Entertainment insurance in Raleigh, North Carolina. Coverage for productions, venues, events, and entertainment businesses in the Raleigh area.",
+    "heroHeading": "Raleigh Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Raleigh, NC.",
+    "overview": "Raleigh's growing entertainment and arts scene benefits from the Research Triangle's educated and culturally engaged population. Entertainment businesses in Raleigh need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the North Carolina market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Raleigh",
+        "content": "Raleigh's growing entertainment and arts scene benefits from the Research Triangle's educated and culturally engaged population.\n\nThe Raleigh entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Raleigh should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in North Carolina.\n\nLocal filming and event permits in Raleigh typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does lake-effect snow impact Cleveland trucking?', a: 'Lake-effect storms can produce sudden heavy snowfall, increasing accident risk on I-90 and I-71 during winter months.' },
-      { q: 'What industries drive Cleveland freight?', a: 'Steel, automotive manufacturing, chemicals, healthcare products, and industrial equipment are primary freight generators.' },
+    "faqs": [
+      {
+        "q": "What insurance do Raleigh entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Raleigh's filming permit insurance requirements?",
+        "a": "Filming permits in Raleigh typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'pittsburgh-pa',
-    city: 'Pittsburgh',
-    state: 'Pennsylvania',
-    stateSlug: 'pennsylvania',
-    abbreviation: 'PA',
-    metaTitle: 'Trucking Insurance in Pittsburgh, PA',
-    metaDescription: 'Commercial trucking insurance in Pittsburgh, Pennsylvania. Coverage for carriers on I-76, I-79, and I-376 corridors.',
-    heroHeading: 'Pittsburgh Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in western Pennsylvania\'s industrial corridor.',
-    overview: 'Pittsburgh sits at the confluence of three rivers with challenging terrain that shapes its unique freight market serving manufacturing, energy, and technology industries.',
-    sections: [
-      { heading: 'Trucking in Pittsburgh', content: 'Pittsburgh\'s freight market reflects its industrial transition, with carriers hauling steel, natural gas equipment, healthcare products, and technology components. The city\'s hilly terrain and numerous bridges create unique driving challenges.' },
-      { heading: 'Key Corridors', content: 'I-76 (Pennsylvania Turnpike) connects to Philadelphia. I-79 runs north to Erie and south to Morgantown. I-376 serves the metro. I-70 passes south of the city. US-22 and US-30 provide additional east-west routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for challenging terrain routes', 'Motor truck cargo for steel and industrial freight', 'Physical damage for equipment on steep grades', 'Non-trucking liability for Marcellus Shale operators'] },
+    "slug": "miami-fl",
+    "city": "Miami",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Entertainment Insurance in Miami, FL",
+    "metaDescription": "Entertainment insurance in Miami, Florida. Coverage for productions, venues, events, and entertainment businesses in the Miami area.",
+    "heroHeading": "Miami Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Miami, FL.",
+    "overview": "Miami's nightlife, music industry, Art Basel, and cultural events make it a premier entertainment destination. Entertainment businesses in Miami need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Florida market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Miami",
+        "content": "Miami's nightlife, music industry, Art Basel, and cultural events make it a premier entertainment destination.\n\nThe Miami entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Miami should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Florida.\n\nLocal filming and event permits in Miami typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does Pittsburgh\'s terrain affect trucking insurance?', a: 'Yes. Steep grades, narrow roads, and numerous bridges increase accident risk, which insurers factor into premiums.' },
-      { q: 'Has natural gas changed Pittsburgh\'s freight market?', a: 'Marcellus Shale gas development has created significant demand for frac sand, water, equipment, and pipe hauling.' },
+    "faqs": [
+      {
+        "q": "What insurance do Miami entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Miami's filming permit insurance requirements?",
+        "a": "Filming permits in Miami typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'philadelphia-pa',
-    city: 'Philadelphia',
-    state: 'Pennsylvania',
-    stateSlug: 'pennsylvania',
-    abbreviation: 'PA',
-    metaTitle: 'Trucking Insurance in Philadelphia, PA',
-    metaDescription: 'Commercial trucking insurance in Philadelphia, Pennsylvania. Coverage for carriers on I-95, I-76, and I-476 corridors.',
-    heroHeading: 'Philadelphia Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Delaware Valley freight market.',
-    overview: 'Philadelphia is the largest city in Pennsylvania and a major East Coast freight market with port facilities, rail yards, and dense distribution activity.',
-    sections: [
-      { heading: 'Trucking in Philadelphia', content: 'Philadelphia\'s freight market is driven by port operations on the Delaware River, pharmaceutical manufacturing, food distribution, and consumer goods for the large metro population. The city sits along the I-95 corridor between New York and Washington.' },
-      { heading: 'Key Corridors', content: 'I-95 runs along the Delaware River connecting to New York and Baltimore. I-76 heads west to Pittsburgh via the Pennsylvania Turnpike. I-476 (Blue Route) serves the western suburbs. I-676 and I-276 complete the metro network.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for dense Northeast Corridor traffic', 'Motor truck cargo for pharmaceutical and food freight', 'Physical damage for urban fleet operations', 'Umbrella coverage for high-exposure corridors'] },
+    "slug": "long-beach-ca",
+    "city": "Long Beach",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Entertainment Insurance in Long Beach, CA",
+    "metaDescription": "Entertainment insurance in Long Beach, California. Coverage for productions, venues, events, and entertainment businesses in the Long Beach area.",
+    "heroHeading": "Long Beach Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Long Beach, CA.",
+    "overview": "Long Beach supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Long Beach need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the California market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Long Beach",
+        "content": "Long Beach supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Long Beach entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Long Beach should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in California.\n\nLocal filming and event permits in Long Beach typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is Philadelphia expensive for trucking insurance?', a: 'Yes. Dense traffic, a plaintiff-friendly legal environment, and high accident frequency contribute to elevated premiums.' },
-      { q: 'What moves through PhilaPort?', a: 'Perishable cargo, cocoa, fruit, containers, and breakbulk freight are handled at the port\'s Delaware River terminals.' },
+    "faqs": [
+      {
+        "q": "What insurance do Long Beach entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Long Beach's filming permit insurance requirements?",
+        "a": "Filming permits in Long Beach typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'newark-nj',
-    city: 'Newark',
-    state: 'New Jersey',
-    stateSlug: 'new-jersey',
-    abbreviation: 'NJ',
-    metaTitle: 'Trucking Insurance in Newark, NJ',
-    metaDescription: 'Commercial trucking insurance in Newark, New Jersey. Coverage for carriers on I-95, I-78, and the New Jersey Turnpike.',
-    heroHeading: 'Newark Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Port Newark-Elizabeth freight hub.',
-    overview: 'Newark is home to Port Newark-Elizabeth, the largest container port on the East Coast, making it one of the busiest trucking markets in the nation.',
-    sections: [
-      { heading: 'Trucking in Newark', content: 'Port Newark-Elizabeth Marine Terminal drives enormous drayage demand, with thousands of truck moves daily. Carriers also serve the dense warehouse and distribution network across northern New Jersey supplying the New York metro area.' },
-      { heading: 'Key Corridors', content: 'The New Jersey Turnpike (I-95) is the primary north-south artery. I-78 heads west to Pennsylvania. I-280 serves the western suburbs. Routes 1 and 9 handle local port traffic. The Garden State Parkway and I-287 provide regional connections.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for high-density port corridors', 'Motor truck cargo for containerized imports', 'Physical damage for drayage equipment', 'Trailer interchange for port chassis operations'] },
+    "slug": "virginia-beach-va",
+    "city": "Virginia Beach",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "abbreviation": "VA",
+    "metaTitle": "Entertainment Insurance in Virginia Beach, VA",
+    "metaDescription": "Entertainment insurance in Virginia Beach, Virginia. Coverage for productions, venues, events, and entertainment businesses in the Virginia Beach area.",
+    "heroHeading": "Virginia Beach Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Virginia Beach, VA.",
+    "overview": "Virginia Beach supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Virginia Beach need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Virginia market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Virginia Beach",
+        "content": "Virginia Beach supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Virginia Beach entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Virginia Beach should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Virginia.\n\nLocal filming and event permits in Virginia Beach typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why is Newark trucking insurance expensive?', a: 'Extreme traffic congestion, high accident rates, and New Jersey\'s legal environment make it one of the most expensive markets in the country.' },
-      { q: 'What is the port drayage market like in Newark?', a: 'Port Newark is the East Coast\'s largest container port, generating thousands of daily drayage moves to warehouses across northern New Jersey.' },
+    "faqs": [
+      {
+        "q": "What insurance do Virginia Beach entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Virginia Beach's filming permit insurance requirements?",
+        "a": "Filming permits in Virginia Beach typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'baltimore-md',
-    city: 'Baltimore',
-    state: 'Maryland',
-    stateSlug: 'maryland',
-    abbreviation: 'MD',
-    metaTitle: 'Trucking Insurance in Baltimore, MD',
-    metaDescription: 'Commercial trucking insurance in Baltimore, Maryland. Coverage for carriers on I-95, I-695, and I-83 corridors.',
-    heroHeading: 'Baltimore Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the mid-Atlantic port city.',
-    overview: 'Baltimore\'s deep-water port and position on the I-95 corridor make it a key mid-Atlantic freight hub for auto imports, bulk commodities, and consumer goods.',
-    sections: [
-      { heading: 'Trucking in Baltimore', content: 'The Port of Baltimore is a leading U.S. port for roll-on/roll-off vehicle imports and farm equipment. Carriers also serve distribution centers, manufacturing plants, and government facilities in the metro area.' },
-      { heading: 'Key Corridors', content: 'I-95 runs through the city connecting to Washington, DC and Philadelphia. I-695 (Baltimore Beltway) loops the metro. I-83 heads north to Harrisburg. I-70 runs west to Frederick and beyond. I-895 and I-97 serve port and southern routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-95 corridor operations', 'Motor truck cargo for auto and ro-ro port freight', 'Physical damage for car-hauler equipment', 'General liability for port terminal operations'] },
+    "slug": "oakland-ca",
+    "city": "Oakland",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Entertainment Insurance in Oakland, CA",
+    "metaDescription": "Entertainment insurance in Oakland, California. Coverage for productions, venues, events, and entertainment businesses in the Oakland area.",
+    "heroHeading": "Oakland Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Oakland, CA.",
+    "overview": "Oakland supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Oakland need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the California market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Oakland",
+        "content": "Oakland supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Oakland entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Oakland should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in California.\n\nLocal filming and event permits in Oakland typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What makes Baltimore\'s port unique?', a: 'Baltimore is the top U.S. port for roll-on/roll-off cargo, handling more automobiles and farm machinery than any other port.' },
-      { q: 'How does the I-95 corridor affect insurance rates?', a: 'I-95 through Baltimore is one of the most congested freight corridors in the country, contributing to higher accident frequency and premiums.' },
+    "faqs": [
+      {
+        "q": "What insurance do Oakland entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Oakland's filming permit insurance requirements?",
+        "a": "Filming permits in Oakland typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'richmond-va',
-    city: 'Richmond',
-    state: 'Virginia',
-    stateSlug: 'virginia',
-    abbreviation: 'VA',
-    metaTitle: 'Trucking Insurance in Richmond, VA',
-    metaDescription: 'Commercial trucking insurance in Richmond, Virginia. Coverage for carriers on I-95, I-64, and I-295 corridors.',
-    heroHeading: 'Richmond Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in central Virginia\'s distribution market.',
-    overview: 'Richmond sits on I-95 between Washington, DC and the Carolinas, serving as a regional distribution hub for the mid-Atlantic.',
-    sections: [
-      { heading: 'Trucking in Richmond', content: 'Richmond\'s location on I-95 and proximity to the Port of Virginia make it a natural distribution center for the mid-Atlantic. The city serves tobacco, food processing, manufacturing, and government logistics freight.' },
-      { heading: 'Key Corridors', content: 'I-95 is the primary north-south route. I-64 heads east to Norfolk and west to Charlottesville. I-295 loops the eastern metro. I-85 runs south to the North Carolina border. US-360 and US-60 serve regional routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-95 corridor and regional lanes', 'Motor truck cargo for distribution center freight', 'Physical damage for fleet equipment', 'Non-trucking liability for independent operators'] },
+    "slug": "minneapolis-mn",
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "abbreviation": "MN",
+    "metaTitle": "Entertainment Insurance in Minneapolis, MN",
+    "metaDescription": "Entertainment insurance in Minneapolis, Minnesota. Coverage for productions, venues, events, and entertainment businesses in the Minneapolis area.",
+    "heroHeading": "Minneapolis Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Minneapolis, MN.",
+    "overview": "Minneapolis is home to the Guthrie Theater, Prince's musical legacy, and one of the strongest performing arts scenes in the Midwest. Entertainment businesses in Minneapolis need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Minnesota market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Minneapolis",
+        "content": "Minneapolis is home to the Guthrie Theater, Prince's musical legacy, and one of the strongest performing arts scenes in the Midwest.\n\nThe Minneapolis entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Minneapolis should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Minnesota.\n\nLocal filming and event permits in Minneapolis typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why do distribution centers locate in Richmond?', a: 'Richmond offers lower costs than northern Virginia or DC while maintaining quick access to the I-95 corridor and Port of Virginia.' },
-      { q: 'What freight moves through Richmond?', a: 'Consumer goods, food products, tobacco, government supplies, and manufactured goods are major commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Minneapolis entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Minneapolis's filming permit insurance requirements?",
+        "a": "Filming permits in Minneapolis typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'raleigh-nc',
-    city: 'Raleigh',
-    state: 'North Carolina',
-    stateSlug: 'north-carolina',
-    abbreviation: 'NC',
-    metaTitle: 'Trucking Insurance in Raleigh, NC',
-    metaDescription: 'Commercial trucking insurance in Raleigh, North Carolina. Coverage for carriers on I-40, I-440, and US-70 corridors.',
-    heroHeading: 'Raleigh Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Research Triangle freight market.',
-    overview: 'Raleigh anchors the Research Triangle region, with pharmaceutical, technology, and food distribution freight driving a growing trucking market.',
-    sections: [
-      { heading: 'Trucking in Raleigh', content: 'The Research Triangle\'s pharmaceutical, biotech, and tech industries generate specialized freight demand alongside traditional consumer goods distribution. Rapid population growth has increased construction and consumer freight volumes.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to the coast and west to Greensboro. I-440 and I-540 loop the metro. US-70 heads east to the ports. US-1 runs north to Virginia. I-85 is accessible via I-40 west.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional delivery routes', 'Motor truck cargo for pharmaceutical and tech freight', 'Physical damage for temperature-controlled equipment', 'Umbrella coverage for high-value loads'] },
+    "slug": "tampa-fl",
+    "city": "Tampa",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Entertainment Insurance in Tampa, FL",
+    "metaDescription": "Entertainment insurance in Tampa, Florida. Coverage for productions, venues, events, and entertainment businesses in the Tampa area.",
+    "heroHeading": "Tampa Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Tampa, FL.",
+    "overview": "Tampa's entertainment market includes major venues, a growing festival scene, and proximity to Busch Gardens. Entertainment businesses in Tampa need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Florida market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Tampa",
+        "content": "Tampa's entertainment market includes major venues, a growing festival scene, and proximity to Busch Gardens.\n\nThe Tampa entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Tampa should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Florida.\n\nLocal filming and event permits in Tampa typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What specialized freight moves through Raleigh?', a: 'Pharmaceuticals, medical devices, technology components, and biotech products require temperature-controlled and high-security transport.' },
-      { q: 'Is the Triangle area growing for logistics?', a: 'Yes. Population and business growth have driven significant warehouse and distribution center development in the region.' },
+    "faqs": [
+      {
+        "q": "What insurance do Tampa entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Tampa's filming permit insurance requirements?",
+        "a": "Filming permits in Tampa typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'greenville-sc',
-    city: 'Greenville',
-    state: 'South Carolina',
-    stateSlug: 'south-carolina',
-    abbreviation: 'SC',
-    metaTitle: 'Trucking Insurance in Greenville, SC',
-    metaDescription: 'Commercial trucking insurance in Greenville, South Carolina. Coverage for carriers on I-85, I-385, and I-185 corridors.',
-    heroHeading: 'Greenville Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Upstate South Carolina manufacturing corridor.',
-    overview: 'Greenville is the hub of South Carolina\'s Upstate manufacturing corridor, with automotive and advanced manufacturing driving significant freight volumes on I-85.',
-    sections: [
-      { heading: 'Trucking in Greenville', content: 'Greenville\'s transformation into a major manufacturing center has been led by BMW, Michelin, and other global manufacturers establishing operations along the I-85 corridor. Carriers move automotive parts, tires, machinery, and distribution freight.' },
-      { heading: 'Key Corridors', content: 'I-85 connects Greenville to Atlanta and Charlotte. I-385 runs south to Laurens. I-185 connects to the south. US-25 and US-276 serve regional routes. The Inland Port in Greer links to the Port of Charleston by rail.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-85 manufacturing corridor', 'Motor truck cargo for automotive and industrial freight', 'Physical damage for flatbed and specialized equipment', 'Trailer interchange for Inland Port operations'] },
+    "slug": "tulsa-ok",
+    "city": "Tulsa",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "abbreviation": "OK",
+    "metaTitle": "Entertainment Insurance in Tulsa, OK",
+    "metaDescription": "Entertainment insurance in Tulsa, Oklahoma. Coverage for productions, venues, events, and entertainment businesses in the Tulsa area.",
+    "heroHeading": "Tulsa Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Tulsa, OK.",
+    "overview": "Tulsa's growing arts district and music scene benefit from Oklahoma's competitive entertainment incentives. Entertainment businesses in Tulsa need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Oklahoma market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Tulsa",
+        "content": "Tulsa's growing arts district and music scene benefit from Oklahoma's competitive entertainment incentives.\n\nThe Tulsa entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Tulsa should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Oklahoma.\n\nLocal filming and event permits in Tulsa typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What is the SC Inland Port?', a: 'The South Carolina Inland Port in Greer extends the Port of Charleston\'s reach inland via rail, generating truck drayage to and from the terminal.' },
-      { q: 'What manufacturers drive Greenville freight?', a: 'BMW, Michelin, GE, and numerous automotive suppliers generate the primary manufacturing freight volumes.' },
+    "faqs": [
+      {
+        "q": "What insurance do Tulsa entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Tulsa's filming permit insurance requirements?",
+        "a": "Filming permits in Tulsa typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'knoxville-tn',
-    city: 'Knoxville',
-    state: 'Tennessee',
-    stateSlug: 'tennessee',
-    abbreviation: 'TN',
-    metaTitle: 'Trucking Insurance in Knoxville, TN',
-    metaDescription: 'Commercial trucking insurance in Knoxville, Tennessee. Coverage for carriers on I-40, I-75, and I-81 corridors.',
-    heroHeading: 'Knoxville Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the junction of I-40 and I-75.',
-    overview: 'Knoxville sits where I-40 and I-75 intersect, creating a natural freight crossroads connecting the Southeast to the Midwest and Northeast.',
-    sections: [
-      { heading: 'Trucking in Knoxville', content: 'Knoxville\'s position at the I-40/I-75 interchange makes it a strategic waypoint for carriers traveling between the Southeast, Midwest, and Northeast. The city also supports local freight for manufacturing, energy, and distribution operations.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east through the Smoky Mountains to Asheville and west to Nashville. I-75 heads north to Lexington and south to Chattanooga and Atlanta. I-81 connects northeast to Virginia\'s Shenandoah Valley. I-640 bypasses downtown.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for mountain interstate routes', 'Motor truck cargo for manufacturing freight', 'Physical damage for Appalachian terrain operations', 'Non-trucking liability for owner-operators'] },
+    "slug": "arlington-tx",
+    "city": "Arlington",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Entertainment Insurance in Arlington, TX",
+    "metaDescription": "Entertainment insurance in Arlington, Texas. Coverage for productions, venues, events, and entertainment businesses in the Arlington area.",
+    "heroHeading": "Arlington Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Arlington, TX.",
+    "overview": "Arlington supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market. Entertainment businesses in Arlington need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Texas market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Arlington",
+        "content": "Arlington supports a growing entertainment scene with venues, events, and cultural programming serving the local and regional market.\n\nThe Arlington entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Arlington should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Texas.\n\nLocal filming and event permits in Arlington typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is mountain driving a concern near Knoxville?', a: 'Yes. I-40 through the Smoky Mountains and I-75 through the Cumberland Plateau have steep grades that increase accident risk.' },
-      { q: 'What freight moves through Knoxville?', a: 'Auto parts, building materials, energy products, and consumer goods are common freight types at this interstate junction.' },
+    "faqs": [
+      {
+        "q": "What insurance do Arlington entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Arlington's filming permit insurance requirements?",
+        "a": "Filming permits in Arlington typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'albuquerque-nm',
-    city: 'Albuquerque',
-    state: 'New Mexico',
-    stateSlug: 'new-mexico',
-    abbreviation: 'NM',
-    metaTitle: 'Trucking Insurance in Albuquerque, NM',
-    metaDescription: 'Commercial trucking insurance in Albuquerque, New Mexico. Coverage for carriers on I-40, I-25, and US-550 corridors.',
-    heroHeading: 'Albuquerque Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in New Mexico\'s central freight hub.',
-    overview: 'Albuquerque is New Mexico\'s largest city and primary distribution point, located at the junction of I-40 and I-25.',
-    sections: [
-      { heading: 'Trucking in Albuquerque', content: 'Albuquerque serves as the distribution hub for New Mexico and the Four Corners region. Carriers haul consumer goods, military supplies for area bases, energy equipment, and agricultural products across long desert distances.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to Amarillo and west to Flagstaff. I-25 heads north to Santa Fe and south to Las Cruces and El Paso. US-550 connects to the Four Corners region. NM-14 and NM-313 serve regional routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for long-distance desert routes', 'Motor truck cargo for military and energy freight', 'Physical damage for equipment on remote highways', 'Non-trucking liability for independent operators'] },
+    "slug": "new-orleans-la",
+    "city": "New Orleans",
+    "state": "Louisiana",
+    "stateSlug": "louisiana",
+    "abbreviation": "LA",
+    "metaTitle": "Entertainment Insurance in New Orleans, LA",
+    "metaDescription": "Entertainment insurance in New Orleans, Louisiana. Coverage for productions, venues, events, and entertainment businesses in the New Orleans area.",
+    "heroHeading": "New Orleans Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in New Orleans, LA.",
+    "overview": "New Orleans has one of the richest entertainment traditions in America with jazz, blues, Mardi Gras, and a thriving production sector. Entertainment businesses in New Orleans need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Louisiana market.",
+    "sections": [
+      {
+        "heading": "Entertainment in New Orleans",
+        "content": "New Orleans has one of the richest entertainment traditions in America with jazz, blues, Mardi Gras, and a thriving production sector.\n\nThe New Orleans entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in New Orleans should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Louisiana.\n\nLocal filming and event permits in New Orleans typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What challenges do Albuquerque carriers face?', a: 'Long distances between cities, extreme weather variation, and limited service infrastructure on remote routes are key challenges.' },
-      { q: 'What freight moves through Albuquerque?', a: 'Consumer goods, military supplies, energy equipment, and agricultural products are the primary commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do New Orleans entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are New Orleans's filming permit insurance requirements?",
+        "a": "Filming permits in New Orleans typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
   },
   {
-    slug: 'san-diego-ca',
-    city: 'San Diego',
-    state: 'California',
-    stateSlug: 'california',
-    abbreviation: 'CA',
-    metaTitle: 'Trucking Insurance in San Diego, CA',
-    metaDescription: 'Commercial trucking insurance in San Diego, California. Coverage for carriers on I-5, I-8, and I-15 corridors.',
-    heroHeading: 'San Diego Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the California-Mexico border gateway.',
-    overview: 'San Diego is a major California-Mexico border crossing point with the Otay Mesa port of entry driving cross-border freight and a strong military logistics presence.',
-    sections: [
-      { heading: 'Trucking in San Diego', content: 'San Diego\'s freight market combines cross-border trade through Otay Mesa, military logistics for numerous bases, and consumer goods distribution for the large metro population. The city also supports biotech and defense industry supply chains.' },
-      { heading: 'Key Corridors', content: 'I-5 runs north to Los Angeles and south to the San Ysidro border crossing. I-8 heads east to the Imperial Valley and Arizona. I-15 connects north to Riverside and Las Vegas. SR-905 and SR-11 serve the Otay Mesa port of entry.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for border and urban routes', 'Motor truck cargo for cross-border freight', 'Physical damage for fleet equipment', 'Non-trucking liability for independent contractors'] },
+    "slug": "cleveland-oh",
+    "city": "Cleveland",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "abbreviation": "OH",
+    "metaTitle": "Entertainment Insurance in Cleveland, OH",
+    "metaDescription": "Entertainment insurance in Cleveland, Ohio. Coverage for productions, venues, events, and entertainment businesses in the Cleveland area.",
+    "heroHeading": "Cleveland Entertainment Insurance",
+    "heroSubheading": "Coverage for entertainment businesses in Cleveland, OH.",
+    "overview": "Home to the Rock and Roll Hall of Fame and a revitalized entertainment district in the Flats and Playhouse Square. Entertainment businesses in Cleveland need insurance programs that address local permit requirements, venue regulations, and the specific risks of operating in the Ohio market.",
+    "sections": [
+      {
+        "heading": "Entertainment in Cleveland",
+        "content": "Home to the Rock and Roll Hall of Fame and a revitalized entertainment district in the Flats and Playhouse Square.\n\nThe Cleveland entertainment market serves both local audiences and visitors, creating demand for comprehensive insurance coverage across productions, venues, events, and digital media operations."
+      },
+      {
+        "heading": "Local Insurance Considerations",
+        "content": "Entertainment businesses in Cleveland should carry general liability at $1,000,000 per occurrence minimum, with many venues and permit offices requiring higher limits. Workers compensation with entertainment-specific classifications is required for all employers in Ohio.\n\nLocal filming and event permits in Cleveland typically require certificates of insurance with the city named as additional insured. Venues serving alcohol need separate liquor liability coverage in addition to general liability."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "General liability meeting local permit and venue requirements",
+          "Workers compensation with entertainment classifications",
+          "Event cancellation for outdoor and weather-exposed events",
+          "Equipment floater for production and venue assets",
+          "Liquor liability for venues and events with alcohol service"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What is the Otay Mesa crossing?', a: 'Otay Mesa is San Diego\'s primary commercial port of entry for truck freight crossing to and from Tijuana, Mexico.' },
-      { q: 'Do CARB regulations affect San Diego carriers?', a: 'Yes. California\'s strict emissions standards apply statewide, affecting equipment requirements and operating costs for all carriers.' },
+    "faqs": [
+      {
+        "q": "What insurance do Cleveland entertainment businesses need?",
+        "a": "At minimum, general liability, workers compensation, and coverage specific to your operation type. Productions need production packages, events need cancellation coverage, and venues need premises and liquor liability. Local permits may specify additional requirements."
+      },
+      {
+        "q": "What are Cleveland's filming permit insurance requirements?",
+        "a": "Filming permits in Cleveland typically require general liability with the city as additional insured. Specific minimum limits vary by jurisdiction and should be verified with the local film or permitting office before production begins."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
-  },
+    "recommendedCoverages": [
+      "general-liability",
+      "workers-compensation",
+      "event-cancellation",
+      "equipment-floater"
+    ]
+  }
 ];
