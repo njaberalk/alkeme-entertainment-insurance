@@ -14,10 +14,10 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL('https://alkemeins.com/entertainment'),
   title: {
-    template: '%s | ALKEME Insurance Services',
-    default: 'Entertainment Insurance | ALKEME Insurance Services',
+    template: '%s | ALKEME',
+    default: 'Entertainment Insurance | ALKEME',
   },
-  description: 'ALKEME Insurance Services provides specialized entertainment insurance for productions, venues, events, and media companies. Coverage for general liability, production insurance, event cancellation, E&O, and more.',
+  description: 'Specialized entertainment insurance from ALKEME for productions, venues, events, and media — production insurance, event cancellation, E&O.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -33,7 +33,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Entertainment Insurance | ALKEME Insurance Services',
+    title: 'Entertainment Insurance | ALKEME',
     description: 'Specialized entertainment insurance for productions, venues, events, and media companies across all 50 states.',
     images: ['https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1200&h=630&q=80'],
   },

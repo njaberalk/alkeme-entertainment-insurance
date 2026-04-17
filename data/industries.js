@@ -188,7 +188,7 @@ export const industries = [
     slug: 'theaters-performing-arts',
     title: 'Theaters & Performing Arts',
     metaTitle: 'Insurance for Theaters & Performing Arts Companies',
-    metaDescription: 'Insurance for Broadway theaters, regional companies, dance troupes, and performing arts centers. Production liability, performer coverage, and facility protection.',
+    metaDescription: 'Insurance for Broadway theaters, regional companies, dance troupes, and performing arts centers.',
     heroHeading: 'Insurance for Theaters & Performing Arts',
     heroSubheading:
       'Comprehensive protection for Broadway productions, regional theaters, dance companies, opera houses, and performing arts organizations.',

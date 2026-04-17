@@ -3,7 +3,7 @@ export const resources = [
     slug: 'entertainment-insurance-cost',
     title: 'How Much Does Entertainment Insurance Cost?',
     metaTitle: 'How Much Does Entertainment Insurance Cost in 2026?',
-    metaDescription: 'Learn what entertainment insurance costs for productions, events, and venues. Breakdown of pricing factors, average premiums by coverage type, and cost management strategies.',
+    metaDescription: 'Learn what entertainment insurance costs for productions, events, and venues.',
     category: 'Guide',
     heroHeading: 'How Much Does Entertainment Insurance Cost?',
     heroSubheading:
@@ -72,7 +72,7 @@ export const resources = [
     slug: 'production-insurance-guide',
     title: 'The Complete Guide to Production Insurance',
     metaTitle: 'Production Insurance Guide: What Every Producer Needs',
-    metaDescription: 'Complete guide to production insurance covering cast insurance, completion bonds, negative film coverage, E&O requirements, and how to structure your production package.',
+    metaDescription: 'Complete guide to production insurance covering cast insurance, completion bonds, negative film coverage, E&O requirements, and how to structure your.',
     category: 'Guide',
     heroHeading: 'The Complete Guide to Production Insurance',
     heroSubheading:
@@ -127,7 +127,7 @@ export const resources = [
     slug: 'event-cancellation-guide',
     title: 'Event Cancellation Insurance: What You Need to Know',
     metaTitle: 'Event Cancellation Insurance Guide for Entertainment',
-    metaDescription: 'Guide to event cancellation insurance covering weather clauses, force majeure, communicable disease exclusions, and how to structure coverage for concerts and festivals.',
+    metaDescription: 'Guide to event cancellation insurance covering weather clauses, force majeure, communicable disease exclusions, and how to structure coverage for concerts and.',
     category: 'Guide',
     heroHeading: 'Event Cancellation Insurance Guide',
     heroSubheading:
@@ -182,7 +182,7 @@ export const resources = [
     slug: 'film-tv-insurance-guide',
     title: 'Film & TV Insurance: A Producer\'s Guide',
     metaTitle: 'Film & TV Insurance Guide for Producers',
-    metaDescription: 'Producer\'s guide to film and television insurance covering cast insurance, E&O, negative film protection, props and sets coverage, and distribution requirements.',
+    metaDescription: 'Producer\'s guide to film and television insurance covering cast insurance, E&O, negative film protection, props and sets coverage, and distribution.',
     category: 'Guide',
     heroHeading: 'Film & TV Insurance: A Producer\'s Guide',
     heroSubheading:
@@ -237,7 +237,7 @@ export const resources = [
     slug: 'venue-liability-guide',
     title: 'Venue Liability Insurance Guide',
     metaTitle: 'Venue Liability Insurance Guide for Entertainment',
-    metaDescription: 'Guide to venue liability insurance covering crowd management, alcohol service requirements, security obligations, and premises liability for entertainment venues.',
+    metaDescription: 'Guide to venue liability insurance covering crowd management, alcohol service requirements, security obligations, and premises liability for entertainment.',
     category: 'Guide',
     heroHeading: 'Venue Liability Insurance Guide',
     heroSubheading:
@@ -402,7 +402,7 @@ export const resources = [
     slug: 'claims-guide',
     title: 'Entertainment Insurance Claims Guide',
     metaTitle: 'How to File Entertainment Insurance Claims',
-    metaDescription: 'Guide to filing entertainment insurance claims. Documentation requirements, production shutdown procedures, event cancellation claims, and working with adjusters.',
+    metaDescription: 'Guide to filing entertainment insurance claims. Documentation requirements, production shutdown procedures, event cancellation claims, and working with.',
     category: 'Guide',
     heroHeading: 'Entertainment Insurance Claims Guide',
     heroSubheading:

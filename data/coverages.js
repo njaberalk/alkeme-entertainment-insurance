@@ -3,7 +3,7 @@ export const coverages = [
     slug: 'general-liability',
     title: 'General Liability',
     metaTitle: 'Entertainment General Liability Insurance',
-    metaDescription: 'General liability insurance for entertainment businesses. Coverage for third-party claims, premises liability, and completed operations at venues, sets, and events.',
+    metaDescription: 'General liability insurance for entertainment businesses.',
     heroHeading: 'General Liability Insurance for Entertainment',
     heroSubheading:
       'Foundational protection against third-party bodily injury, property damage, and completed operations claims across productions, venues, and live events.',
@@ -243,7 +243,7 @@ export const coverages = [
     slug: 'workers-compensation',
     title: 'Workers\' Compensation',
     metaTitle: 'Entertainment Workers Compensation Insurance',
-    metaDescription: 'Workers compensation insurance for entertainment industry employers. Coverage for cast, crew, stunt performers, and production staff injuries with state-specific requirements.',
+    metaDescription: 'Workers compensation insurance for entertainment industry employers.',
     heroHeading: 'Workers\' Compensation for Entertainment',
     heroSubheading:
       'Mandatory coverage for cast and crew injuries on set, backstage, at venues, and on location, including specialized classifications for stunt work and hazardous activities.',
@@ -363,7 +363,7 @@ export const coverages = [
     slug: 'errors-omissions',
     title: 'Errors & Omissions',
     metaTitle: 'Entertainment E&O Insurance | Media Liability',
-    metaDescription: 'Errors and omissions insurance for entertainment companies. Coverage for content clearance, intellectual property infringement, defamation, and media liability claims.',
+    metaDescription: 'Errors and omissions insurance for entertainment companies.',
     heroHeading: 'Entertainment Errors & Omissions Insurance',
     heroSubheading:
       'Media liability and content clearance coverage protecting against intellectual property infringement, defamation, invasion of privacy, and unauthorized use claims.',
@@ -423,7 +423,7 @@ export const coverages = [
     slug: 'cyber-liability',
     title: 'Cyber Liability',
     metaTitle: 'Entertainment Cyber Liability Insurance',
-    metaDescription: 'Cyber liability insurance for entertainment businesses. Coverage for data breaches, content piracy, streaming security, ransomware, and digital asset protection.',
+    metaDescription: 'Cyber liability insurance for entertainment businesses.',
     heroHeading: 'Cyber Liability Insurance for Entertainment',
     heroSubheading:
       'Protection against data breaches, content piracy, ransomware attacks, and digital asset theft in an industry increasingly dependent on connected systems.',
@@ -483,7 +483,7 @@ export const coverages = [
     slug: 'umbrella-excess',
     title: 'Umbrella / Excess Liability',
     metaTitle: 'Entertainment Umbrella & Excess Liability Insurance',
-    metaDescription: 'Umbrella and excess liability insurance for entertainment businesses. Additional limits above general liability, auto, and employers liability for catastrophic claims.',
+    metaDescription: 'Umbrella and excess liability insurance for entertainment businesses.',
     heroHeading: 'Umbrella & Excess Liability for Entertainment',
     heroSubheading:
       'Additional limits above your underlying policies to protect against the catastrophic claims that are an inherent risk of large-scale entertainment operations.',

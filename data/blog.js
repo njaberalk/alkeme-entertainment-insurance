@@ -3,7 +3,7 @@ export const blogPosts = [
     slug: 'entertainment-insurance-trends-2026',
     title: 'Entertainment Insurance Market Trends for 2026',
     metaTitle: 'Entertainment Insurance Market Trends 2026',
-    metaDescription: 'Explore the latest entertainment insurance market trends for 2026 including rate changes, capacity shifts, cyber risk, and coverage developments affecting productions and events.',
+    metaDescription: 'Explore the latest entertainment insurance market trends for 2026 including rate changes, capacity shifts, cyber risk, and coverage developments affecting.',
     category: 'Industry Insights',
     publishDate: '2026-03-10',
     heroHeading: 'Entertainment Insurance Market Trends',
